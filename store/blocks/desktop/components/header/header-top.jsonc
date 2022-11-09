@@ -1,0 +1,53 @@
+{
+    "header-row#header__top--desktop":{
+        "title": "Header-top",
+        "children":[   
+          "header-spacer",
+          "rich-text#venta",
+          "rich-text#servicio",
+          "rich-text#tiendas",
+          "rich-text#catalogo",
+          "rich-text#ayuda"
+        ],
+        "props":{
+          "sticky":true,
+          "blockClass": "Header__top--desktop"
+        }
+      },
+        "rich-text#venta":{
+          "title": "Televenta",
+          "props":{
+              "text": "Televenta: (601) 3649734",
+              "blockClass":"header__top--text"
+          }
+      }, 
+      "rich-text#servicio":{
+         "title": "Atencion al Cliente",
+          "props":{
+              "text": "Atencion al Cliente: 018000 111 448",
+              "blockClass":"header__top--text" 
+          }
+      },
+      "rich-text#tiendas":{
+          "title": "tiendas",
+          "props":{
+              "text":"Tiendas",
+              "blockClass":"header__top--text"   
+          }
+      },
+      "rich-text#catalogo":{
+          "title": "catalogo",
+          "props":{
+              "text":"Catálogo",
+              "blockClass":"header__top--text"
+          }
+      },
+      "rich-text#ayuda":{
+          "title": "PQR",
+          "props":{
+              "text": "PQR",
+              "blockClass":"header__top--text"
+          }
+      }
+    
+}

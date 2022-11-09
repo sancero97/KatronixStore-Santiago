@@ -1,0 +1,41 @@
+{
+    "header-row#header__middle":{
+        "children":[
+            "logo#header__top--logo",
+            "search-bar#header__search",
+            "login",
+            "minicart.v2"
+        ],
+        "props":{
+            "sticky":true,
+            "blockClass": "header__middle"
+        }
+    },
+    "logo#header__top--logo":{
+        "title": "logo",
+        "props":{
+          "url":"assets/img/logo.svg",
+          "href":"/",
+          "width":150
+        }
+      },
+      "search-bar#header__search":{
+        "blocks": ["autocomplete-result-list.v2"],
+        "props": {
+            "openAutocompleteOnFocus": true,
+            "placeholder": "¿Qué buscas hoy?",
+            "maxWidth": 500,
+            "blockClass":"header__search"
+        }
+    },
+      "login": {
+        "props": {
+          "emailAndPasswordTitle": "LOG-IN",
+          "accessCodeTitle": "Acess Code LOG-IN",
+          "emailPlaceholder": "e-mail",
+          "passwordPlaceholder": "password",
+          "showPasswordVerificationIntoTooltip": true,
+          "showIconProfile": true
+        }
+    }
+}

@@ -1,0 +1,188 @@
+{
+   "header-row#header__menu":{
+    "title": "Header__menu",
+    "children":[
+      "vtex.menu@2.x:menu#header__menu"
+    ],
+    "props":{
+      "sticky":true,
+      "blockClass": "header__desktop--menu"
+    }
+  },
+  "vtex.menu@2.x:menu#header__menu":{
+    "children": [
+      "menu-item#department__celphones--one",
+      "menu-item#department__computers--two",
+      "menu-item#department__tv--three",
+      "menu-item#department__audio--four",
+      "menu-item#department__homeAppliances--five",
+      "menu-item#department__videogames--six",
+      "menu-item#department__cameras--seven",
+      "menu-item#department__homeintelligent--eight",
+      "menu-item#department__accessories--nine",
+      "menu-item#department__netflix--ten",
+      "menu-item#department__sports--eleven",
+      "menu-item#department__others--twelve"
+    ],
+    "props":{
+      "orientation": "horizontal",
+      "blockClass": "container__header--menu"
+    }
+  },
+  "menu-item#department__celphones--one":{
+    "props":{
+      "id": "department-celphones--one",
+      "type": "custom",
+      "blockClass":"department-name",  
+      "itemProps": {
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Celulares",
+        "text": "Celulares"
+      }
+    }
+  },
+  "menu-item#department__computers--two":{
+    "props":{
+      "id": "department-computers--two",
+      "type": "custom",
+      "blockClass":"department-name",
+      "itemProps": {
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Computadores",
+        "text": "Computadores e Impresoras"
+      }
+    }
+  },
+  "menu-item#department__tv--three":{
+    "props":{
+      "id": "department-tv--three",
+      "type": "custom",
+      "blockClass":"department-name",
+      "itemProps": {
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "TV",
+        "text": "TV"
+      }
+    }
+  },
+  "menu-item#department__audio--four":{
+    "props":{
+      "id": "department-audio--four",
+      "type": "custom",
+      "blockClass":"department-name",
+      "itemProps": {
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Audio",
+        "text": "Audio"
+      }
+    }
+  },
+  "menu-item#department__homeAppliances--five":{
+    "props":{
+      "id": "department-homeAppliances--five",
+      "type": "custom",
+      "blockClass":"department-name",
+      "itemProps": {
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Electrodomésticos",
+        "text": "Electrodomésticos"
+      }
+    }
+  },
+  "menu-item#department__videogames--six":{
+    "props":{
+      "id": "department-videogames--six",
+      "type": "custom",
+      "blockClass":"department-name",
+      "itemProps": {
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Videojuegos",
+        "text": "Videojuegos"
+      }
+    }
+  },
+  "menu-item#department__cameras--seven":{
+    "props":{
+      "id": "department-cameras--seven",
+      "type": "custom",
+      "blockClass":"department-name",
+      "itemProps": {
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Cámaras",
+        "text": "Cámaras"
+      }
+    }
+  },
+  "menu-item#department__homeintelligent--eight":{
+    "props":{
+      "id": "department-homeintelligent--eight",
+      "type": "custom",
+      "blockClass":"department-name",
+      "itemProps": {
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Casa Inteligente",
+        "text": "Casa Inteligente"
+      }
+    }
+  },   
+  "menu-item#department__accessories--nine":{
+    "props":{
+      "id": "department-accessories--nine",
+      "type": "custom",
+      "blockClass":"department-name",
+      "itemProps": {
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Accesorios",
+        "text": "Accesorios"
+      }
+    }
+  },  
+  "menu-item#department__netflix--ten":{
+    "props":{
+      "id": "department-netflix--ten",
+      "type": "custom",
+      "blockClass":"department-name",
+      "itemProps": {
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Netflix y pines",
+        "text": "Netflix y pines"
+      }
+    }
+  },      
+  "menu-item#department__sports--eleven":{
+    "props":{
+      "id": "department-sports--eleven",
+      "type": "custom",
+      "blockClass":"department-name",
+      "itemProps": {
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Deportes y Smartwatch",
+        "text": "Deportes y Smartwatch"
+      }
+    }
+  },
+  "menu-item#department__others--twelve":{
+    "props":{
+      "id": "department-others--eleven",
+      "type": "custom",
+      "blockClass":"department-name",
+      "itemProps": {
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Otros",
+        "text": "Otros"
+      }
+    }
+  }
+}

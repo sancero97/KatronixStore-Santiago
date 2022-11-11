@@ -1,0 +1,78 @@
+{
+    "flex-layout.row#home__cell-phone": {
+        "title": "section cell phone",
+            "children": [
+                "flex-layout.col#home__cell-phone-one",
+                "flex-layout.col#home__cell-phone-two",
+                "flex-layout.col#home__cell-phone-three"
+            ],
+            "props": {
+                "blockClass": "home__cell-phone--images"
+        } 
+    },
+    "flex-layout.row#home__section--cell-phone--title":{
+        "title": "cell-phone",
+        "children":[
+            "rich-text#home__section--cell-phone--title"
+        ],
+        "props":{
+          "blockClass": "home__section--topoffers--cell-phone"
+        }
+      },
+      "rich-text#home__section--cell-phone--title":{
+        "title": "cell-phone",
+        "props":{
+          "text": "**Celulares**",
+          "textPosition": "CENTER",
+          "blockClass": "home__section--cell-phone--title-text"
+        }
+      },
+    "flex-layout.col#home__cell-phone-one":{
+        "title": "cell-phone--image1",
+        "children": [
+        "image#home__cell-phone--image1"
+        ]    
+    },
+    "flex-layout.col#home__cell-phone-two":{
+        "title": "cell-phone--image2",
+        "children": [
+        "image#home__cell-phone--image2"
+        ]    
+    },
+    "flex-layout.col#home__cell-phone-three":{
+        "title": "cell-phone--image3",
+        "children": [
+        "image#home__cell-phone--image3"
+        ]    
+    },
+    "image#home__cell-phone--image1":{
+        "title": "offer--image1",
+        "props": {
+          "src": "assets/img/cel-galaxya03s.jpg",
+          "blockClass": "home__image-cell-phone",
+          "link": {
+            "url": "/"
+          }
+        }
+    },
+    "image#home__cell-phone--image2":{
+        "title": "offer--image2",
+        "props": {
+          "src": "assets/img/cel-motog60.jpg",
+          "blockClass": "home__image-cell-phone",
+          "link": {
+            "url": "/"
+          }
+        }
+    },
+    "image#home__cell-phone--image3":{
+        "title": "offer--image3",
+        "props": {
+          "src": "assets/img/cel-redmi10.jpg",
+          "blockClass": "home__image-cell-phone",
+          "link": {
+            "url": "/"
+          }
+        }
+    }
+}

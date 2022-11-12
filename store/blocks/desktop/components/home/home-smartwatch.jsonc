@@ -1,0 +1,78 @@
+{
+    "flex-layout.row#home__smartwatch": {
+        "title": "section cell phones",
+            "children": [
+                "flex-layout.col#home__smartwatch-one",
+                "flex-layout.col#home__smartwatch-two",
+                "flex-layout.col#home__smartwatch-three"
+            ],
+            "props": {
+                "blockClass": "home__smartwatch--images"
+        } 
+    },
+    "flex-layout.row#home__section--smartwatch--title":{
+        "title": "smartwatchs",
+        "children":[
+            "rich-text#home__section--smartwatch--title"
+        ],
+        "props":{
+          "blockClass": "home__section--smartwatch"
+        }
+      },
+      "rich-text#home__section--smartwatch--title":{
+        "title": "smartwatchs",
+        "props":{
+          "text": "**smartwatch**",
+          "textPosition": "CENTER",
+          "blockClass": "home__section--smartwatch--title-text"
+        }
+      },
+    "flex-layout.col#home__smartwatch-one":{
+        "title": "smartwatch--image",
+        "children": [
+        "image#home__smartwatch--image1"
+        ]    
+    },
+    "flex-layout.col#home__smartwatch-two":{
+        "title": "smartwatch--image",
+        "children": [
+        "image#home__smartwatch--image2"
+        ]    
+    },
+    "flex-layout.col#home__smartwatch-three":{
+        "title": "smartwatch--image",
+        "children": [
+        "image#home__smartwatch--image3"
+        ]    
+    },
+    "image#home__smartwatch--image1":{
+        "title": "offer--image",
+        "props": {
+          "src": "assets/img/smartwatch-huawei.jpg",
+          "blockClass": "home__image-smartwatch",
+          "link": {
+            "url": "/"
+          }
+        }
+    },
+    "image#home__smartwatch--image2":{
+        "title": "offer--image",
+        "props": {
+          "src": "assets/img/smartwatch-samsung.jpg",
+          "blockClass": "home__image-smartwatch",
+          "link": {
+            "url": "/"
+          }
+        }
+    },
+    "image#home__smartwatch--image3":{
+        "title": "offer--image",
+        "props": {
+          "src": "assets/img/smartwatch-xiaomi.jpg",
+          "blockClass": "home__image-smartwatch",
+          "link": {
+            "url": "/"
+          }
+        }
+    }
+}

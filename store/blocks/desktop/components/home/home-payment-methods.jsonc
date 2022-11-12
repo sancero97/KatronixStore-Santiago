@@ -1,0 +1,185 @@
+{
+    "flex-layout.row#home__section--payment-methods":{
+      "title": "payment-methods",
+      "children":[
+        "flex-layout.col#section__payment-methods--image-one",
+        "flex-layout.col#section__payment-methods--image-two",
+        "flex-layout.col#section__payment-methods--image-three",
+        "flex-layout.col#section__payment-methods--image-four"
+      ]
+    },
+    "flex-layout.row#home__section--payment-methods--title":{ 
+      "title": "title-payment-methods",
+      "children":[
+         "rich-text#home__section--payment-methods--title"
+      ],
+      "props":{
+        "blockClass": "home__section--payment-methods--title",
+        "preserveLayoutOnMobile": true
+       }
+    },  
+    "rich-text#home__section--payment-methods--title":{
+      "title": "payment-methods--title",
+      "props":{
+        "text": "*Medios de pago*",
+        "textPosition": "CENTER",
+        "blockClass": "home__section--ten--title-text"
+      }
+    }, 
+    "flex-layout.col#section__payment-methods--image-one":{
+      "title": "payment-methods--image-one",
+      "children":[
+        "image#section__payment-methods--image-one",
+        "rich-text#section__payment-methods--image-one-text1",
+        "rich-text#section__payment-methods--image-one-text2"
+      ],
+      "props":{
+        "blockClass": "home_section_payment-methods--image-text"
+      }
+    },
+    "image#section__payment-methods--image-one":{
+      "title": "tdc Alkosto",
+      "props": {
+          "src": "assets/img/tdc-alkosto.png",
+          "blockClass": "home_section_payment-methods--image",
+          "link":{
+              "url": "/"
+          }
+      }
+    },
+    "rich-text#section__payment-methods--image-one-text1":{
+      "title": "payment-methods--image-one-text1",
+      "props":{
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text":"*Tarjeta Alkosto Mastercard*",
+        "blockClass":"section__payment-methods--text1"
+      }
+    },
+    "rich-text#section__payment-methods--image-one-text2":{
+      "title": "payment-methods--image-one-text2",
+      "props":{
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text":"Conoce las ofertas",
+        "blockClass":"section__payment-methods--text2"
+      }
+    },
+    "flex-layout.col#section__payment-methods--image-two":{
+      "title": "payment-methods--image-two",
+      "children":[
+        "image#section__payment-methods--image-two",
+        "rich-text#section__payment-methods--image-two-text1",
+        "rich-text#section__payment-methods--image-two-text2"
+      ],
+      "props":{
+        "blockClass": "home_section_payment-methods--image-text"
+      }
+    },
+    "image#section__payment-methods--image-two":{
+      "title": "tdc Codensa",
+      "props": {
+          "src": "assets/img/tdc-codensa.png",
+          "blockClass": "home_section_payment-methods--image",
+          "link":{
+              "url": "/"
+          }
+      }
+    },
+    "rich-text#section__payment-methods--image-two-text1":{
+      "title": "payment-methods--image-two-text1",
+      "props":{
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text":"*Tarjeta de Crédito Fácil Codensa*",
+        "blockClass":"section__payment-methods--text1"
+      }
+    },
+    "rich-text#section__payment-methods--image-two-text2":{
+      "title": "payment-methods--image-two-text2",
+      "props":{
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text":"Conoce las ofertas",
+        "blockClass":"section__payment-methods--text2"
+      }
+    },
+    "flex-layout.col#section__payment-methods--image-three":{
+      "title": "payment-methods--image-three",
+      "children":[
+        "image#section__payment-methods--image-three",
+        "rich-text#section__payment-methods--image-three-text1"
+        /*"rich-text#section__payment-methods--image-three-text2"*/
+      ],
+      "props":{
+        "blockClass": "home_section_payment-methods--image-text"
+      }
+    },
+    "image#section__payment-methods--image-three":{
+      "title": "tdc Coomeva",
+      "props": {
+          "src": "assets/img/tdc-alkosto.png",
+          "blockClass": "home_section_payment-methods--image",
+          "link":{
+              "url": "/"
+          }
+      }
+    },
+    "rich-text#section__payment-methods--image-three-text1":{
+      "title": "payment-methods--image-three-text1",
+      "props":{
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text":"*Tarjetas de Crédito Coomeva MasterCard*",
+        "blockClass":"section__payment-methods--text1"
+      }
+    },
+    /*"rich-text#section__payment-methods--image-three-text2":{
+      "title": "payment-methods--image-three-texto2",
+      "props":{
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text":"Conoce las ofertas",
+        "blockClass":"section__payment-methods--text2"
+      }
+    },*/
+    "flex-layout.col#section__payment-methods--image-four":{
+      "title": "payment-methods--image-four",
+      "children":[
+        "image#section__payment-methods--image-four",
+        "rich-text#section__payment-methods--image-four-text1",
+        "rich-text#section__payment-methods--image-four-text2"
+      ],
+      "props":{
+        "blockClass": "home_section_payment-methods--image-text"
+      }
+    },    
+    "image#section__payment-methods--image-four":{
+      "title": "Plan0es3",
+      "props": {
+          "src": "assets/img/plan0es3.png",
+          "blockClass": "home_section_payment-methods--image",
+          "link":{
+              "url": "/"
+          }
+      }
+    },
+    "rich-text#section__payment-methods--image-four-text1":{
+      "title": "payment-methods--image-four-text1",
+      "props":{
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text":"*Conoce aquí nuestro plan 0 es 3 tu*",
+        "blockClass":"section__payment-methods--text1"
+      }
+    },
+    "rich-text#section__payment-methods--image-four-text2":{
+      "title": "payment-methods--image-four-text2",
+      "props":{
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text":"en equipos Apple",
+        "blockClass":"section__payment-methods--text2"
+      }
+    }
+}

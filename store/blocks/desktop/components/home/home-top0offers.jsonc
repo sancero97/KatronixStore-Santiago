@@ -1,0 +1,96 @@
+{
+    "flex-layout.row#home__top-offers": {
+        "title": "section top offers",
+            "children": [
+                "flex-layout.col#home__top-offers-one",
+                "flex-layout.col#home__top-offers-two",
+                "flex-layout.col#home__top-offers-three",
+                "flex-layout.col#home__top-offers-four"
+            ],
+            "props": {
+                "blockClass": "home__top-offers--images"
+        } 
+    },
+    "flex-layout.row#home__section--top-offers--title":{
+        "title": "top-offers",
+        "children":[
+            "rich-text#home__section--top-offers--title"
+        ],
+        "props":{
+          "blockClass": "home__section--topoffers--top-offers"
+        }
+      },
+      "rich-text#home__section--top-offers--title":{
+        "title": "top-offers",
+        "props":{
+          "text": "**Ofertas destacadas**",
+          "textPosition": "CENTER",
+          "blockClass": "home__section--top-offers--title-text"
+        }
+      },
+    "flex-layout.col#home__top-offers-one":{
+        "title": "top-offers--image1",
+        "children": [
+        "image#home__top-offers--image1"
+        ]    
+    },
+    "flex-layout.col#home__top-offers-two":{
+        "title": "top-offers--image2",
+        "children": [
+        "image#home__top-offers--image2"
+        ]    
+    },
+    "flex-layout.col#home__top-offers-three":{
+        "title": "top-offers--image3",
+        "children": [
+        "image#home__top-offers--image3"
+        ]    
+    },
+    "flex-layout.col#home__top-offers-four":{
+        "title": "top-offers--image4",
+        "children": [
+        "image#home__top-offers--image4"
+        ]    
+    },
+    "image#home__top-offers--image1":{
+        "title": "offer--image1",
+        "props": {
+          "src": "assets/img/of-cafetera.jpg",
+          "blockClass": "home__image-top-offers",
+          "link": {
+            "url": "/"
+          }
+        }
+    },
+    "image#home__top-offers--image2":{
+        "title": "offer--image2",
+        "props": {
+          "src": "assets/img/of-xbox.jpg",
+          "blockClass": "home__image-top-offers",
+          "link": {
+            "url": "/"
+          }
+        }
+    },
+    "image#home__top-offers--image3":{
+        "title": "offer--image3",
+        "props": {
+          "src": "assets/img/of-bici.jpg",
+          "blockClass": "home__image-top-offers",
+          "link": {
+            "url": "/"
+          }
+        }
+    },
+    "image#home__top-offers--image4":{
+        "title": "offer--image4",
+        "props": {
+          "src": "assets/img/of-barra-de-sonido.jpg",
+          "blockClass": "home__image-top-offers",
+          "link": {
+            "url": "/"
+          }
+        }
+    }
+
+}

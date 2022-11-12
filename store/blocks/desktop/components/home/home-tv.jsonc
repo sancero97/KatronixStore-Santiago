@@ -1,0 +1,78 @@
+{
+    "flex-layout.row#home__tv": {
+        "title": "section cell phones",
+            "children": [
+                "flex-layout.col#home__tv-one",
+                "flex-layout.col#home__tv-two",
+                "flex-layout.col#home__tv-three"
+            ],
+            "props": {
+                "blockClass": "home__tv--images"
+        } 
+    },
+    "flex-layout.row#home__section--tv--title":{
+        "title": "tvs",
+        "children":[
+            "rich-text#home__section--tv--title"
+        ],
+        "props":{
+          "blockClass": "home__section--topoffers--tv"
+        }
+      },
+      "rich-text#home__section--tv--title":{
+        "title": "tvs",
+        "props":{
+          "text": "**Televisores**",
+          "textPosition": "CENTER",
+          "blockClass": "home__section--tv--title-text"
+        }
+      },
+    "flex-layout.col#home__tv-one":{
+        "title": "tv--image1",
+        "children": [
+        "image#home__tv--image1"
+        ]    
+    },
+    "flex-layout.col#home__tv-two":{
+        "title": "tv--image2",
+        "children": [
+        "image#home__tv--image2"
+        ]    
+    },
+    "flex-layout.col#home__tv-three":{
+        "title": "tv--image3",
+        "children": [
+        "image#home__tv--image3"
+        ]    
+    },
+    "image#home__tv--image1":{
+        "title": "offer--image1",
+        "props": {
+          "src": "assets/img/tv-lg.jpg",
+          "blockClass": "home__image-tv",
+          "link": {
+            "url": "/"
+          }
+        }
+    },
+    "image#home__tv--image2":{
+        "title": "offer--image2",
+        "props": {
+          "src": "assets/img/tv-philips.jpg",
+          "blockClass": "home__image-tv",
+          "link": {
+            "url": "/"
+          }
+        }
+    },
+    "image#home__tv--image3":{
+        "title": "offer--image3",
+        "props": {
+          "src": "assets/img/tv-samsung.jpg",
+          "blockClass": "home__image-tv",
+          "link": {
+            "url": "/"
+          }
+        }
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "flex-layout.row#home__video-game": {
+        "title": "section cell phones",
+            "children": [
+                "flex-layout.col#home__video-game-one",
+                "flex-layout.col#home__video-game-two",
+                "flex-layout.col#home__video-game-three"
+            ],
+            "props": {
+                "blockClass": "home__video-game--images"
+        } 
+    },
+    "flex-layout.row#home__section--video-game--title":{
+        "title": "video-games",
+        "children":[
+            "rich-text#home__section--video-game--title"
+        ],
+        "props":{
+          "blockClass": "home__section--video-game"
+        }
+      },
+      "rich-text#home__section--video-game--title":{
+        "title": "video-games",
+        "props":{
+          "text": "**Video juegos**",
+          "textPosition": "CENTER",
+          "blockClass": "home__section--video-game--title-text"
+        }
+      },
+    "flex-layout.col#home__video-game-one":{
+        "title": "video-game--image1",
+        "children": [
+        "image#home__video-game--image1"
+        ]    
+    },
+    "flex-layout.col#home__video-game-two":{
+        "title": "video-game--image2",
+        "children": [
+        "image#home__video-game--image2"
+        ]    
+    },
+    "flex-layout.col#home__video-game-three":{
+        "title": "video-game--image3",
+        "children": [
+        "image#home__video-game--image3"
+        ]    
+    },
+    "image#home__video-game--image1":{
+        "title": "offer--image1",
+        "props": {
+          "src": "assets/img/video-control-dualsense.jpg",
+          "blockClass": "home__image-video-game",
+          "link": {
+            "url": "/"
+          }
+        }
+    },
+    "image#home__video-game--image2":{
+        "title": "offer--image2",
+        "props": {
+          "src": "assets/img/video-juegos-control.jpg",
+          "blockClass": "home__image-video-game",
+          "link": {
+            "url": "/"
+          }
+        }
+    },
+    "image#home__video-game--image3":{
+        "title": "offer--image3",
+        "props": {
+          "src": "assets/img/video-xbox.jpg",
+          "blockClass": "home__image-video-game",
+          "link": {
+            "url": "/"
+          }
+        }
+    }
+}

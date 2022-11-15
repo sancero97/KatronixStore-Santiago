@@ -1,0 +1,78 @@
+{
+    "flex-layout.row#home__audio": {
+        "title": "section cell phones",
+            "children": [
+                "flex-layout.col#home__audio-one",
+                "flex-layout.col#home__audio-two",
+                "flex-layout.col#home__audio-three"
+            ],
+            "props": {
+                "blockClass": "home__audio--images"
+        } 
+    },
+    "flex-layout.row#home__section--audio--title":{
+        "title": "audios",
+        "children":[
+            "rich-text#home__section--audio--title"
+        ],
+        "props":{
+          "blockClass": "home__section--audio"
+        }
+      },
+      "rich-text#home__section--audio--title":{
+        "title": "audio",
+        "props":{
+          "text": "**audio**",
+          "textPosition": "CENTER",
+          "blockClass": "home__section--audio--title-text"
+        }
+      },
+    "flex-layout.col#home__audio-one":{
+        "title": "audio--image",
+        "children": [
+        "image#home__audio--image1"
+        ]    
+    },
+    "flex-layout.col#home__audio-two":{
+        "title": "audio--image",
+        "children": [
+        "image#home__audio--image2"
+        ]    
+    },
+    "flex-layout.col#home__audio-three":{
+        "title": "audio--image",
+        "children": [
+        "image#home__audio--image3"
+        ]    
+    },
+    "image#home__audio--image1":{
+        "title": "offer--image",
+        "props": {
+          "src": "assets/img/audio-bose.jpg",
+          "blockClass": "home__image-audio",
+          "link": {
+            "url": "/"
+          }
+        }
+    },
+    "image#home__audio--image2":{
+        "title": "offer--image",
+        "props": {
+          "src": "assets/img/audio-samsung.jpg",
+          "blockClass": "home__image-audio",
+          "link": {
+            "url": "/"
+          }
+        }
+    },
+    "image#home__audio--image3":{
+        "title": "offer--image",
+        "props": {
+          "src": "assets/img/audio-sonos.jpg",
+          "blockClass": "home__image-audio",
+          "link": {
+            "url": "/"
+          }
+        }
+    }
+}

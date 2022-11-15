@@ -1,0 +1,137 @@
+{
+    "flex-layout.row#home__home-appliances": {
+        "title": "section cell phones",
+            "children": [
+                "flex-layout.col#home__home-appliances-one",
+                "flex-layout.col#home__home-appliances-two",
+                "flex-layout.col#home__home-appliances-three"
+            ],
+            "props": {
+                "blockClass": "home__home-appliances--images"
+        } 
+    },
+    "flex-layout.row#home__section--home-appliances--title":{
+        "title": "home-appliancess",
+        "children":[
+            "rich-text#home__section--home-appliances--title"
+        ],
+        "props":{
+          "blockClass": "home__section--topoffers--home-appliances"
+        }
+      },
+      "rich-text#home__section--home-appliances--title":{
+        "title": "home-appliancess",
+        "props":{
+          "text": "**Electrodomesticos**",
+          "textPosition": "CENTER",
+          "blockClass": "home__section--home-appliances--title-text"
+        }
+      },
+    "flex-layout.col#home__home-appliances-one":{
+        "title": "home-appliances--image1",
+        "children": [
+        "image#home__home-appliances--image1"
+        ]    
+    },
+    "flex-layout.col#home__home-appliances-two":{
+        "title": "home-appliances--image2",
+        "children": [
+        "image#home__home-appliances--image2"
+        ]    
+    },
+    "flex-layout.col#home__home-appliances-three":{
+        "title": "home-appliances--image3",
+        "children": [
+        "image#home__home-appliances--image3"
+        ]    
+    },
+    "image#home__home-appliances--image1":{
+        "title": "offer--image1",
+        "props": {
+          "src": "assets/img/electrodomesticos-lavadora.jpg",
+          "blockClass": "home__image-home-appliances",
+          "link": {
+            "url": "/"
+          }
+        }
+    },
+    "image#home__home-appliances--image2":{
+        "title": "offer--image2",
+        "props": {
+          "src": "assets/img/electrodomesticos-nevecon.jpg",
+          "blockClass": "home__image-home-appliances",
+          "link": {
+            "url": "/"
+          }
+        }
+    },
+    "image#home__home-appliances--image3":{
+        "title": "offer--image3",
+        "props": {
+          "src": "assets/img/electrodomesticos-nevera.jpg",
+          "blockClass": "home__image-home-appliances",
+          "link": {
+            "url": "/"
+          }
+        }
+    },
+    "flex-layout.row#home__home-appliances2": {
+        "title": "section home appliances2",
+            "children": [
+                "flex-layout.col#home__home-appliances2-one",
+                "flex-layout.col#home__home-appliances2-two",
+                "flex-layout.col#home__home-appliances2-three"
+            ],
+            "props": {
+                "blockClass": "home__home-appliances--images"
+        } 
+    },
+    "flex-layout.col#home__home-appliances2-one":{
+        "title": "home-appliances--image1",
+        "children": [
+        "image#home__home-appliances2--image1"
+        ]    
+    },
+    "flex-layout.col#home__home-appliances2-two":{
+        "title": "home-appliances--image2",
+        "children": [
+        "image#home__home-appliances2--image2"
+        ]    
+    },
+    "flex-layout.col#home__home-appliances2-three":{
+        "title": "home-appliances--image3",
+        "children": [
+        "image#home__home-appliances2--image3"
+        ]    
+    },
+    "image#home__home-appliances2--image1":{
+        "title": "offer--image1",
+        "props": {
+          "src": "assets/img/electrodomesticos-aspiradora-mi-robot.jpg",
+          "blockClass": "home__image-home-appliances",
+          "link": {
+            "url": "/"
+          }
+        }
+    },
+    "image#home__home-appliances2--image2":{
+        "title": "offer--image2",
+        "props": {
+          "src": "assets/img/electrodomesticos-freidora-de-aire.jpg",
+          "blockClass": "home__image-home-appliances",
+          "link": {
+            "url": "/"
+          }
+        }
+    },
+    "image#home__home-appliances2--image3":{
+        "title": "offer--image3",
+        "props": {
+          "src": "assets/img/electrodomesticos-plancha-de-cabello.jpg",
+          "blockClass": "home__image-home-appliances",
+          "link": {
+            "url": "/"
+          }
+        }
+    }
+}

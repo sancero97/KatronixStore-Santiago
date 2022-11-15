@@ -1,0 +1,78 @@
+{
+    "flex-layout.row#home__computer": {
+        "title": "section cell phones",
+            "children": [
+                "flex-layout.col#home__computer-one",
+                "flex-layout.col#home__computer-two",
+                "flex-layout.col#home__computer-three"
+            ],
+            "props": {
+                "blockClass": "home__computer--images"
+        } 
+    },
+    "flex-layout.row#home__section--computer--title":{
+        "title": "computers",
+        "children":[
+            "rich-text#home__section--computer--title"
+        ],
+        "props":{
+          "blockClass": "home__section--topoffers--computer"
+        }
+      },
+      "rich-text#home__section--computer--title":{
+        "title": "computers",
+        "props":{
+          "text": "**Computadores**",
+          "textPosition": "CENTER",
+          "blockClass": "home__section--computer--title-text"
+        }
+      },
+    "flex-layout.col#home__computer-one":{
+        "title": "computer--image1",
+        "children": [
+        "image#home__computer--image1"
+        ]    
+    },
+    "flex-layout.col#home__computer-two":{
+        "title": "computer--image2",
+        "children": [
+        "image#home__computer--image2"
+        ]    
+    },
+    "flex-layout.col#home__computer-three":{
+        "title": "computer--image3",
+        "children": [
+        "image#home__computer--image3"
+        ]    
+    },
+    "image#home__computer--image1":{
+        "title": "offer--image1",
+        "props": {
+          "src": "assets/img/pc-asus.jpg",
+          "blockClass": "home__image-computer",
+          "link": {
+            "url": "/"
+          }
+        }
+    },
+    "image#home__computer--image2":{
+        "title": "offer--image2",
+        "props": {
+          "src": "assets/img/pc-lenovo1.jpg",
+          "blockClass": "home__image-computer",
+          "link": {
+            "url": "/"
+          }
+        }
+    },
+    "image#home__computer--image3":{
+        "title": "offer--image3",
+        "props": {
+          "src": "assets/img/pc-lenovo2.jpg",
+          "blockClass": "home__image-computer",
+          "link": {
+            "url": "/"
+          }
+        }
+    }
+}

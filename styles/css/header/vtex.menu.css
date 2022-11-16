@@ -1,10 +1,83 @@
-.headerRowContentContainer--header__desktop--menu{
-    background-color: #004691;
-    
-}
-
 .styledLinkContent--department-name{
     color: white;
     font-size: 14px;
- 
+    padding: 0px 0px 0px 0px;
+    margin-right: -14px;
+    margin-left: -13px;
+}
+.menuItem--department-name::after{
+    content: "";
+    display: block;
+    border-right: 1px solid white;
+    height: 8px;
+    transform: translateY(-27px);
+}
+.submenuWrapper--category-container--isOpen,
+.submenuWrapper--category-container--computers--isOpen,
+.submenuWrapper--category-container--tv--isOpen,
+.submenuWrapper--category-container--audio--isOpen,
+.submenuWrapper--category-container--homeAppliances--isOpen,
+.submenuWrapper--category-container--videogames--isOpen,
+.submenuWrapper--category-container--cameras--isOpen,
+.submenuWrapper--category-container--home--isOpen,
+.submenuWrapper--category-container--accessories--isOpen,
+.submenuWrapper--category-container--toys--isOpen,
+.submenuWrapper--category-container--netflix--isOpen,
+.submenuWrapper--category-container--sports--isOpen,
+.submenuWrapper--category-container--homeintelligent--isOpen,
+.submenuWrapper--category-container--tires--isOpen,
+.submenuWrapper--category-container--toys--isOpen,
+.submenuWrapper--category-container--others--isOpen{
+    width: 100vw;  
+    height: 492px; 
+    margin-top: 1px;
+    border-bottom: 2px solid white;
+}
+.submenuWrapper--category-container--isOpen{
+    margin-left: 2px;  
+}
+.submenuWrapper--category-container--computers--isOpen{
+    margin-left: -84px;
+}
+.submenuWrapper--category-container--tv--isOpen{
+    margin-left: -343px;
+}
+.submenuWrapper--category-container--audio--isOpen{
+    margin-left: -591px;
+}
+.submenuWrapper--category-container--homeAppliances--isOpen{
+    margin-left: -205px;
+}
+.submenuWrapper--category-container--videogames--isOpen{
+    margin-left: -487px;
+}
+.submenuWrapper--category-container--cameras--isOpen{
+    margin-left: -656px;
+}
+.submenuWrapper--category-container--home--isOpen{
+    margin-left: -864px;
+}
+.submenuWrapper--category-container--accessories--isOpen{
+    margin-left: -390px;
+}
+.submenuWrapper--category-container--netflix--isOpen{
+    margin-left: -1218px;
+}
+.submenuWrapper--category-container--sports--isOpen{
+    margin-left: -931px;
+}
+.submenuWrapper--category-container--others--isOpen{
+    margin-left: -1276px;
+}
+.submenuWrapper--category-container--homeintelligent--isOpen{
+    margin-left: -738px;
+}
+.submenuWrapper--category-container--tires--isOpen{
+    margin-left: -1012px;
+}
+.submenuWrapper--category-container--toys--isOpen{
+    margin-left: -1135px;
+}
+.menuItem--title__categories{
+    margin-left: -60px;
 }

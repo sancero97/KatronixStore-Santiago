@@ -5,6 +5,7 @@
           "header-spacer",
           "rich-text#venta",
           "rich-text#servicio",
+          "flex-layout.row#rastreo",
           "rich-text#tiendas",
           "rich-text#catalogo",
           "rich-text#ayuda"
@@ -28,25 +29,53 @@
               "blockClass":"header__top--text" 
           }
       },
+      "flex-layout.row#rastreo":{
+        "title": "rastreo",
+        "children": [
+            "image#rastreo",
+            "rich-text#rastreo"
+        ],
+        "props": {
+            "blockClass": "header__image-text-rastreo"
+        }
+      },
+      "image#rastreo":{
+        "title": "image rastreo",
+        "props": {
+            "src": "assets/img/sigue-tu-pedido.png",
+            "width": 20,
+            "blockClass":  "header__image-rastreo",
+            "link": {
+              "url": "/"
+            }
+            }
+      },
+      "rich-text#rastreo":{
+        "title": "rastreo",
+          "props":{
+              "text":"Rastrea Tu Pedido",
+              "blockClass":"header__top-text-rastreo"   
+          }
+      },
       "rich-text#tiendas":{
           "title": "tiendas",
           "props":{
               "text":"Tiendas",
-              "blockClass":"header__top--text"   
+              "blockClass":"header__top--text1"   
           }
       },
       "rich-text#catalogo":{
           "title": "catalogo",
           "props":{
               "text":"Catálogo",
-              "blockClass":"header__top--text"
+              "blockClass":"header__top--text1"  
           }
       },
       "rich-text#ayuda":{
           "title": "PQR",
           "props":{
               "text": "PQR",
-              "blockClass":"header__top--text"
+              "blockClass":"header__top--text1"  
           }
       }
     

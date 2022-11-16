@@ -4,6 +4,7 @@
       "responsive-layout.desktop#home__info--desktop"
     ]
   },
+  
   "modal-trigger#home__modal--children":{
     "children":[
       "rich-text#home__modal-trigger",

@@ -1,7 +1,68 @@
 .paragraph--header__top--text{
     color: #004691;
+    margin-right: -81px;
+    margin-left: 75px;
+    font-size: 14px;
+   
 }
-
+.paragraph--header__top--text1{
+    color: #004691;
+    margin-right: 37px;
+    margin-left: -12px;
+    font-size: 14px;
+   
+}
+.paragraph--header__top-text-rastreo{
+    color: #004691;
+    font-size: 14px;
+    margin-right: -5px;
+    margin-left: -22px;
+}
 .wrapper--header__top--text{
     margin-right: 24px;
+}
+.paragraph--text__login1{
+    font-size: 14px;
+    color: #004691;
+    margin-top: -12px;
+    margin-left: 90px;
+
+}
+.paragraph--minicart-text{
+    font-size: 14px;
+    color: #004691; 
+}
+.paragraph--text__cellphones--title{
+    color: #e63027;
+    font-size: 15px;
+}
+.paragraph--text__cellphones--description{
+    font-size: 11px;
+    margin-top: -10px;
+}
+.paragraph--text__cellphones--two-description1{
+    font-size: 11px;
+    margin-top: -50px; 
+}
+.paragraph--text__cellphones--two-description2{
+    font-size: 11px;
+    margin-top: -70px;
+}
+.paragraph--text__cellphones--three--title1{
+    color: #e63027;
+    font-size: 15px;
+    margin-top: -22px;
+}
+.paragraph--text__cellphones--three--title2{
+    color: #e63027;
+    font-size: 15px;
+    margin-top: -38px;
+}
+.paragraph--text__cellphones--three-description1{
+    margin-top: 26;
+    font-size: 11px;
+}
+.paragraph--text__cellphones--three-description2{
+    font-size: 11px;
+    margin-top: -60;
 }

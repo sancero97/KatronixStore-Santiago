@@ -1,0 +1,40 @@
+.flexRow--container_login_logo--header{
+    margin-left: -62px;
+}
+.headerRowContainer--hearder__mobile{
+    margin-top: 15px;
+}
+.flexRow--container__category--celulares-desktop{
+    border-bottom: solid 2px #e63027; 
+    width: 200px;
+    margin-right: 50px;
+}
+.flexRow--container__category--accesorios-desktop{
+    border-bottom: solid 2px #e63027;  
+    width: 200px;
+    margin-right: 50px;
+}
+.flexRow--container__category--smartwatch-desktop{
+    border-bottom: solid 2px #e63027; 
+    width: 200px;
+    margin-right: 50px;
+}
+.flexRow--container__category--tabletas-desktop{
+    border-bottom: solid 2px #e63027;   
+    width: 200px;
+    margin-right: 50px;
+}
+.flexRow--container__category--mas-desktop{
+    border-bottom: solid 2px #e63027; 
+    width: 110px;
+}
+.flexRowContent--container__category--celulares-desktop,
+.flexRowContent--container__category--accesorios-desktop,
+.flexRowContent--container__category--smartwatch-desktop,
+.flexRowContent--container__category--tabletas-desktop,
+.flexRowContent--container__category--mas-desktop{
+    margin-bottom: -7px;
+}
+.flexRow--category__container-row-cellphones--one{
+    margin-left: 23px;
+}

@@ -3,7 +3,7 @@
         "children":[
             "logo#header__top--logo",
             "search-bar#header__search",
-            "login",
+            "flex-layout.row#login__section--header",
             "minicart.v2"
         ],
         "props":{
@@ -11,13 +11,13 @@
             "blockClass": "header__middle"
         }
     },
-    
     "logo#header__top--logo":{
         "title": "logo",
         "props":{
+            "blockClass": "header__top--logo",
           "url":"assets/img/logo.svg",
           "href":"/",
-          "width":150
+          "width":190
         }
       },
       "search-bar#header__search":{
@@ -70,8 +70,8 @@
     "image#login__icon": {
       "title": "login-icon",
       "props": {
-        "src": "assets/icon/user.svg",
-        "width": 40,
+        "src": "assets/icon/user-desktop.svg",
+        "width": 35,
         "blockClass":"image__login-icon"
       }
     },

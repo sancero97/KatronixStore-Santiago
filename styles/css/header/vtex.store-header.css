@@ -19,3 +19,6 @@
 .headerRow--header__middle{
     margin-bottom: -16px;
 }
+.headerRowContentContainer--hearder__middle-mobile{
+    background: #f0f2f5;
+}

@@ -7,7 +7,7 @@
                 "flex-layout.col#home__video-game-three"
             ],
             "props": {
-                "blockClass": "home__video-game--images"
+                "blockClass": "home__images"
         } 
     },
     "flex-layout.row#home__section--video-game--title":{
@@ -24,7 +24,7 @@
         "props":{
           "text": "**Video juegos**",
           "textPosition": "CENTER",
-          "blockClass": "home__section--video-game--title-text"
+          "blockClass": "home__section--title-text"
         }
       },
     "flex-layout.col#home__video-game-one":{

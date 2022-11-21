@@ -8,7 +8,17 @@
     margin: 0%;
     padding: 0%;
 }
-
-.headerRowContainer--Header__top--desktop{
-    color: #004691;
+.headerRowContentContainer--hearder__mobile{
+    padding: 5px 16px;
+    border-bottom: solid 2px #e63027;
+}
+.headerRowContainer--header__middle{
+    margin-left: 396px;
+    margin-bottom: -6px;
+}
+.headerRow--header__middle{
+    margin-bottom: -16px;
+}
+.headerRowContentContainer--hearder__middle-mobile{
+    background: #f0f2f5;
 }

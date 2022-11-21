@@ -7,7 +7,7 @@
                 "flex-layout.col#home__home-appliances-three"
             ],
             "props": {
-                "blockClass": "home__home-appliances--images"
+                "blockClass": "home__images"
         } 
     },
     "flex-layout.row#home__section--home-appliances--title":{
@@ -24,7 +24,7 @@
         "props":{
           "text": "**Electrodomesticos**",
           "textPosition": "CENTER",
-          "blockClass": "home__section--home-appliances--title-text"
+          "blockClass": "home__section--title-text"
         }
       },
     "flex-layout.col#home__home-appliances-one":{

@@ -7,7 +7,7 @@
                 "flex-layout.col#home__audio-three"
             ],
             "props": {
-                "blockClass": "home__audio--images"
+                "blockClass": "home__images"
         } 
     },
     "flex-layout.row#home__section--audio--title":{
@@ -24,7 +24,7 @@
         "props":{
           "text": "**audio**",
           "textPosition": "CENTER",
-          "blockClass": "home__section--audio--title-text"
+          "blockClass": "home__section--title-text"
         }
       },
     "flex-layout.col#home__audio-one":{

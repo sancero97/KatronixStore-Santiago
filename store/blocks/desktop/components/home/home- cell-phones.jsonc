@@ -7,7 +7,7 @@
                 "flex-layout.col#home__cell-phone-three"
             ],
             "props": {
-                "blockClass": "home__cell-phone--images"
+                "blockClass": "home__images"
         } 
     },
     "flex-layout.row#home__section--cell-phone--title":{
@@ -24,7 +24,7 @@
         "props":{
           "text": "**Celulares**",
           "textPosition": "CENTER",
-          "blockClass": "home__section--cell-phone--title-text"
+          "blockClass": "home__section--title-text"
         }
       },
     "flex-layout.col#home__cell-phone-one":{

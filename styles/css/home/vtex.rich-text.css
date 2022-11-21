@@ -1,3 +1,52 @@
 .paragraph--sectione__one--title{
     color: brown;
 }
+.strong--home__section--three--title-text,
+.strong--home__section--four--title-text,
+.strong--home__section--five--title-text,
+.strong--home__section--six--title-text,
+.strong--home__section--seven--title-text,
+.strong--home__section--eight--title-text,
+.strong--home__section--nine--title-text,
+.strong--home__section--ten--title-text{
+    font-size: 16px;
+    padding: 0 8px 4px;
+    border-bottom: solid 3px #eb5b25;
+    color: #004691;
+    width: fit-content;
+    margin: 0 auto;
+    position: relative;
+    top: -2px;
+}
+.paragraph--home__section--title-text{
+    font-size: 16px;
+    padding: 0 8px 4px;
+    border-bottom: solid 3px #eb5b25;
+    color: #004691;
+    width: fit-content;
+    margin: 0 auto;
+    position: relative;
+    top: -2px;
+}
+.paragraph--home__section--cell-phone--title-text{
+    font-size: 16px;
+    padding: 0 8px 4px;
+    border-bottom: solid 3px #eb5b25;
+    color: #004691;
+    width: fit-content;
+    margin: 0 auto;
+    position: relative;
+    top: -2px;
+}
+.container--home__section--title-text{
+    text-align: center;
+    border-bottom: solid 1px #e0e0e0;
+    height: 25px;
+    margin-bottom: 20px;
+    margin-top: 32px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.container--home_section-one-departmentName{
+    color: #004691;
+}

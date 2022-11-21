@@ -1,188 +1,748 @@
 {
-   "header-row#header__menu":{
+    "header-row#header__menu":{
     "title": "Header__menu",
     "children":[
-      "vtex.menu@2.x:menu#header__menu"
+        "vtex.menu@2.x:menu#header__menu"
     ],
     "props":{
-      "sticky":true,
-      "blockClass": "header__desktop--menu"
+        "sticky":true,
+        "blockClass": "header__desktop--menu"
     }
-  },
-  "vtex.menu@2.x:menu#header__menu":{
+    },
+    "vtex.menu@2.x:menu#header__menu":{
     "children": [
-      "menu-item#department__celphones--one",
-      "menu-item#department__computers--two",
-      "menu-item#department__tv--three",
-      "menu-item#department__audio--four",
-      "menu-item#department__homeAppliances--five",
-      "menu-item#department__videogames--six",
-      "menu-item#department__cameras--seven",
-      "menu-item#department__homeintelligent--eight",
-      "menu-item#department__accessories--nine",
-      "menu-item#department__netflix--ten",
-      "menu-item#department__sports--eleven",
-      "menu-item#department__others--twelve"
+        "menu-item#department--one",
+        "menu-item#department--two",
+        "menu-item#department--three",
+        "menu-item#department--four",
+        "menu-item#department--five",
+        "menu-item#department--six",
+        "menu-item#department--seven",
+        "menu-item#department--eight",
+        "menu-item#department--nine",
+        "menu-item#department--ten",
+        "menu-item#department--eleven",
+        "menu-item#department--twelve",
+        "menu-item#department--thirteen",
+        "menu-item#department--fourteen",
+        "menu-item#department--fifteen"
     ],
+    "title": "menu-header-menu",
     "props":{
-      "orientation": "horizontal",
-      "blockClass": "container__header--menu"
+        "orientation": "horizontal",
+        "blockClass": "container__header--menu"
     }
-  },
-  "menu-item#department__celphones--one":{
+    },
+    "menu-item#department--one":{
+        "props":{
+            "id": "department-celphones--one",
+            "type": "custom",
+            "blockClass":"department-name",  
+            "itemProps": {
+            "href": "/",
+            "noFollow": true,
+            "tagTitle": "Celulares",
+            "text": "Celulares"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#department--one"]
+        },
+        "vtex.menu@2.x:submenu#department--one":{
+        "children":[
+        "vtex.menu@2.x:menu#department--one"
+        ],
+        "props":{
+            "blockClass": "category-container",
+            "onMountBehavior": "open"        
+        }
+        },
+        "vtex.menu@2.x:menu#department--one":{
+        "children":[
+            "flex-layout.row#department--one"      
+        ],
+        "props":{
+            "blockClass": "category__container-cellphones--one",
+            "orientation": "vertical"       
+        }
+        },   
+        "flex-layout.row#department--one":{
+        "children":[
+            "flex-layout.col#category--one",
+            "flex-layout.col#category--two",
+            "flex-layout.col#category--three",
+            "flex-layout.col#category--four",
+            "flex-layout.col#category--five"
+        ],
+        "props":{
+            "blockClass": "category__container-row-celphones--one",
+            "colSizing": "auto"     
+        } 
+        },
+        "flex-layout.col#category--one":{
+        "children":[
+            "flex-layout.row#category__cellphone",
+            "rich-text#category--one-title1",
+            "rich-text#category--one-description1",
+            "rich-text#category--one-title2",
+            "rich-text#category--one-description2",
+            "rich-text#category--one-title3",
+            "rich-text#category--one-description3",
+            "rich-text#category--one-title4",
+            "rich-text#category--one-description4",
+            "rich-text#category--one-title5",
+            "rich-text#category--one-description5"
+        ],
+        "props":{
+            "blockClass":"category__cellphones",
+            "colSizing":"auto"
+        } 
+        },
+        "flex-layout.row#category__cellphone": {
+        "title": "image-icon-cellphones",
+        "children": [
+            "image#icon__cellphone",
+            "menu-item#category--one"
+        ],
+        "props": {
+            "blockClass":"container__category--celulares-desktop"
+        }
+        },
+        "image#icon__cellphone": {
+        "props": {
+            "src": "assets/img/category-one.png",
+            "blockClass":"icon__cellphone"
+        }
+        },
+        "menu-item#category--one":{
+        "props":{
+            "id": "category-cell-phones-one",
+            "type": "custom",
+            "blockClass":"title__categories",
+            "itemProps": {
+            "href": "/",
+            "noFollow": true,
+            "tagTitle": "Celulares",
+            "text": "Celulares"
+            }
+        }
+        },
+        "rich-text#category--one-title1":{
+        "props":{
+            "text":"Marca",
+            "blockClass":"text__cellphones--title"
+        }
+        },
+        "rich-text#category--one-description1":{
+        "props":{
+            "text":"!Phone | Samsumg | Xiaomi |\n Motorola | vivo | Nokia | Oppo |\n Realme | Zte | TCL | Alcatel |\nKalley | Huawei | Honor | Tecno",
+            "blockClass":"text__cellphones--description"
+        }
+        },
+        "rich-text#category--one-title2":{
+        "props":{
+            "text":"Capacidad de almacenamiento",
+            "blockClass":"text__cellphones--title"
+        }
+        },
+        "rich-text#category--one-description2":{
+        "props":{
+            "text":"32 GB | 64 GB | 128 GB | 256 GB",
+            "blockClass":"text__cellphones--description"
+        }
+        },
+        "rich-text#category--one-title3":{
+        "props":{
+            "text":"Tamaño de Pantalla",
+            "blockClass":"text__cellphones--title"
+        }
+        },
+        "rich-text#category--one-description3":{
+        "props":{
+            "text":"De 4.1' a 5' | De 5.1' a 6' | De 6.1' a 8'",
+            "blockClass":"text__cellphones--description"
+        }
+        },
+        "rich-text#category--one-title4":{
+        "props":{
+            "text":"Tipo de cámara posterior",
+            "blockClass":"text__cellphones--title"
+        }
+        },
+        "rich-text#category--one-description4":{
+        "props":{
+            "text":"Sencilla | Dual | Triple | Cuádruple",
+            "blockClass":"text__cellphones--description"
+        }
+        },
+        "rich-text#category--one-title5":{
+        "props":{
+            "text":"Tipo de cámara frontal",
+            "blockClass":"text__cellphones--title"
+        }
+        },
+        "rich-text#category--one-description5":{
+        "props":{
+            "text":"Sencilla | Dual",
+            "blockClass":"text__cellphones--description"
+        }
+        },
+        "flex-layout.col#category--two":{
+        "children":[
+            "flex-layout.row#category__accesorios",
+            "rich-text#category--two-description1",
+            "rich-text#category--two-title1",
+            "rich-text#category--two-description2"
+        ],
+        "props":{
+            "blockClass":"category__cellphones",
+            "colSizing":"auto"
+        } 
+        },  
+        "flex-layout.row#category__accesorios": {
+        "title": "category-accesorios",
+        "children": [
+            "image#icon__accesorios",
+            "menu-item#category--two"
+        ],
+        "props": {
+            "blockClass": "container__category--accesorios-desktop"
+        }
+        },
+        "image#icon__accesorios": {
+        "props": {
+            "src": "assets/img/category-two.png",
+            "blockClass":"icon__cellphone"
+        }
+        },
+        "menu-item#category--two":{
+        "props":{
+            "id": "category-cellphones--two",
+            "type": "custom",
+            "blockClass":"title__categories",
+            "itemProps": {
+            "href": "/catalogo",
+            "noFollow": true,
+            "tagTitle": "Accesorios",
+            "text": "Accesorios"
+            }
+        }
+        },  
+        "rich-text#category--two-description1":{
+        "props":{
+            "text":"Carcasas y estuches\nAudífonos y manos libres\nMemorias Micro SD\nBaterías Externas Power Bank\nCables, Cargadores, Adaptadores\nBases y Soportes\nSelfie Stick",
+            "blockClass":"text__cellphones--two-description1"
+        }
+        },
+        "rich-text#category--two-title1":{
+        "props":{
+            "text":"Accesorios para iPhone",
+            "blockClass":"text__cellphones--title"
+        }
+        },
+        "rich-text#category--two-description2":{
+        "props":{
+            "text":"Carcasas y estuche | \nCables, Cargadores, Adaptadores",
+            "blockClass":"text__cellphones--two-description2"
+        }
+        },
+        "flex-layout.col#category--three":{
+        "children":[
+            "flex-layout.row#category__smartwatch",
+            "rich-text#category--three-description1",
+            "rich-text#category--three-title1",
+            "rich-text#category--three-description2",
+            "rich-text#category--three-title2",
+            "rich-text#category--three-description3"
+        ],
+        "props":{
+            "blockClass":"category__cellphones",
+            "colSizing":"auto"
+        } 
+        },
+        "flex-layout.row#category__smartwatch": {
+        "title": "category-smartwatch",
+        "children": [
+            "image#icon__smartwatch",
+            "menu-item#category--three"
+        ],
+        "props": {
+            "blockClass": "container__category--smartwatch-desktop"
+        }
+        },
+        "image#icon__smartwatch": {
+        "props": {
+            "src": "assets/img/category-three.png",
+            "blockClass":"icon__cellphone"
+        }
+        },
+        "menu-item#category--three":{
+        "props":{
+            "id": "category-cellphones-three",
+            "type": "custom",
+            "blockClass":"title__categories",
+            "itemProps": {
+            "href": "/",
+            "noFollow": true,
+            "tagTitle": "Smartwatch",
+            "text": "Smartwatch"
+            }
+        }
+        },
+        "rich-text#category--three-description1":{
+        "props":{
+            "text":"Relojes\nBandas de Actividad",
+            "blockClass":"text__cellphones--three-description1"
+        }
+        },  
+        "rich-text#category--three-title1":{
+        "props":{
+            "text":"Marca",
+            "blockClass":"text__cellphones--three--title1"
+        }
+        },  
+        "rich-text#category--three-description2":{
+        "props":{
+            "text":"Apple Watch | Huawei | Samsung |\nFitbit | Garmin | Xiaomi | Kalley |\nMultitech",
+            "blockClass":"text__cellphones--three-description2"
+        }
+        },
+        "rich-text#category--three-title2":{
+        "props":{
+            "text":"Accesorios para Smartwatch",
+            "blockClass":"text__cellphones--three--title2"
+        }
+        }, 
+        "rich-text#category--three-description3":{
+        "props":{
+            "text":"Cargadores | Correas",
+            "blockClass":"text__cellphones--three-description3"
+        }
+        },   
+        "flex-layout.col#category--four":{
+        "children":[
+            "flex-layout.row#category__tabletas",
+            "rich-text#category--four-description1",
+            "rich-text#category--four-title1",
+            "rich-text#category--four-description2"
+        ],
+        "props":{
+            "blockClass":"col_category_cellphones--four",
+            "colSizing":"auto"
+        } 
+        },
+        "flex-layout.row#category__tabletas": {
+        "title": "image-icon-tabletas",
+        "children": [
+            "image#icon__tabletas",
+            "menu-item#category--four"
+        ],
+        "props": {
+            "blockClass":"container__category--tabletas-desktop"
+        }
+        },
+        "image#icon__tabletas": {
+        "props": {
+            "src": "assets/img/category-one.png",
+            "blockClass":"icon__cellphone"
+        }
+        },
+        "menu-item#category--four":{
+        "props":{
+            "id": "category-celphones-four",
+            "type": "custom",
+            "blockClass":"title__categories",
+            "itemProps": {
+            "href": "/",
+            "noFollow": true,
+            "tagTitle": "Tabletas",
+            "text": "Tabletas"
+            }
+        }
+        },
+        "rich-text#category--four-description1":{
+        "props":{
+            "text":"iPad\nAndroid\nAccesorios",
+            "blockClass":"text__cellphones--four-description1"
+        }
+        },  
+        "rich-text#category--four-title1":{
+        "props":{
+            "text":"Marca",
+            "blockClass":"text__cellphones--four--title1"
+        }
+        },  
+        "rich-text#category--four-description2":{
+        "props":{
+            "text":"Apple | Samsung | Lenovo | Huawei |\nAlcatel | Multitech",
+            "blockClass":"text__cellphones--four-description2"
+        }
+        },
+        "flex-layout.col#category--five":{
+        "children":[
+            "flex-layout.row#category__mas",
+            "rich-text#category--five-description1"
+        ],
+        "props":{
+            "blockClass":"col_category_cellphones--five",
+            "colSizing":"auto"
+        } 
+        },
+        "flex-layout.row#category__mas": {
+        "title": "image-icon-mas",
+        "children": [
+            "image#icon__mas",
+            "menu-item#category--five"
+        ],
+        "props": {
+            "blockClass":"container__category--mas-desktop"
+        }
+        },
+        "image#icon__mas": {
+        "props": {
+            "src": "assets/img/mas.png",
+            "blockClass":"icon__cellphone"
+        }
+        },
+        "menu-item#category--five":{
+        "props":{
+            "id": "category-cellphones-five",
+            "type": "custom",
+            "blockClass":"title__categories",
+            "itemProps": {
+            "href": "/quienes-somos",
+            "noFollow": true,
+            "tagTitle": "Conoce mas",
+            "text": "Conoce más"
+            }
+        }
+        },
+        "rich-text#category--five-description1":{
+        "props":{
+            "text":"Seguro gratis\nGuía de compra\nCelulares Baratos\nCelulares Nuevos",
+            "blockClass":"text__cellphones--five-description1"
+        }
+        },  
+        "menu-item#department--two":{
+        "props":{
+            "id": "department-computers--two",
+            "type": "custom",
+            "blockClass":"department-name",
+            "itemProps": {
+            "href": "/",
+            "noFollow": true,
+            "tagTitle": "Computadores",
+            "text": "Computadores"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#department__computers--one"]
+        },
+        "vtex.menu@2.x:submenu#department__computers--one":{
+        "children":[
+            "vtex.menu@2.x:menu#department--one"
+        ],
+        "props":{
+            "blockClass": "category-container--computers",
+            "onMountBehavior": "open"        
+        }
+        },
+    "menu-item#department--three":{
+        "props":{
+        "id": "department__home-appliances",
+        "type": "custom",
+        "blockClass":"department-name",  
+        "itemProps": {
+            "href": "/",
+            "noFollow": true,
+            "tagTitle": "Electrodomésticos",
+            "text": "Electrodomésticos"
+        }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#department__home-appliances--one"]
+    },    
+    "vtex.menu@2.x:submenu#department__home-appliances--one":{
+        "children":[
+        "vtex.menu@2.x:menu#department--one"
+        ],
+        "props":{
+        "blockClass": "category-container--homeAppliances",
+        "onMountBehavior": "open"        
+        }
+    }, 
+    "menu-item#department--four":{
     "props":{
-      "id": "department-celphones--one",
-      "type": "custom",
-      "blockClass":"department-name",  
-      "itemProps": {
-        "href": "/",
-        "noFollow": true,
-        "tagTitle": "Celulares",
-        "text": "Celulares"
-      }
-    }
-  },
-  "menu-item#department__computers--two":{
-    "props":{
-      "id": "department-computers--two",
-      "type": "custom",
-      "blockClass":"department-name",
-      "itemProps": {
-        "href": "/",
-        "noFollow": true,
-        "tagTitle": "Computadores",
-        "text": "Computadores e Impresoras"
-      }
-    }
-  },
-  "menu-item#department__tv--three":{
-    "props":{
-      "id": "department-tv--three",
-      "type": "custom",
-      "blockClass":"department-name",
-      "itemProps": {
+        "id": "department-tv",
+        "type": "custom",
+        "blockClass":"department-name",  
+        "itemProps": {
         "href": "/",
         "noFollow": true,
         "tagTitle": "TV",
         "text": "TV"
-      }
-    }
-  },
-  "menu-item#department__audio--four":{
+        }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#department__tv--one"]
+    },
+    "vtex.menu@2.x:submenu#department__tv--one":{
+    "children":[
+        "vtex.menu@2.x:menu#department--one"
+    ],
     "props":{
-      "id": "department-audio--four",
-      "type": "custom",
-      "blockClass":"department-name",
-      "itemProps": {
-        "href": "/",
-        "noFollow": true,
-        "tagTitle": "Audio",
-        "text": "Audio"
-      }
+        "blockClass": "category-container--tv",
+        "onMountBehavior": "open"        
     }
-  },
-  "menu-item#department__homeAppliances--five":{
+    }, 
+    "menu-item#department--five":{
     "props":{
-      "id": "department-homeAppliances--five",
-      "type": "custom",
-      "blockClass":"department-name",
-      "itemProps": {
-        "href": "/",
-        "noFollow": true,
-        "tagTitle": "Electrodomésticos",
-        "text": "Electrodomésticos"
-      }
-    }
-  },
-  "menu-item#department__videogames--six":{
-    "props":{
-      "id": "department-videogames--six",
-      "type": "custom",
-      "blockClass":"department-name",
-      "itemProps": {
-        "href": "/",
-        "noFollow": true,
-        "tagTitle": "Videojuegos",
-        "text": "Videojuegos"
-      }
-    }
-  },
-  "menu-item#department__cameras--seven":{
-    "props":{
-      "id": "department-cameras--seven",
-      "type": "custom",
-      "blockClass":"department-name",
-      "itemProps": {
-        "href": "/",
-        "noFollow": true,
-        "tagTitle": "Cámaras",
-        "text": "Cámaras"
-      }
-    }
-  },
-  "menu-item#department__homeintelligent--eight":{
-    "props":{
-      "id": "department-homeintelligent--eight",
-      "type": "custom",
-      "blockClass":"department-name",
-      "itemProps": {
-        "href": "/",
-        "noFollow": true,
-        "tagTitle": "Casa Inteligente",
-        "text": "Casa Inteligente"
-      }
-    }
-  },   
-  "menu-item#department__accessories--nine":{
-    "props":{
-      "id": "department-accessories--nine",
-      "type": "custom",
-      "blockClass":"department-name",
-      "itemProps": {
+        "id": "department-accesories",
+        "type": "custom",
+        "blockClass":"department-name",  
+        "itemProps": {
         "href": "/",
         "noFollow": true,
         "tagTitle": "Accesorios",
         "text": "Accesorios"
-      }
-    }
-  },  
-  "menu-item#department__netflix--ten":{
+        }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#department__accesories--one"]
+    },
+    "vtex.menu@2.x:submenu#department__accesories--one":{
+    "children":[
+        "vtex.menu@2.x:menu#department--one"
+    ],
     "props":{
-      "id": "department-netflix--ten",
-      "type": "custom",
-      "blockClass":"department-name",
-      "itemProps": {
+        "blockClass": "category-container--accessories",
+        "onMountBehavior": "open"        
+    }
+    }, 
+    "menu-item#department--six":{
+    "props":{
+        "id": "department-videogame",
+        "type": "custom",
+        "blockClass":"department-name",  
+        "itemProps": {
         "href": "/",
         "noFollow": true,
-        "tagTitle": "Netflix y pines",
-        "text": "Netflix y pines"
-      }
-    }
-  },      
-  "menu-item#department__sports--eleven":{
+        "tagTitle": "Video Juegos",
+        "text": "Video Juegos"
+        }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#department__videogame--one"]
+    },
+    "vtex.menu@2.x:submenu#department__videogame--one":{
+    "children":[
+        "vtex.menu@2.x:menu#department--one"
+    ],
     "props":{
-      "id": "department-sports--eleven",
-      "type": "custom",
-      "blockClass":"department-name",
-      "itemProps": {
+        "blockClass": "category-container--videogames",
+        "onMountBehavior": "open"        
+    }
+    }, 
+    "menu-item#department--seven":{
+    "props":{
+        "id": "department-audio--one",
+        "type": "custom",
+        "blockClass":"department-name",  
+        "itemProps": {
         "href": "/",
         "noFollow": true,
-        "tagTitle": "Deportes y Smartwatch",
-        "text": "Deportes y Smartwatch"
-      }
-    }
-  },
-  "menu-item#department__others--twelve":{
+        "tagTitle": "Audio",
+        "text": "Audio"
+        }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#department__audio--one"]
+    },
+    "vtex.menu@2.x:submenu#department__audio--one":{
+    "children":[
+        "vtex.menu@2.x:menu#department--one"
+    ],
     "props":{
-      "id": "department-others--eleven",
-      "type": "custom",
-      "blockClass":"department-name",
-      "itemProps": {
+        "blockClass": "category-container--audio",
+        "onMountBehavior": "open"        
+    }
+    }, 
+    "menu-item#department--eight":{
+    "props":{
+        "id": "department-camera",
+        "type": "custom",
+        "blockClass":"department-name",  
+        "itemProps": {
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Cámaras",
+        "text": "Cámaras"
+        }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#department__camera--one"]
+    },
+    "vtex.menu@2.x:submenu#department__camera--one":{
+    "children":[
+        "vtex.menu@2.x:menu#department--one"
+    ],
+    "props":{
+        "blockClass": "category-container--cameras",
+        "onMountBehavior": "open"        
+    }
+    },
+    "menu-item#department--nine":{
+    "props":{
+        "id": "department-smart-house",
+        "type": "custom",
+        "blockClass":"department-name",  
+        "itemProps": {
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Casa Inteligente",
+        "text": "Casa Inteligente"
+        }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#department__smart-house--one"]
+    },
+    "vtex.menu@2.x:submenu#department__smart-house--one":{
+    "children":[
+        "vtex.menu@2.x:menu#department--one"
+    ],
+    "props":{
+        "blockClass": "category-container--homeintelligent",
+        "onMountBehavior": "open"        
+    }
+    },
+    "menu-item#department--ten":{
+    "props":{
+        "id": "department-home",
+        "type": "custom",
+        "blockClass":"department-name",  
+        "itemProps": {
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Hogar",
+        "text": "Hogar"
+        }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#department__home--one"]
+    },
+    "vtex.menu@2.x:submenu#department__home--one":{
+    "children":[
+        "vtex.menu@2.x:menu#department--one"
+    ],
+    "props":{
+        "blockClass": "category-container--home",
+        "onMountBehavior": "open"        
+    }
+    },
+    "menu-item#department--eleven":{
+    "props":{
+        "id": "department-sports",
+        "type": "custom",
+        "blockClass":"department-name",  
+        "itemProps": {
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Deportes",
+        "text": "Deportes"
+        }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#department__sports--one"]
+    },
+    "vtex.menu@2.x:submenu#department__sports--one":{
+        "children":[
+        "vtex.menu@2.x:menu#department--one"
+        ],
+        "props":{
+        "blockClass": "category-container--sports",
+        "onMountBehavior": "open"        
+        }
+    },
+    "menu-item#department--twelve":{
+        "props":{
+        "id": "department-llantas",
+        "type": "custom",
+        "blockClass":"department-name",  
+        "itemProps": {
+            "href": "/",
+            "noFollow": true,
+            "tagTitle": "Llantas y Motos",
+            "text": "Llantas y Motos"
+        }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#department__tires--one"]
+    },
+    "vtex.menu@2.x:submenu#department__tires--one":{
+    "children":[
+        "vtex.menu@2.x:menu#department--one"
+    ],
+    "props":{
+        "blockClass": "category-container--tires",
+        "onMountBehavior": "open"        
+    }
+    },
+    "menu-item#department--thirteen":{
+    "props":{
+        "id": "department-juguetes",
+        "type": "custom",
+        "blockClass":"department-name",  
+        "itemProps": {
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Juguetes",
+        "text": "Juguetes"
+        }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#department__toys--one"]
+    },
+    "vtex.menu@2.x:submenu#department__toys--one":{
+    "children":[
+        "vtex.menu@2.x:menu#department--one"
+    ],
+    "props":{
+        "blockClass": "category-container--toys",
+        "onMountBehavior": "open"        
+    }
+    },
+    "menu-item#department--fourteen":{
+    "props":{
+        "id": "department-pines",
+        "type": "custom",
+        "blockClass":"department-name",  
+        "itemProps": {
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Pines",
+        "text": "Pines"
+        }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#department__pins--one"]
+    },
+    "vtex.menu@2.x:submenu#department__pins--one":{
+    "children":[
+        "vtex.menu@2.x:menu#department--one"
+    ],
+    "props":{
+        "blockClass": "category-container--netflix",
+        "onMountBehavior": "open"        
+    }
+    },
+    "menu-item#department--fifteen":{
+    "props":{
+        "id": "department-otros",
+        "type": "custom",
+        "blockClass":"department-name",  
+        "itemProps": {
         "href": "/",
         "noFollow": true,
         "tagTitle": "Otros",
         "text": "Otros"
-      }
+        }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#department__others--one"]
+    },
+    "vtex.menu@2.x:submenu#department__others--one":{
+    "children":[
+        "vtex.menu@2.x:menu#department--one"
+    ],
+    "props":{
+        "blockClass": "category-container--others",
+        "onMountBehavior": "open"        
+        }
     }
-  }
 }
+

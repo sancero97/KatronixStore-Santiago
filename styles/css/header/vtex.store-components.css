@@ -1,11 +1,15 @@
 .logoImage--header__top--logo{ 
     position: absolute;
     z-index: 5;
-    transform: translate(-267px, -60px);
+    transform: translate(-267px, -70px);
+    margin-left: -37px;
+
 }
 .searchBarContainer :global(.vtex-input-prefix__group){
     border: solid 1px  #004691;
     border-radius: 3px;
+    margin-right: 78px;
+    margin-top: -28px;
 }
 .searchBarContainer ::placeholder{
     color: #004691;
@@ -15,6 +19,7 @@
     color: white;
     background-color: #e63027;
     padding: 10px;
+    border-radius: 5px;
     border-radius: 4px;
 }
 .logoImage--header__top--logo-mobile{
@@ -28,7 +33,68 @@
 .searchIcon--header__search--mobile{
     color: #e63027;
 }
+
+.suffixWrapper--header__search{
+    transform: translateX(16px);
+    display: flex;
+}
+
+.imageElement--header__image{
+    width: 28px;
+    height: 27px;
+    margin-right: 63px;
+    margin-left: -21px;
+}
+.imageElement--header__image-rastreo{
+    margin-right: 58px;
+    margin-left: 69px;
+    margin-top: 11px;
+}
+.imageElement--image__login-icon{
+    padding-bottom: 10px;
+    padding-top: -1px;
+    margin-left: 10px;
+    margin-left: 100px;
+}
+.imageElement--image-icon-menu {
+    border-left: 1px solid #004691;
+    margin-left: -33px;
+    padding-left: 24px;
+    margin-bottom: -14px;
+}
+.logoImage--header__top--logo-mobile{
+    height: 48px;
+    margin-left: -26px;
+    padding-right: 69px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+.searchBarInnerContainer--header__search--mobile{
+    transform: translateX(-1px);
+    height: 2px;
+    width: 285px;
+}
+.searchIcon--header__search--mobile{
+    color: #e63027;
+}
 .headerRowContentContainer--hearder__mobile{
     padding: 5px 16px;
     border-bottom: solid 2px #e63027;
+}    
+.autoCompleteOuterContainer--header__search--mobile{
+    padding: 9px;
+}
+@media(min-width:768px){
+    .logoImage--header__top--logo-mobile{
+        height: 48px;
+        margin-left: -60px;
+        padding-right: 69px;
+        padding-top: 18px;
+        padding-bottom: 9px;
+    }
+    .searchBarInnerContainer--header__search--mobile{
+        transform: translateX(-73px);
+        height: 2px;
+        width: 546px;
+    }
 }

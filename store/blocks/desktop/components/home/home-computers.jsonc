@@ -7,7 +7,7 @@
                 "flex-layout.col#home__computer-three"
             ],
             "props": {
-                "blockClass": "home__computer--images"
+                "blockClass": "home__images"
         } 
     },
     "flex-layout.row#home__section--computer--title":{
@@ -24,7 +24,7 @@
         "props":{
           "text": "**Computadores**",
           "textPosition": "CENTER",
-          "blockClass": "home__section--computer--title-text"
+          "blockClass": "home__section--title-text"
         }
       },
     "flex-layout.col#home__computer-one":{

@@ -1,0 +1,38 @@
+{
+    "flex-layout.row#header__category--menu":{
+        "title": "drawer category",
+        "children": [
+            "flex-layout.col#image__drawer--category",
+            "flex-layout.col#link__drawer--category"
+
+        ],
+        "props": {
+            "blockClass": "drawer-category-menu"
+        }
+    },
+    "flex-layout.col#image__drawer--category": {
+        "title": "drawer category",
+        "children": [
+          "image#cellphones"
+        ]
+      },
+      "image#cellphones": {
+        "props": {
+          "src": "assets/img/category-one.png",
+          "width": 20,
+          "blockClass":"header__cellphones"
+        }
+      },
+      "flex-layout.col#link__drawer--category":{
+        "children": [
+            "link#cellphones"
+        ]
+      },
+      "link#cellphones": {
+        "props": {
+          "href": "/",
+          "label": "Celulares",
+          "blockClass": "link__cellphones"
+        }
+      }
+}

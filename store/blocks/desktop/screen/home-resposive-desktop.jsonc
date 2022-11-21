@@ -2,7 +2,7 @@
     "responsive-layout.desktop#home__info--desktop":{
         "title": "Componente telefono",
         "children":[
-          "slider-layout#home__slider--children",
+          "flex-layout.row#home__section--one",
           "flex-layout.row#home__section--top-offers--title",
           "flex-layout.row#home__top-offers",
           "flex-layout.row#home__section--cell-phone--title",

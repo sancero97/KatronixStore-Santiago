@@ -84,11 +84,6 @@
 .autoCompleteOuterContainer--header__search--mobile{
     padding: 9px;
 }
-.imageElement--icon__cellphone{
-    width: 30px;
-    margin-left: 10px;
-    padding-bottom: 10px;
-}
 @media(min-width:768px){
     .logoImage--header__top--logo-mobile{
         height: 48px;

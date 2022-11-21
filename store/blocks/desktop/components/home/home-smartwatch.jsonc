@@ -7,7 +7,7 @@
                 "flex-layout.col#home__smartwatch-three"
             ],
             "props": {
-                "blockClass": "home__smartwatch--images"
+                "blockClass": "home__images"
         } 
     },
     "flex-layout.row#home__section--smartwatch--title":{
@@ -24,7 +24,7 @@
         "props":{
           "text": "**smartwatch**",
           "textPosition": "CENTER",
-          "blockClass": "home__section--smartwatch--title-text"
+          "blockClass": "home__section--title-text"
         }
       },
     "flex-layout.col#home__smartwatch-one":{

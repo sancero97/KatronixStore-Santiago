@@ -7,7 +7,7 @@
                 "flex-layout.col#home__tv-three"
             ],
             "props": {
-                "blockClass": "home__tv--images"
+                "blockClass": "home__images"
         } 
     },
     "flex-layout.row#home__section--tv--title":{
@@ -24,7 +24,7 @@
         "props":{
           "text": "**Televisores**",
           "textPosition": "CENTER",
-          "blockClass": "home__section--tv--title-text"
+          "blockClass": "home__section--title-text"
         }
       },
     "flex-layout.col#home__tv-one":{

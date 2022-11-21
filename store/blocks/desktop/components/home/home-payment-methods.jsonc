@@ -23,7 +23,7 @@
       "props":{
         "text": "*Medios de pago*",
         "textPosition": "CENTER",
-        "blockClass": "home__section--ten--title-text"
+        "blockClass": "home__section--title-text"
       }
     }, 
     "flex-layout.col#section__payment-methods--image-one":{

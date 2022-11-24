@@ -1,0 +1,21 @@
+{
+    "slider-layout#home__slider--smartwatch-phone":{
+        "props":{
+          "itemsPerPage":{
+            "desktop": 1,
+            "tablet": 1,
+            "mobile": 1
+          },
+          "infinite": true,
+          "blockClass": "home__slider--sections-phone",
+          "showPaginationDots":"never",
+          "showNavigationArrows": "never",
+          "stopOnHover": true
+          },
+        "children":[
+            "image#home__smartwatch--image1",
+            "image#home__smartwatch--image2",
+            "image#home__smartwatch--image3"
+        ]
+    }
+}

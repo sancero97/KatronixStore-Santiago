@@ -1,0 +1,21 @@
+{
+    "slider-layout#home__slider--tv-phone":{
+        "props":{
+          "itemsPerPage":{
+            "desktop": 1,
+            "tablet": 1,
+            "mobile": 1
+          },
+          "infinite": true,
+          "blockClass": "home__slider--sections-phone",
+          "showPaginationDots":"never",
+          "showNavigationArrows": "never",
+          "stopOnHover": true
+          },
+        "children":[
+            "image#home__tv--image1",
+            "image#home__tv--image2",
+            "image#home__tv--image3"
+        ]
+    }
+}

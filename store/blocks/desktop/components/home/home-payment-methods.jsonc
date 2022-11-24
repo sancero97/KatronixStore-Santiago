@@ -21,7 +21,7 @@
     "rich-text#home__section--payment-methods--title":{
       "title": "payment-methods--title",
       "props":{
-        "text": "*Medios de pago*",
+        "text": "**Medios de pago**",
         "textPosition": "CENTER",
         "blockClass": "home__section--title-text"
       }
@@ -52,7 +52,7 @@
       "props":{
         "textAlignment": "CENTER",
         "textPosition": "CENTER",
-        "text":"*Tarjeta Alkosto Mastercard*",
+        "text":"**Tarjeta Alkosto Mastercard**",
         "blockClass":"section__payment-methods--text1"
       }
     },
@@ -91,7 +91,7 @@
       "props":{
         "textAlignment": "CENTER",
         "textPosition": "CENTER",
-        "text":"*Tarjeta de Crédito Fácil Codensa*",
+        "text":"**Tarjeta de Crédito Fácil Codensa**",
         "blockClass":"section__payment-methods--text1"
       }
     },
@@ -108,8 +108,8 @@
       "title": "payment-methods--image-three",
       "children":[
         "image#section__payment-methods--image-three",
-        "rich-text#section__payment-methods--image-three-text1"
-        /*"rich-text#section__payment-methods--image-three-text2"*/
+        "rich-text#section__payment-methods--image-three-text1",
+        "rich-text#section__payment-methods--image-three-text2"
       ],
       "props":{
         "blockClass": "home_section_payment-methods--image-text"
@@ -130,11 +130,11 @@
       "props":{
         "textAlignment": "CENTER",
         "textPosition": "CENTER",
-        "text":"*Tarjetas de Crédito Coomeva MasterCard*",
+        "text":"**Tarjetas de Crédito Coomeva**",
         "blockClass":"section__payment-methods--text1"
       }
     },
-    /*"rich-text#section__payment-methods--image-three-text2":{
+    "rich-text#section__payment-methods--image-three-text2":{
       "title": "payment-methods--image-three-texto2",
       "props":{
         "textAlignment": "CENTER",
@@ -142,7 +142,7 @@
         "text":"Conoce las ofertas",
         "blockClass":"section__payment-methods--text2"
       }
-    },*/
+    },
     "flex-layout.col#section__payment-methods--image-four":{
       "title": "payment-methods--image-four",
       "children":[
@@ -169,7 +169,7 @@
       "props":{
         "textAlignment": "CENTER",
         "textPosition": "CENTER",
-        "text":"*Conoce aquí nuestro plan 0 es 3 tu*",
+        "text":"**Conoce aquí nuestro plan 0 es 3 tu**",
         "blockClass":"section__payment-methods--text1"
       }
     },

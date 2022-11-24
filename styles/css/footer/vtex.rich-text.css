@@ -1,0 +1,155 @@
+.paragraph--rich-text_footer_container--contact,
+.link--rich-text_footer_container--contact-email{
+    margin: 0px;
+    font-size: 12px;
+    line-height: 0.3;
+}
+.paragraph--rich-text_footer_container--contact-title{
+    font-size: 16px;
+    color: #fff;
+    line-height: 0.3;
+    
+}
+.link--rich-text_footer_container--contact-email{
+    text-decoration: none;
+    color: #929292;
+}
+.paragraph--rich-text_footer_container--contact-razonsocial{
+    font-size: 12px;
+    color: #fff;
+    line-height: 0.3;
+}
+.container--rich-text_footer_container--contact-title-email{
+    border-left: solid 1px white;
+    border-right: solid 1px white;
+    font-size: 16px;
+    color: #fff;
+    line-height: 0.3;
+}
+
+.container--rich-text_footer_container--contact-email{
+    border-left: solid 1px white;
+    border-right: solid 1px white;
+    height: 20px;
+}
+.paragraph--footer__container--payment-methods-text{
+    font-size: 16px;
+    margin-bottom: 9px;
+    color: #f3f3f3;
+}
+.paragraph--disclosure-policies-text{
+    color: #fcfcfc;
+}
+.paragraph--policies__content-text{
+    font-size: 12px;
+    color: #929292;
+    margin-left: 80px;
+}
+ .paragraph--policies__content-text-2{
+    font-size: 12px;
+    color: #929292;
+    margin-right: 63px;
+    text-align: justify;
+    transform: translateX(-30px);
+ }
+ .paragraph--policies__content-text-3{
+    font-size: 12px;
+    color: #929292;
+    margin: 1px 80px 1px 80px;
+    text-align: justify;
+ }
+ .link--policies__content-text-2,
+ .link--policies__content-text-3,
+ .link--policies__content-text-4{
+    text-decoration: none;
+    color: #929292;
+ }
+ .paragraph--policies__content-text-4{
+    margin: 15px 80px 40px 80px;
+    font-size: 12px;
+    color: #929292;
+    text-align: justify;
+ }
+ .paragraph--information-title{
+    font-size: 18px;
+    color: #fcfcfc;
+ }
+ .wrapper--information-footer{
+    color: #929292;
+    font-size: 12px;
+    font-weight: 400;
+ }
+ .container--information-footer{
+    height: 30px;
+ }
+ .link--information-footer{
+    color: #929292;
+    text-decoration: none;
+ }
+ .paragraph--disclosure-policies-text{
+    transform: translateX(-412px)
+ }
+ 
+ @media screen and (max-width: 639px){   
+    .paragraph--rich-text_footer_container--contact-razonsocial,
+    .paragraph--rich-text_footer_container--contact{
+        min-width: max-content;
+    }
+    .wrapper--footer__container--payment-methods-text{
+        margin-top: -15px;
+        margin-left: -8px;
+    }
+    .paragraph--disclosure-policies-text{
+        transform: translateX(-2px);
+    } 
+    .paragraph--information-title{
+        transform: translate(-15px, -20px)
+    }
+}
+
+@media screen and (max-width: 1024px){   
+    .paragraph--rich-text_footer_container--contact-razonsocial,
+    .paragraph--rich-text_footer_container--contact{
+        min-width: max-content;
+    }
+    .container--rich-text_footer_container--contact-title-email,
+    .container--rich-text_footer_container--contact-email{
+        border-left: none;
+        border-right: none;
+    }
+    .paragraph--policies__content-text{
+        margin-left: 42px;
+        margin-top: -10px;
+    }
+    .paragraph--policies__content-text-3{
+        margin: 1px 42px 1px 42px;
+    }
+    .paragraph--policies__content-text-4{
+        margin: 15px 42px 40px 40px
+    }  
+    .paragraph--policies__content-text-2{
+        margin-right: 10px;
+    }  
+    .paragraph--information-title{
+       font-size: 16px;
+    }
+    .wrapper--disclosure-policies-text{
+        transform: translateY(-8px);
+    }
+    .container--policies__content-text{
+        margin-top: 40px;
+    }
+}
+
+@media screen and (min-width: 640px) and (max-width: 1024px){
+    .wrapper--footer__container--payment-methods-text{
+        margin-top: -15px;
+        margin-left: -16px;
+    }   
+    .paragraph--disclosure-policies-text{
+        transform: translate(-174px);
+    } 
+    .paragraph--information-title{
+        transform: translate(-20px, -20px)
+    }
+}

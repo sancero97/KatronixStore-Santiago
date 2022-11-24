@@ -49,4 +49,10 @@
 }
 .container--home_section-one-departmentName{
     color: #004691;
+    margin-left: 20px;
+}
+.paragraph--section__payment-methods--text2{
+    margin-top: -18px;
+    text-decoration: underline;
+    color: red;
 }

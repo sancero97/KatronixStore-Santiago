@@ -14,4 +14,16 @@
 .sliderLayoutContainer--home__slider{
     margin-top: -60px;
 }
+.flexRow--home__images{
+    margin-left: 20px;
+    margin-right: 0px;
+}
+.flexRow--container__home--section--one-phone{
+    margin-right: 8px;
+    margin-left: -18PX;
+}
+.flexRow--container__home--section--one-tablet{
+    margin-right: 128px;
+
+}
 

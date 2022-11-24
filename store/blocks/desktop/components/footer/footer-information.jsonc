@@ -1,0 +1,279 @@
+{
+    "flex-layout.row#footer__container--information":{
+        "title": "Section 3 information",
+        "children":[
+          "flex-layout.col#footer__container--information-col-one",
+          "flex-layout.col#footer__container--information-col-two",
+          "flex-layout.col#footer__container--information-col-three",
+          "flex-layout.col#footer__container--information-col-four"
+        ],
+        "props":{
+          "blockClass": "footer__container--information",
+          "colSizing":"auto"
+        }
+      },
+      "flex-layout.col#footer__container--information-col-one":{
+         "children":[
+          "rich-text#footer__container--information-col-one-title",
+          "rich-text#footer__container--information-col-one-link1",
+          "rich-text#footer__container--information-col-one-link2",
+          "rich-text#footer__container--information-col-one-link3",
+          "rich-text#footer__container--information-col-one-link4",
+          "rich-text#footer__container--information-col-one-link5",
+          "rich-text#footer__container--information-col-one-link6",
+          "rich-text#footer__container--information-col-one-link7"
+    
+         ]
+      },
+      "rich-text#footer__container--information-col-one-title":{
+        "props":{
+          "text":"Nosotros",
+          "blockClass":"information-title"
+        }
+      },
+      "rich-text#footer__container--information-col-one-link1":{
+        "props":{
+          "text":"Conócenos",
+          "blockClass":"information-footer"
+        }
+      },
+      "rich-text#footer__container--information-col-one-link2":{
+        "props":{
+          "text":"Tiendas Ktronix",
+          "blockClass":"information-footer"
+        }
+      },
+      "rich-text#footer__container--information-col-one-link3":{
+        "props":{
+          "text":"Servicio al Cliente",
+          "blockClass":"information-footer"
+        }
+      },
+      "rich-text#footer__container--information-col-one-link4":{
+        "props":{
+          "text":"Tarjeta Alkosto",
+          "blockClass":"information-footer"
+        }
+      },
+      "rich-text#footer__container--information-col-one-link5":{
+        "props":{
+          "text":"Trabaja en Ktronix",
+          "blockClass":"information-footer"
+        }
+      },
+      "rich-text#footer__container--information-col-one-link6":{
+        "props":{
+          "text":"Nuestras rifas",
+          "blockClass":"information-footer"
+        }
+      },
+      "rich-text#footer__container--information-col-one-link7":{
+        "props":{
+          "text":"Certificados Tributarios",
+          "blockClass":"information-footer"
+        }
+      },
+      "flex-layout.col#footer__container--information-col-two":{
+        "children":[
+         "rich-text#footer__container--information-col-two-title",
+         "rich-text#footer__container--information-col-two-link1",
+         "rich-text#footer__container--information-col-two-link2",
+         "rich-text#footer__container--information-col-two-link3",
+         "rich-text#footer__container--information-col-two-link4",
+         "rich-text#footer__container--information-col-two-link5"
+    
+        ]
+     },
+     "rich-text#footer__container--information-col-two-title":{
+       "props":{
+         "text":"Compras en Internet",
+         "blockClass":"information-title"
+       }
+     },
+     "rich-text#footer__container--information-col-two-link1":{
+       "props":{
+         "text":"¿Cómo comprar en línea",
+         "blockClass":"information-footer"
+       }
+     },
+     "rich-text#footer__container--information-col-two-link2":{
+       "props":{
+         "text":"Compra seguro",
+         "blockClass":"information-footer"
+       }
+     },
+     "rich-text#footer__container--information-col-two-link3":{
+       "props":{
+         "text":"Opciones de envío",
+         "blockClass":"information-footer"
+       }
+     },
+     "rich-text#footer__container--information-col-two-link4":{
+       "props":{
+         "text":"Formas de pago",
+         "blockClass":"information-footer"
+       }
+     },
+     "rich-text#footer__container--information-col-two-link5":{
+       "props":{
+         "text":"SOAT y otros seguros",
+         "blockClass":"information-footer"
+       }
+     }, 
+     "flex-layout.col#footer__container--information-col-three":{
+      "children":[
+       "rich-text#footer__container--information-col-three-title",
+       "rich-text#footer__container--information-col-three-link1",
+       "rich-text#footer__container--information-col-three-link2"
+    
+      ]
+    },
+    "rich-text#footer__container--information-col-three-title":{
+     "props":{
+       "text":"Nuestros servicios",
+       "blockClass":"information-title"
+     }
+    },
+    "rich-text#footer__container--information-col-three-link1":{
+     "props":{
+       "text":"¿Extiende tu garantía",
+       "blockClass":"information-footer"
+     }
+    },
+    "rich-text#footer__container--information-col-three-link2":{
+     "props":{
+       "text":"¿Cómo solicitar garantía?",
+       "blockClass":"information-footer"
+     }
+    },
+    "flex-layout.col#footer__container--information-col-four":{
+      "children":[
+       "rich-text#footer__container--information-col-four-title",
+       "rich-text#footer__container--information-col-four-link1",
+       "rich-text#footer__container--information-col-four-link2",
+       "rich-text#footer__container--information-col-four-link3",
+       "rich-text#footer__container--information-col-four-link4",
+       "rich-text#footer__container--information-col-four-link5",
+       "rich-text#footer__container--information-col-four-link6",
+       "rich-text#footer__container--information-col-four-link7",
+       "rich-text#footer__container--information-col-four-link8",
+       "rich-text#footer__container--information-col-four-link9",
+       "rich-text#footer__container--information-col-four-link10",
+       "rich-text#footer__container--information-col-four-link11"
+      ]
+    },
+    "rich-text#footer__container--information-col-four-title":{
+     "props":{
+       "text":"Nuestras políticas",
+       "blockClass":"information-title"
+     }
+    },
+    "rich-text#footer__container--information-col-four-link1":{
+     "props":{
+       "text":"Términos y condiciones ktronix.com",
+       "blockClass":"information-footer"
+     }
+    },
+    "rich-text#footer__container--information-col-four-link2":{
+     "props":{
+       "text":"Acuerdo de compraventa en línea",
+       "blockClass":"information-footer"
+     }
+    },
+    "rich-text#footer__container--information-col-four-link3":{
+     "props":{
+       "text":"SIC",
+       "blockClass":"information-footer"
+     }
+    },
+    "rich-text#footer__container--information-col-four-link4":{
+     "props":{
+       "text":"Cuidamos tu privacidad",
+       "blockClass":"information-footer"
+     }
+    },
+    "rich-text#footer__container--information-col-four-link5":{
+     "props":{
+       "text":"Solicitud tratamiento de datos personales",
+       "blockClass":"information-footer"
+     }
+    },
+    "rich-text#footer__container--information-col-four-link6":{
+     "props":{
+       "text":"Código de ética",
+       "blockClass":"information-footer"
+     }
+    },
+    "rich-text#footer__container--information-col-four-link7":{
+     "props":{
+       "text":"Política uso de Cookies",
+       "blockClass":"information-footer"
+     }
+    },
+    "rich-text#footer__container--information-col-four-link8":{
+      "props":{
+        "text":"Cambios y devoluciones",
+        "blockClass":"information-footer"
+      }
+     },
+     "rich-text#footer__container--information-col-four-link9":{
+      "props":{
+        "text":"Normas SST para terceros",
+        "blockClass":"information-footer"
+      }
+     },
+     "rich-text#footer__container--information-col-four-link10":{
+      "props":{
+        "text":"TDT para todos",
+        "blockClass":"information-footer"
+      }
+     },
+     "rich-text#footer__container--information-col-four-link11":{
+      "props":{
+        "text":"Línea ética",
+        "blockClass":"information-footer"
+      }
+     },
+     "flex-layout.row#footer__container--socialmedia":{
+      "title": "section social media",
+      "children":[
+      "flex-layout.row#footer__container--socialmedia-text-icons"     
+       
+    ],
+    "props":{
+      "blockClass": "footer__container--socialmedia"
+    }
+    },
+     "flex-layout.row#footer__container--socialmedia-text-icons":{
+      "children":[
+        "rich-text#footer__container--socialmedia",
+        "social-networks"
+      ],
+       "props":{
+        "blockClass": "footer__container--socialmedia-text-icons"
+      }
+    }, 
+    "rich-text#footer__container--socialmedia":{
+      "props":{
+        "text": "Síguenos en:",
+        "textColor": "c-on-emphasis",
+        "blockClass":"footer__container--text-socialmedia"
+      }    
+    },
+    
+      "social-networks":{
+        "props":{
+          "socialNetworks":[
+            {
+              "url": "https://www.facebook.com/ktronix",
+              "name": "Facebook"
+            },
+            {
+              "url": "https://twitter.com/ktronixcolombia",
+              "name": "Twitter"
+            }
+          ],
+          "blockClass":"footer__container--icons-socialmedia"
+        }
+    }
+}

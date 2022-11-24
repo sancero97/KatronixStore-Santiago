@@ -1,0 +1,80 @@
+{
+    "flex-layout.row#home__section--one-phone--title":{
+        "title": "computers",
+        "children":[
+            "rich-text#home__section--one-phone--title"
+        ],
+        "props":{
+          "blockClass": "home__section--topoffers--computer"
+        }
+      },
+      "rich-text#home__section--one-phone--title":{
+        "title": "computers",
+        "props":{
+          "text": "**Categorias**",
+          "textPosition": "CENTER",
+          "blockClass": "home__section--title-text"
+        }
+      },
+    "flex-layout.row#home__section--one-phone": {
+        "title": "section one phone",
+        "children": [
+            "flex-layout.col#home__category--one-phone",
+            "flex-layout.col#home__category--two-phone",
+            "flex-layout.col#home__category--three-phone"
+        ],
+        "props": {
+            "blockClass": "container__home--section--one-phone",
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.col#home__category--one-phone":{
+        "title": "col category one phone",    
+        "children": [
+            "image#home__section--one-department-cellphones",
+            "rich-text#department-one-1",
+            "image#home__section--one-department-video-games",
+            "rich-text#department-one-2",
+            "image#home__section--one-department-cameras",
+            "rich-text#department-one-3",
+            "image#home__section--one-department-tv",
+            "rich-text#department-three-1"
+            
+        ],
+        "props": {
+            "blockClass": "section__home--deparment"
+        }
+    },
+    "flex-layout.col#home__category--two-phone":{
+        "title": "col category one phone",    
+        "children": [
+            "image#home__section--one-department-accessories",
+            "rich-text#department-two-2",
+            "image#home__section--one-department-c-intelligent",
+            "rich-text#department-three-3",
+            "image#home__section--one-department-computers", 
+            "rich-text#department-two-1",
+            "image#home__section--one-department-smartwach",
+            "rich-text#department-three-2"
+        ],
+        "props": {
+            "blockClass": "section__home--deparment"
+        }
+    },
+    "flex-layout.col#home__category--three-phone":{
+        "title": "col category one phone",    
+        "children": [
+            "image#home__section--one-department-netflix",
+            "rich-text#department-two-3",
+            "image#home__section--one-department-home-appliances", 
+            "rich-text#department-four-1",  
+            "image#home__section--one-department-tablets",
+            "rich-text#department-four-2",
+            "image#home__section--one-department-sports",
+            "rich-text#department-four-3"
+        ],
+        "props": {
+            "blockClass": "section__home--deparment"
+        }
+    }
+}

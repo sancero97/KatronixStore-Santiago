@@ -1,3 +1,12 @@
 .paginationDot--home__slider{
-    transform: translateY(30px);
+    margin-top: -42px;
+}
+.sliderLayoutContainer--home__slider--sections-phone::-webkit-scrollbar-track{
+    background-clip: padding-box;
+}
+.sliderTrackContainer--home__slider--sections-phone{
+    overflow: visible;
+} 
+.sliderLayoutContainer--home__slider--sections-phone{
+    overflow: auto;
 }

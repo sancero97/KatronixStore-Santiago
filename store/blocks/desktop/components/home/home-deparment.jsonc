@@ -10,6 +10,7 @@
         }    
       },
       "flex-layout.row#home__section--one-department":{
+        "title": " home row section one department",
         "children":[
             "flex-layout.col#home__section--one-department-one",
             "flex-layout.col#home__section--one-department-two",
@@ -22,12 +23,13 @@
         }
       },
       "flex-layout.col#home__section--one-department-one":{
+        "title": " home col section one department one",
         "children":[
-            "image#home__section--one-department-celulares",
+            "image#home__section--one-department-cellphones",
             "rich-text#department-one-1",
-            "image#home__section--one-department-videojuegos",
+            "image#home__section--one-department-video-games",
             "rich-text#department-one-2",
-            "image#home__section--one-department-camaras",
+            "image#home__section--one-department-cameras",
             "rich-text#department-one-3"
         ],
         "props":{
@@ -35,10 +37,11 @@
         }      
       },    
       "flex-layout.col#home__section--one-department-two":{
+        "title": " home col section one department two",
         "children":[
-            "image#home__section--one-department-computadores", 
+            "image#home__section--one-department-computers", 
             "rich-text#department-two-1",
-            "image#home__section--one-department-accesorios",
+            "image#home__section--one-department-accessories",
             "rich-text#department-two-2",
             "image#home__section--one-department-netflix",
             "rich-text#department-two-3" 
@@ -48,10 +51,11 @@
         }
       },
       "flex-layout.col#home__section--one-department-three":{
+        "title": " home col section one department three",
         "children":[     
-            "image#home__section--one-department-televisores",
+            "image#home__section--one-department-tv",
             "rich-text#department-three-1",
-            "image#home__section--one-department-smartw",
+            "image#home__section--one-department-smartwach",
             "rich-text#department-three-2",
             "image#home__section--one-department-c-intelligent",
             "rich-text#department-three-3"
@@ -61,123 +65,141 @@
         }
       },
         "flex-layout.col#home__section--one-department-four":{
-        "children":[
-          "image#home__section--one-department-electro", 
-          "rich-text#department-four-1",  
-          "image#home__section--one-department-tablets",
-          "rich-text#department-four-2",
-          "image#home__section--one-department-deportes",
-          "rich-text#department-four-3"
+          "title": " home col section one department four",
+          "children":[
+            "image#home__section--one-department-home-appliances", 
+            "rich-text#department-four-1",  
+            "image#home__section--one-department-tablets",
+            "rich-text#department-four-2",
+            "image#home__section--one-department-sports",
+            "rich-text#department-four-3"
           ],
         "props":{
           "blockClass":"home__section--one-col-departments"
         }
       },
       "flex-layout.col#home__section--one-department-five":{
+        "title": " home col section one department five",
         "children":[     
           "image#home__section--one-department-audio",
           "rich-text#department-five-1",
-          "image#home__section--one-department-impresoras",
+          "image#home__section--one-department-printers",
           "rich-text#department-five-2", 
-          "image#home__section--one-department-ofertas",
+          "image#home__section--one-department-offers",
           "rich-text#department-five-3"
           ],
         "props":{
           "blockClass":"home__section--one-col-departments"
         }
       },
-      "image#home__section--one-department-celulares":{
+      "image#home__section--one-department-cellphones":{
+        "title": "home department cell",
         "props": {
         "src": "assets/img/celular-sl.jpg",
         "blockClass":"home__section--one-department-img"
         }
       },
-      "image#home__section--one-department-computadores":{
+      "image#home__section--one-department-computers":{
+        "title": "home department computers",
         "props": {
         "src": "assets/img/computador-sl.png",
         "blockClass":"home__section--one-department-img"
         }
           
       },  
-      "image#home__section--one-department-televisores":{
+      "image#home__section--one-department-tv":{
+        "title": "home department tv",
         "props": {
         "src": "assets/img/televisor-sl.png",
         "blockClass":"home__section--one-department-img"
         }
       },
-      "image#home__section--one-department-electro":{
+      "image#home__section--one-department-home-appliances":{
+        "title": "home department appliances",
         "props": {
         "src": "assets/img/electro-sl.jpg",
         "blockClass":"home__section--one-department-img"
         }
       },
       "image#home__section--one-department-audio":{
+        "title": "home department audio",
         "props": {
         "src": "assets/img/audio-sl.jpg",
         "blockClass":"home__section--one-department-img"
         }
       },
-      "image#home__section--one-department-videojuegos":{
+      "image#home__section--one-department-video-games":{
+        "title": "home department video games",
         "props": {
         "src": "assets/img/videojuegos-sl.jpg",
         "blockClass":"home__section--one-department-img"
         }
       },
-      "image#home__section--one-department-accesorios":{
+      "image#home__section--one-department-accessories":{
+        "title": "home department accesories",
         "props": {
         "src": "assets/img/accesorios-sl.png",
         "blockClass":"home__section--one-department-img"
         }
       },
-      "image#home__section--one-department-smartw":{
+      "image#home__section--one-department-smartwach":{
+        "title": "home department smartwach",
         "props": {
         "src": "assets/img/reloj-izq-sl.jpg",
         "blockClass":"home__section--one-department-img"
         }
       },
       "image#home__section--one-department-tablets":{
+        "title": "home department tablets",
         "props": {
         "src": "assets/img/tablet-sl.jpg",
         "blockClass":"home__section--one-department-img"
         }
       },
-      "image#home__section--one-department-impresoras":{
+      "image#home__section--one-department-printers":{
+        "title": "home department printers",
         "props": {
         "src": "assets/img/impresora-sl.png",
         "blockClass":"home__section--one-department-img"
         }
       },
-      "image#home__section--one-department-camaras":{
+      "image#home__section--one-department-cameras":{
+        "title": "home department camera",
         "props": {
         "src": "assets/img/camara-sl.png",
         "blockClass":"home__section--one-department-img"
         }
       },
       "image#home__section--one-department-netflix":{
+        "title": "home department netflix",
         "props": {
         "src": "assets/img/netflix-sl.png",
         "blockClass":"home__section--one-department-img"
         }
       },
       "image#home__section--one-department-c-intelligent":{
+        "title": "home department intelligent",
         "props": {
         "src": "assets/img/camara-inteligente-sl.png",
         "blockClass":"home__section--one-department-img"
         }
       },
-      "image#home__section--one-department-deportes":{
+      "image#home__section--one-department-sports":{
+        "title": "home department sports",
         "props": {
         "src": "assets/img/deportes-sl.png",
         "blockClass":"home__section--one-department-img"
         }
       },
-      "image#home__section--one-department-ofertas":{
+      "image#home__section--one-department-offers":{
+        "title": "home department offers",
         "props": {
-        "src": "assets/img/netflix-sl.png",
+        "src": "assets/icon/ofertas-icon.png",
         "blockClass":"home__section--one-department-img"
         }
       },
       "rich-text#department-one-1":{
+        "title": "home cell phone title",
         "props":{
         "textAlignment": "CENTER",
         "textPosition": "CENTER",
@@ -186,6 +208,7 @@
         }
       },
       "rich-text#department-one-2":{
+        "title": "home videogames title",
         "props":{
         "textAlignment": "CENTER",
         "textPosition": "CENTER",
@@ -194,6 +217,7 @@
         }
       },
       "rich-text#department-one-3":{
+        "title": "home cameras title",
         "props":{
         "textAlignment": "CENTER",
         "textPosition": "CENTER",
@@ -202,6 +226,7 @@
         }
       },
       "rich-text#department-two-1":{
+        "title": "home computers title",
         "props":{
         "textAlignment": "CENTER",
         "textPosition": "CENTER",
@@ -210,6 +235,7 @@
         }
       },
       "rich-text#department-two-2":{
+        "title": "home accessories title",
         "props":{
         "textAlignment": "CENTER",
         "textPosition": "CENTER",
@@ -218,6 +244,7 @@
         }
       },
       "rich-text#department-two-3":{
+        "title": "home netflix title",
         "props":{
         "textAlignment": "CENTER",
         "textPosition": "CENTER",
@@ -226,6 +253,7 @@
         }
       },
       "rich-text#department-three-1":{
+        "title": "home tv title",
         "props":{
         "textAlignment": "CENTER",
         "textPosition": "CENTER",
@@ -234,6 +262,7 @@
         }
       },
       "rich-text#department-three-2":{
+        "title": "home smartwach title",
         "props":{
         "textAlignment": "CENTER",
         "textPosition": "CENTER",
@@ -242,6 +271,7 @@
         }
       },
       "rich-text#department-three-3":{
+        "title": "home camera title",
         "props":{
         "textAlignment": "CENTER",
         "textPosition": "CENTER",
@@ -250,6 +280,7 @@
         }
       },
       "rich-text#department-four-1":{
+        "title": "home appliances title",
         "props":{
         "textAlignment": "CENTER",
         "textPosition": "CENTER",
@@ -258,6 +289,7 @@
         }
       },
       "rich-text#department-four-2":{
+        "title": "home tablet title",
         "props":{
         "textAlignment": "CENTER",
         "textPosition": "CENTER",
@@ -266,6 +298,7 @@
         }
       },
       "rich-text#department-four-3":{
+        "title": "home sports title",
         "props":{
         "textAlignment": "CENTER",
         "textPosition": "CENTER",
@@ -274,6 +307,7 @@
         }
       },
       "rich-text#department-five-1":{
+        "title": "home audio title",
         "props":{
         "textAlignment": "CENTER",
         "textPosition": "CENTER",
@@ -282,6 +316,7 @@
         }
       },
       "rich-text#department-five-2":{
+        "title": "home printers title",
         "props":{
         "textAlignment": "CENTER",
         "textPosition": "CENTER",          
@@ -290,6 +325,7 @@
         }
       },
       "rich-text#department-five-3":{
+        "title": "home offers title",
         "props":{
         "textAlignment": "CENTER",
         "textPosition": "CENTER",

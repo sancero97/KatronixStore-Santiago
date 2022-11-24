@@ -1,0 +1,16 @@
+{
+    "footer-layout.desktop": { 
+        "children": [
+        "flex-layout.row#footer__container--contact",
+        "flex-layout.row#footer__container--payment-methods-text",
+        "flex-layout.row#footer__container--payment-methods",
+        "disclosure-layout#policies",
+        "flex-layout.row#footer__container--information",
+        "flex-layout.row#footer__container--socialmedia"
+        
+        ],
+        "props":{
+        "blockClass": "footer__container"
+        }
+    }
+}

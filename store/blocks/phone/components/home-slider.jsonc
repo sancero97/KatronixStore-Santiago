@@ -1,0 +1,38 @@
+{
+    "slider-layout#home__slider--children-phone":{
+        "props":{
+          "itemsPerPage":{
+            "desktop": 1,
+            "tablet": 1,
+            "mobile": 1
+          },
+          "infinite": true,
+          "blockClass": "home__slider-phone",
+            "stopOnHover": true
+          },
+        "children":[
+          "image#home__slider--one-phone",
+          "image#home__slider--two-phone",
+          "image#home__slider--three-phone"
+         
+        ]
+      },
+      "image#home__slider--one-phone":{
+        "props": {
+          "src": "assets/img/slider-m1.jpg",
+          "blockClass":"home__image--slider-phone"
+        }
+      },
+      "image#home__slider--two-phone":{
+        "props": {
+          "src": "assets/img/slider-m2.jpg",
+          "blockClass":"home__image--slider-phone"
+      }
+      },
+      "image#home__slider--three-phone":{
+        "props": {
+          "src": "assets/img/slider-m3.jpg",
+          "blockClass":"home__image--slider-phone"
+        }
+    }
+}

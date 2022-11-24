@@ -4,20 +4,11 @@
         "children":[
             "flex-layout.row#login__section--header",
             "minicart.v2",
-            "drawer#header__middle"
+            "flex-layout.row#header__middle"
         ],
         "props":{
         "sticky":true,
         "blockClass":"hearder__middle-mobile"
-        }
-    },
-    "drawer#header__middle":{
-        "children":[
-            "flex-layout.row#header__category--menu"
-        ],
-        "props":{
-            "width":30,
-        "blockClass":"drawer__header--middle"
         }
     }
 }

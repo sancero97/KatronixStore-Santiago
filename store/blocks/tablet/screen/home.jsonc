@@ -1,0 +1,10 @@
+{
+    "responsive-layout.tablet#home__info--tablet":{
+        "title":"responsive tablet",
+        "children":[
+            "slider-layout#home__slider--children",
+            "flex-layout.row#home__section--one-phone--title",
+            "flex-layout.row#home__section--one-tablet"
+        ]
+    }
+}

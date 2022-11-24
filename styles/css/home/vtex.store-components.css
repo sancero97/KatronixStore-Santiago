@@ -13,3 +13,48 @@
     cursor: pointer;
     margin-left: 20px;
 }
+.imageElement--home__image-cell-phone,
+.imageElement--home__image-computer,
+.imageElement--home__image-tv,
+.imageElement--home__image-home-appliances,
+.imageElement--home__image-video-game,
+.imageElement--home__image-smartwatch,
+.imageElement--home__image-audio{
+    width: 400px;
+}
+.imageElement--home_section_payment-methods--image{
+    margin-left: 74px;
+}
+.imageElement--home__image--slider-phone{
+    height: 350px;
+    margin-top: 0px;
+}
+.imageElement--home__image--slider-tablet{
+    height: 350px;
+    margin-top: 0px;
+}
+.imageElement--home__image-top-offers,
+.imageElement--home__image-cell-phone,
+.imageElement--home__image-computer,
+.imageElement--home__image-tv,
+.imageElement--home__image-home-appliances,
+.imageElement--home__image-video-game,
+.imageElement--home__image-smartwatch,
+.imageElement--home__image-audio{
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width:640px){
+    .imageElement--home__image-top-offers{
+        width: 280px;
+    }
+    .imageElement--home__image-cell-phone,
+    .imageElement--home__image-computer,
+    .imageElement--home__image-tv,
+    .imageElement--home__image-home-appliances,
+    .imageElement--home__image-video-game,
+    .imageElement--home__image-smartwatch,
+    .imageElement--home__image-audio{
+        width: 300px;
+    }
+}

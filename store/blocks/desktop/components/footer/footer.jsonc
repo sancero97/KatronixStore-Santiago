@@ -1,0 +1,262 @@
+{ 
+    "flex-layout.row#footer__container--contact":{
+        "title": "Section 1 contact-footer",
+        "children":[
+        "flex-layout.col#footer__container--contact-col-one",
+        "flex-layout.col#footer__container--contact-col-two",
+        "flex-layout.col#footer__container--contact-col-three"
+        ],
+        "props":{
+        "blockClass": "footer__container--contact"
+        }
+    },
+    "flex-layout.col#footer__container--contact-col-one":{
+        "children":[
+        "image#footer__container--contact-col-one",
+        "rich-text#footer__container--contact-col-one",
+        "rich-text#footer__container--business-name-col-one",
+        "rich-text#footer__container--nit-col-one"
+        ],    
+        "props":{
+            "colSizing": "auto"
+        }
+            
+    },
+    "rich-text#footer__container--contact-col-one":{
+        "props":{
+        "text": "Sobre Nosotros",
+        "textPosition": "CENTER",
+        "blockClass": "rich-text_footer_container--contact-title"
+        }
+    },
+    "rich-text#footer__container--business-name-col-one":{
+        "props":{
+        "text": "Colombiana de Comercio S.A.",
+        "textPosition": "CENTER",
+        "blockClass": "rich-text_footer_container--contact-business-name"
+        }
+    },
+    "rich-text#footer__container--nit-col-one":{
+        "props":{
+        "text": "Nit:890.900.943-1",
+        "textPosition": "CENTER",
+        "blockClass": "rich-text_footer_container--contact"
+        }
+    },
+    "flex-layout.col#footer__container--contact-col-two":{
+        "children":[
+        "image#footer__container--contact-col-two",
+        "rich-text#footer__container--contact-col-two",
+        "rich-text#footer__container--email-col-two"
+        ],
+        "props":{
+        "blockClass":"footer__container--contact-col",
+        "colSizing": "auto"
+        }
+    },
+    "rich-text#footer__container--contact-col-two":{
+        "props":{
+        "text": "Email",
+        "textPosition": "CENTER",
+        "blockClass": "rich-text_footer_container--contact-title-email"
+        }
+    },
+    "rich-text#footer__container--email-col-two":{
+        "props":{
+        "text": "sugerencias@ktronix.com",
+        "textPosition": "CENTER",
+        "blockClass": "rich-text_footer_container--contact-email"
+        }
+    },
+    "flex-layout.col#footer__container--contact-col-three":{
+        "children":[
+        "image#footer__container--contact-col-three",
+        "rich-text#footer__container--contact-col-three",
+        "rich-text#footer__container--serv-cliente-col-three",
+        "rich-text#footer__container--vta-telefonica-col-three"
+        ],    
+        "props":{
+        "colSizing": "auto"
+        }
+    },
+    "rich-text#footer__container--contact-col-three":{
+        "props":{
+        "text": "Venta telefónica",
+        "textPosition": "CENTER",
+        "blockClass": "rich-text_footer_container--contact-title"
+        }
+    },
+    "rich-text#footer__container--serv-cliente-col-three":{
+        "props":{
+        "text": "Servicio al Cliente:(601) 4073033",
+        "textPosition": "CENTER",
+        "blockClass": "rich-text_footer_container--contact"
+        }
+    },
+    "rich-text#footer__container--vta-telefonica-col-three":{
+        "props":{
+        "text": "Venta Telefónica: (601) 7468001",
+        "textPosition": "CENTER",
+        "blockClass": "rich-text_footer_container--contact"
+        }
+    }, 
+    "flex-layout.row#footer__container--payment-methods-text":{
+        "title": "Section 2 medios de pago-footer-text",
+        "children":[
+        "rich-text#footer__container--payment-methods-text"
+        ],
+        "props":{
+        "blockClass": "footer__container--payment-methods"
+        }
+    },
+    "flex-layout.row#footer__container--payment-methods":{
+        "title": "Section 2 medios de pago-footer-img",
+        "children":[      
+        "flex-layout.row#footer__container--payment-methods-img"
+        ]
+    },
+    "rich-text#footer__container--payment-methods-text":{
+        "props":{
+        "text": "Medios de pago aceptados",
+        "textPosition": "LEFT",
+        "blockClass":"footer__container--payment-methods-text"
+        }
+    },
+    "flex-layout.row#footer__container--payment-methods-img":{
+        "children":[
+        "image#footer__container--payment-methods-img1",
+        "image#footer__container--payment-methods-img2",
+        "image#footer__container--payment-methods-img3",
+        "image#footer__container--payment-methods-img4",
+        "image#footer__container--payment-methods-img5",
+        "image#footer__container--payment-methods-img6",
+        "image#footer__container--payment-methods-img7",
+        "image#footer__container--payment-methods-img8",
+        "image#footer__container--payment-methods-img9",
+        "image#footer__container--payment-methods-img10",
+        "image#footer__container--payment-methods-img11",
+        "image#footer__container--payment-methods-img12",
+        "image#footer__container--payment-methods-img13"
+
+        ],
+        "props":{
+        "blockClass": "footer__container--payment-methods-img"
+        }
+    },
+    "image#footer__container--payment-methods-img1":{
+        "props": {
+            "src": "assets/img/footer-visa.png",
+            "blockClass": "footer__container--payment-methods-card"
+        }
+    },
+    "image#footer__container--payment-methods-img2":{
+        "props": {
+            "src": "assets/img/footer-diners-club.png",
+            "blockClass": "footer__container--payment-methods-card"
+        }
+    }, "image#footer__container--payment-methods-img3":{
+        "props": {
+            "src": "assets/img/footer-mastercard-icon.png",
+            "blockClass": "footer__container--payment-methods-card"
+        }
+    },
+    "image#footer__container--payment-methods-img4":{
+        "props": {
+            "src": "assets/img/footer-amex-card.png",
+            "blockClass": "footer__container--payment-methods-card"
+        }
+    },
+    "image#footer__container--payment-methods-img5":{
+        "props": {
+            "src": "assets/img/footer-bancolombia.png",
+            "blockClass": "footer__container--payment-methods-card"
+        }
+    },
+    "image#footer__container--payment-methods-img6":{
+        "props": {
+            "src": "assets/img/footer-pse.png",
+            "blockClass": "footer__container--payment-methods-card"
+        }
+    },
+    "image#footer__container--payment-methods-img7":{
+        "props": {
+            "src": "assets/img/footer-tdc-alkosto.png",
+            "blockClass": "footer__container--payment-methods-card"
+        }
+    },
+    "image#footer__container--payment-methods-img8":{
+        "props": {
+            "src": "assets/img/footer-efecty.png",
+            "blockClass": "footer__container--payment-methods-card"
+        }
+    },
+    "image#footer__container--payment-methods-img9":{
+        "props": {
+            "src": "assets/img/footer-codensa.png",
+            "blockClass": "footer__container--payment-methods-card"
+        }
+    },
+    "image#footer__container--payment-methods-img10":{
+        "props": {
+            "src": "assets/img/footer-credito20min.png",
+            "blockClass": "footer__container--payment-methods-card"
+        }
+    },
+    "image#footer__container--payment-methods-img11":{
+        "props": {
+            "src": "assets/img/footer-davivienda.png",
+            "blockClass": "footer__container--payment-methods-card"
+        }
+    },
+    "image#footer__container--payment-methods-img12":{
+        "props": {
+            "src": "assets/img/footer-bancolombia-boton.png",
+            "blockClass": "footer__container--payment-methods-card"
+        }
+    },
+    "image#footer__container--payment-methods-img13":{
+        "props": {
+            "src": "assets/img/footer-banco-bogota.png",
+            "blockClass": "footer__container--payment-methods-card"
+        }
+    },
+    "image#footer__container--contact-col-one":{
+        "title": "Imagen de contact - Nosotros",
+        "props": {
+            "src": "assets/img/footer-about-icon.png",
+            "title:": "Nosotros",
+            "blockClass": "footer__image--nosotros",
+            "link":{
+                "url": "#",
+                "newTab": false,
+                "attributeNoFollow": false
+            }
+        }
+    },
+    "image#footer__container--contact-col-two":{
+        "title": "Imagen de contact - Email",
+        "props": {
+            "src": "assets/img/footer-email-icon.png",
+            "title:": "Email",
+            "blockClass": "footer__image--email",
+            "link":{
+                "url": "#",
+                "newTab": false,
+                "attributeNoFollow": false
+            }
+        }
+    },
+    "image#footer__container--contact-col-three":{
+        "title": "Imagen de contact - Telefono",
+        "props": {
+            "src": "assets/img/footer-contact-icon.png",
+            "title:": "Venta Telefónica",
+            "blockClass": "footer__image--ventatelefonica",
+            "link":{
+                "url": "#",
+                "newTab": false,
+                "attributeNoFollow": false
+            }
+        }
+    }
+}

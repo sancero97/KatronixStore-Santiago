@@ -1,0 +1,46 @@
+{
+    "slider-layout#home__section--payment-phone":{
+    "title": "Slider-banks-phone",
+    "props":{
+        "itemsPerPage": {
+            "phone": 1
+        },
+        "showPaginationDots":"never",
+        "showNavigationArrows": "never",
+        "infinite": true,
+        "blockClass": "home__slider-section--phone"       
+    },
+    "children":[ 
+        "flex-layout.row#section__payment1-phone",
+        "flex-layout.row#section__payment2-phone",
+        "flex-layout.row#section__payment3-phone",
+        "flex-layout.row#section__payment4-phone"
+        ] 
+    },
+    "flex-layout.row#section__payment1-phone":{
+        "title": "banks-image24-phone",
+        "children": [
+            "flex-layout.col#section__payment-methods--image-one"
+        ]
+        }, 
+    "flex-layout.row#section__payment2-phone":{
+        "title": "banks-image25-phone",
+        "children": [
+            "flex-layout.col#section__payment-methods--image-two"
+          ]
+        }, 
+    "flex-layout.row#section__payment3-phone":{
+        "title": "banks-image26-phone",
+        "children": [    
+            "flex-layout.col#section__payment-methods--image-three"
+          ]
+        }, 
+    "flex-layout.row#section__payment4-phone":{
+        "title": "banks-image27-phone",
+        "children": [
+            "flex-layout.col#section__payment-methods--image-four"
+          ]
+    }
+}
+
+

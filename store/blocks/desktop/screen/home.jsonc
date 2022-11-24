@@ -21,9 +21,7 @@
           "flex-layout.row#home__section--audio--title",
           "flex-layout.row#home__audio",
           "flex-layout.row#home__section--payment-methods--title",
-          "flex-layout.row#home__section--payment-methods",
-          "modal-trigger#home__modal--children",
-          "modal-trigger#home__modal--event"
+          "flex-layout.row#home__section--payment-methods"
         ]
       }  
 }

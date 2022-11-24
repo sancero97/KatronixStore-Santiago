@@ -1,0 +1,77 @@
+{
+    "flex-layout.row#home__section--one-tablet": {
+        "title": "section one phone",
+        "children": [
+            "flex-layout.col#home__category--one-tablet",
+            "flex-layout.col#home__category--two-tablet",
+            "flex-layout.col#home__category--three-tablet",
+            "flex-layout.col#home__category--four-tablet",
+            "flex-layout.col#home__category--five-tablet"
+        ],
+        "props": {
+            "blockClass": "container__home--section--one-tablet",
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.col#home__category--one-tablet":{
+        "title": "col category one phone",    
+        "children": [
+            "image#home__section--one-department-cellphones",
+            "rich-text#department-one-1",
+            "image#home__section--one-department-video-games",
+            "rich-text#department-one-2"
+            
+        ],
+        "props": {
+            "blockClass": "section__home--deparment-tablet"
+        }
+    },
+    "flex-layout.col#home__category--two-tablet":{
+        "title": "col category one phone",    
+        "children": [
+            "image#home__section--one-department-accessories",
+            "rich-text#department-two-2",
+            "image#home__section--one-department-c-intelligent",
+            "rich-text#department-three-3"
+        ],
+        "props": {
+            "blockClass": "section__home--deparment-tablet"
+        }
+    },
+    "flex-layout.col#home__category--three-tablet":{
+        "title": "col category one phone",    
+        "children": [
+            "image#home__section--one-department-netflix",
+            "rich-text#department-two-3",
+            "image#home__section--one-department-home-appliances", 
+            "rich-text#department-four-1"
+        ],
+        "props": {
+            "blockClass": "section__home--deparment-tablet"
+        }
+    },
+    "flex-layout.col#home__category--four-tablet":{
+        "title": "col category one phone",    
+        "children": [
+            "image#home__section--one-department-computers", 
+            "rich-text#department-two-1",
+            "image#home__section--one-department-smartwach",
+            "rich-text#department-three-2"
+        ],
+        "props": {
+            "blockClass": "section__home--deparment-tablet"
+        }
+    },
+    "flex-layout.col#home__category--five-tablet":{
+        "title": "col category one phone",    
+        "children": [
+            "image#home__section--one-department-cameras",
+            "rich-text#department-one-3",
+            "image#home__section--one-department-tv",
+            "rich-text#department-three-1"
+        ],
+        "props": {
+            "blockClass": "section__home--deparment-tablet"
+        }
+    }
+}

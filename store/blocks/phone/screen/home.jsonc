@@ -1,0 +1,28 @@
+{
+    "responsive-layout.phone#home__info--phone":{
+        "title": "responsive phone",
+        "children":[
+            "slider-layout#home__slider--children-phone",
+            "flex-layout.row#home__section--one-phone--title",
+            "flex-layout.row#home__section--one-phone",
+            "flex-layout.row#home__section--top-offers--title",
+            "slider-layout#home__slider--top-offers",
+            "flex-layout.row#home__section--cell-phone--title",
+            "slider-layout#home__slider--cellphones-phone",
+            "flex-layout.row#home__section--computer--title",
+            "slider-layout#home__slider--computers-phone",
+            "flex-layout.row#home__section--tv--title",
+            "slider-layout#home__slider--tv-phone",
+            "flex-layout.row#home__section--home-appliances--title",
+            "slider-layout#home__slider--home-appliances-phone",
+            "flex-layout.row#home__section--video-game--title",
+            "slider-layout#home__slider--video-games-phone",
+            "flex-layout.row#home__section--smartwatch--title",
+            "slider-layout#home__slider--smartwatch-phone",
+            "flex-layout.row#home__section--audio--title",
+            "slider-layout#home__slider--audio-phone",
+            "flex-layout.row#home__section--payment-methods--title",
+            "slider-layout#home__section--payment-phone"
+        ]
+    }
+}

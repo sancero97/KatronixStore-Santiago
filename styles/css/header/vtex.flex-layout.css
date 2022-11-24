@@ -38,3 +38,10 @@
 .flexRow--category__container-row-cellphones--one{
     margin-left: 23px;
 }
+.headerRowContainer--hearder__middle-mobile{
+    margin-bottom: -24px;
+}
+.flexRowContent--container__drawer{
+    color: #5083b8;
+    margin-bottom:16px;
+}

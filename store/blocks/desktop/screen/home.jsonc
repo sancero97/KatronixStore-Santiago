@@ -3,6 +3,7 @@
         "title": "Componente telefono",
         "children":[
           "flex-layout.row#home__section--one",
+          "search-result-layout.customQuery#home__search",
           "flex-layout.row#home__section--top-offers--title",
           "flex-layout.row#home__top-offers",
           "flex-layout.row#home__section--cell-phone--title",

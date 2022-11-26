@@ -4,7 +4,26 @@
         "children":[
             "slider-layout#home__slider--children",
             "flex-layout.row#home__section--one-phone--title",
-            "flex-layout.row#home__section--one-tablet"
+            "flex-layout.row#home__section--one-tablet",
+            "flex-layout.row#home__section--top-offers--title",
+            "flex-layout.row#home__top-offers",
+            "flex-layout.row#home__section--cell-phone--title",
+            "flex-layout.row#home__cell-phone",
+            "flex-layout.row#home__section--computer--title",
+            "flex-layout.row#home__computer",
+            "flex-layout.row#home__section--tv--title",
+            "flex-layout.row#home__tv",
+            "flex-layout.row#home__section--home-appliances--title",
+            "flex-layout.row#home__home-appliances",
+            "flex-layout.row#home__home-appliances2",
+            "flex-layout.row#home__section--video-game--title",
+            "flex-layout.row#home__video-game",
+            "flex-layout.row#home__section--smartwatch--title",
+            "flex-layout.row#home__smartwatch",
+            "flex-layout.row#home__section--audio--title",
+            "flex-layout.row#home__audio",
+            "flex-layout.row#home__section--payment-methods--title",
+            "flex-layout.row#home__section--payment-methods"
         ]
     }
 }

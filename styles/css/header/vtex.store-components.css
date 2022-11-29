@@ -6,9 +6,10 @@
 
 }
 .searchBarContainer :global(.vtex-input-prefix__group){
-    border: solid 1px  #004691;
+    border: solid 1px #004691;
     border-radius: 3px;
-    margin-right: 78px;
+    margin-right: 6px;
+    margin-left: -88px;
     margin-top: -28px;
 }
 .searchBarContainer ::placeholder{
@@ -21,9 +22,6 @@
     padding: 10px;
     border-radius: 5px;
     border-radius: 4px;
-}
-.logoImage--header__top--logo-mobile{
-    height: 48px;
 }
 .searchBarInnerContainer--header__search--mobile{
     width: 90%;
@@ -64,41 +62,30 @@
 }
 .logoImage--header__top--logo-mobile{
     height: 48px;
-    margin-left: -26px;
-    padding-right: 69px;
+    margin-left: -79px;
+    padding-right: 76px;
     padding-top: 9px;
     padding-bottom: 9px;
-}
-.searchBarInnerContainer--header__search--mobile{
-    transform: translateX(-1px);
-    height: 2px;
-    width: 285px;
 }
 .searchIcon--header__search--mobile{
     color: #e63027;
 }
 .headerRowContentContainer--hearder__mobile{
-    padding: 5px 16px;
     border-bottom: solid 2px #e63027;
 }    
 .autoCompleteOuterContainer--header__search--mobile{
-    padding: 9px;
+    padding-top: 9px;
 }
 .menuIcon--drawer__header--middle{
     margin-bottom: 24px;
     color: red !important;
 }
-@media(min-width:768px){
-    .logoImage--header__top--logo-mobile{
-        height: 48px;
-        margin-left: -60px;
-        padding-right: 69px;
-        padding-top: 18px;
-        padding-bottom: 9px;
-    }
-    .searchBarInnerContainer--header__search--mobile{
-        transform: translateX(-73px);
-        height: 2px;
-        width: 546px;
+@media(min-width:320px){
+
+    .searchBarInnerContainer--header__search--mobile {
+        padding-top: 10px;
+        margin-left: -19px;
+        transform: translateX(20px);
+        height: 40px;
     }
 }

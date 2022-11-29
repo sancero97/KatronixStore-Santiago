@@ -152,6 +152,9 @@
     .paragraph--rich-text_footer_container--contact{
         margin-top: 15px;
     }
+    .paragraph--rich-text_footer_container--contact-title-email{
+        margin-top: -14px;
+    }
 
 @media screen and (min-width: 640px) and (max-width: 1024px){
     .wrapper--footer__container--payment-methods-text{

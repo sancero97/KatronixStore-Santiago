@@ -6,7 +6,8 @@
       "search-bar#header__search--mobile"
     ],
     "props":{
-      "blockClass":"hearder__mobile"
+      "blockClass":"hearder__mobile",
+      "sticky":true
     }
   },
   "logo#header__top--logo-mobile":{

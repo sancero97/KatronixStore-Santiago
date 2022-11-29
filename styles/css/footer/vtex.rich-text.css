@@ -58,12 +58,6 @@
     margin: 1px 80px 1px 80px;
     text-align: justify;
  }
- .link--policies__content-text-2,
- .link--policies__content-text-3,
- .link--policies__content-text-4{
-    text-decoration: none;
-    color: #929292;
- }
  .paragraph--policies__content-text-4{
     margin: 15px 80px 40px 80px;
     font-size: 12px;
@@ -82,12 +76,12 @@
  .container--information-footer{
     height: 30px;
  }
- .link--information-footer{
-    color: #929292;
-    text-decoration: none;
- }
  .paragraph--disclosure-policies-text{
-    transform: translateX(-412px)
+    transform: translateX(-380px);
+    margin-bottom: -41px;
+ }
+ .paragraph--information-footer{
+    margin-top: 30px;
  }
  
  @media screen and (max-width: 639px){   
@@ -101,9 +95,19 @@
     }
     .paragraph--disclosure-policies-text{
         transform: translateX(-2px);
+        padding-left: 28px;
     } 
     .paragraph--information-title{
         transform: translate(-15px, -20px)
+    }
+    .paragraph--rich-text_footer_container--contact-business-name,
+    .paragraph--rich-text_footer_container--contact-email,
+    .paragraph--rich-text_footer_container--contact{
+        text-align: center;
+        font-size: 10px;
+    }
+    .paragraph--rich-text_footer_container--contact{
+        margin-top: 10px;
     }
 }
 
@@ -119,7 +123,7 @@
     }
     .paragraph--policies__content-text{
         margin-left: 42px;
-        margin-top: -10px;
+        margin-top: 21px;
     }
     .paragraph--policies__content-text-3{
         margin: 1px 42px 1px 42px;
@@ -139,7 +143,15 @@
     .container--policies__content-text{
         margin-top: 40px;
     }
-}
+    .paragraph--rich-text_footer_container--contact-business-name,
+    .paragraph--rich-text_footer_container--contact-email,
+    .paragraph--rich-text_footer_container--contact{
+        text-align: center;
+        font-size: 12px;
+    }
+    .paragraph--rich-text_footer_container--contact{
+        margin-top: 15px;
+    }
 
 @media screen and (min-width: 640px) and (max-width: 1024px){
     .wrapper--footer__container--payment-methods-text{

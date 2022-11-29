@@ -69,11 +69,6 @@
     padding-top: 9px;
     padding-bottom: 9px;
 }
-.searchBarInnerContainer--header__search--mobile{
-    transform: translateX(-1px);
-    height: 2px;
-    width: 285px;
-}
 .searchIcon--header__search--mobile{
     color: #e63027;
 }

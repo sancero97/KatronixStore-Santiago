@@ -1,0 +1,21 @@
+{
+    "store.search#department":{
+        "blocks": [
+          "search-result-layout#department"
+        ],
+        "props":{
+          "context":{
+            "skusFilter":"FIRST_AVAILABLE",
+            "simulationBehavior":"default"
+          }
+        }
+      },
+      "search-result-layout#department":{
+        "title": "Departments",
+        "blocks":[
+          "search-result-layout.desktop#desktop__department",
+          "search-result-layout.mobile#mobile__department",
+          "search-not-found-layout"
+        ]
+      }
+  }

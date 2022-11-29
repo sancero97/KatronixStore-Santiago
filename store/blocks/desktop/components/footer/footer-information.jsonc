@@ -12,9 +12,20 @@
           "colSizing":"auto"
         }
       },
+      "flex-layout.row#footer__container--information-title1":{
+        "title": "Section 3 information",
+        "children":[
+
+          "rich-text#footer__container--information-col-one-title"
+        ],
+        "props":{
+          "blockClass": "footer__container--information-title1",
+          "colSizing":"auto"
+        }
+      },
       "flex-layout.col#footer__container--information-col-one":{
          "children":[
-          "rich-text#footer__container--information-col-one-title",
+          "flex-layout.row#footer__container--information-title1",
           "rich-text#footer__container--information-col-one-link1",
           "rich-text#footer__container--information-col-one-link2",
           "rich-text#footer__container--information-col-one-link3",
@@ -22,8 +33,11 @@
           "rich-text#footer__container--information-col-one-link5",
           "rich-text#footer__container--information-col-one-link6",
           "rich-text#footer__container--information-col-one-link7"
-    
-         ]
+         ],
+         "props":{
+          "blockClass": "footer__container--information-col",
+          "colSizing":"auto"
+        }
       },
       "rich-text#footer__container--information-col-one-title":{
         "props":{
@@ -81,8 +95,11 @@
          "rich-text#footer__container--information-col-two-link3",
          "rich-text#footer__container--information-col-two-link4",
          "rich-text#footer__container--information-col-two-link5"
-    
-        ]
+        ],
+        "props":{
+         "blockClass": "footer__container--information-col",
+         "colSizing":"auto"
+       }
      },
      "rich-text#footer__container--information-col-two-title":{
        "props":{
@@ -125,8 +142,11 @@
        "rich-text#footer__container--information-col-three-title",
        "rich-text#footer__container--information-col-three-link1",
        "rich-text#footer__container--information-col-three-link2"
-    
-      ]
+      ],
+         "props":{
+          "blockClass": "footer__container--information-col",
+          "colSizing":"auto"
+        }
     },
     "rich-text#footer__container--information-col-three-title":{
      "props":{
@@ -136,7 +156,7 @@
     },
     "rich-text#footer__container--information-col-three-link1":{
      "props":{
-       "text":"¿Extiende tu garantía",
+       "text":"Extiende tu garantía",
        "blockClass":"information-footer"
      }
     },
@@ -160,7 +180,11 @@
        "rich-text#footer__container--information-col-four-link9",
        "rich-text#footer__container--information-col-four-link10",
        "rich-text#footer__container--information-col-four-link11"
-      ]
+      ],
+         "props":{
+          "blockClass": "footer__container--information-col",
+          "colSizing":"auto"
+        }
     },
     "rich-text#footer__container--information-col-four-title":{
      "props":{

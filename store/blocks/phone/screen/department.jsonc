@@ -1,0 +1,8 @@
+{
+    "responsive-layout.phone#phone__department":{
+        "children":[
+          "filter-navigator.v3",
+          "search-content#results__content--products"
+        ]
+      }
+}

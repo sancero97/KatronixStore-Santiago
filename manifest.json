@@ -46,15 +46,24 @@
     "vtex.breadcrumb": "1.x",
     "vtex.sticky-layout": "0.x",
     "vtex.add-to-cart-button": "0.x",
+    "vtex.modal-layout": "0.x",
+    "vtex.search": "1.x",
+    "vtex.b2b-organizations": "1.x",
     "vtex.store-link": "0.x",
+    "vtex.css-handles": "0.x",
+    "vtex.product-list": "0.x",
     "vtex.store-icons": "0.x",
     "vtex.store-image": "0.x",
-    "vtex.modal-layout": "0.x",
-    "vtex.search": "2.x",
-    "vtex.product-list": "0.x",
     "vtex.disclosure-layout": "1.x",
     "vtex.product-price": "1.x",
-    "vtex.checkout-summary": "0.x"
+    "vtex.checkout-summary": "0.x",
+    "vtex.overlay-layout": "0.x",
+    "vtex.product-highlights": "2.x"
+  },
+  "peerDependencies": {
+    "vtex.reviews-and-ratings": "3.x",
+    "vtex.wish-list": "1.x",
+    "vtex.questions-and-answers": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

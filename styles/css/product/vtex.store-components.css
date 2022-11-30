@@ -1,0 +1,15 @@
+.productImageTag--main{
+    height: 300px !important;
+}
+.price_sellingPriceContainer{
+    margin-bottom: 90px;
+}
+.productDescriptionContainer{
+    text-align: center;
+}
+.imageElement--pdp__img{
+    width: 710px;
+    /* display: flex; */
+    /* justify-content: center; */
+    margin-left: 115px;
+}

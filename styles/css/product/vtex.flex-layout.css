@@ -1,0 +1,11 @@
+.flexRowContent--product_dropdown_add-to-cart{
+    justify-content: center !important;
+}
+.flexRow--product_dropdown_add-to-cart{
+    margin-right: 82px;
+    margin-top: -73px;
+}
+.flexCol--container__add-to-cart-price{
+    box-shadow: -2px 1px 10px 0px rgb(107 129 137);
+    
+}

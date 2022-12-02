@@ -1,0 +1,26 @@
+.strong--product-title-store{
+    color: #444;
+    font-size: 18px;
+}
+.paragraph--product__pdp-text-tienda{
+    color: #5c5c5c;
+    font-size: 16px;
+    margin-left: -99px;
+}
+.paragraph--product__pdp-text-free{
+    right: 0;
+    background: #004691;
+    color: #fff;
+    padding: 4px;
+    font-size: 14px;
+    line-height: 16px;
+}
+.paragraph--product__pdp-text-options{
+    margin-left: -94px;
+}
+.strong--product__text--info-title{
+    font-weight: 600;
+    color: #004691;
+    font-size: 20px;
+    margin-left: 120px;
+}

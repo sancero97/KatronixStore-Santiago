@@ -8,8 +8,18 @@
     text-align: center;
 }
 .imageElement--pdp__img{
-    width: 710px;
-    /* display: flex; */
-    /* justify-content: center; */
-    margin-left: 115px;
+    width: 826px;
+    margin-left: 23px;
 }
+.imageElement--product__pdp-icon1{
+    width: 24px;
+    margin-bottom: -21px;
+}
+.imageElement--product__pdp-icon2{
+    margin-bottom: -27px;
+}
+.imageElement--product__img-info{
+    width: 696px;
+    margin-left: 85px;
+}
+

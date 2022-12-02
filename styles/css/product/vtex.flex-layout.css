@@ -1,11 +1,58 @@
-.flexRowContent--product_dropdown_add-to-cart{
-    justify-content: center !important;
-}
 .flexRow--product_dropdown_add-to-cart{
-    margin-right: 82px;
-    margin-top: -73px;
+    margin-right: 46px;
+    margin-top: -65px;
+    padding-bottom: 20px;
 }
 .flexCol--container__add-to-cart-price{
-    box-shadow: -2px 1px 10px 0px rgb(107 129 137);
+    box-shadow: 0 0 10px rgb(0 0 0 / 15%);
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-top: 21px;
     
+}
+.flexCol--container_product_info--data{
+    overflow-x: visible;
+    overflow-y: scroll;
+    padding: 23px 8px;
+    margin: 13px 7px;
+    max-height: calc(129vh - 204px);
+    scrollbar-width: thin;
+}
+.flexCol--container_product_info--data::-webkit-scrollbar-track{
+    background-clip: padding-box;
+}
+.flexCol--container_product_info--data::-webkit-scrollbar{
+    background-color: #fefefe;
+    width: 5px;
+    height: 5px;
+    margin-right: 10px;
+}
+.flexCol--container_product_info--data::-webkit-scrollbar-thumb{
+    background: #c1c1c1e8;
+}
+.dropdown__container{
+    min-height: 43px;
+    text-align: center;
+    text-align-last: center;
+}
+.flexRowContent--header__image-text-rastreo{
+    margin-top: -21px;
+}
+
+
+.flexRowContent--product_dropdown_add-to-cart{
+    justify-content: center;
+}
+.flexRowContent--product_dropdown_add-to-cart :first-child{
+    background-color: #E63027; 
+    border-color: #E63027;
+    color: white;
+    padding-top: 1px;
+    border-radius: 0%;
+} 
+.flexRowContent--product_dropdown_add-to-cart:first-child{
+    width: 10%;
+}
+.flexRowContent--product_dropdown_add-to-cart:last-child{
+    width: 90%;
 }

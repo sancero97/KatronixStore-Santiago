@@ -11,7 +11,9 @@
     "children": [
         "flex-layout.row#product__breadcrumb",
         "flex-layout.row#product__info",
-        "flex-layout.row#product__tabs"
+        "flex-layout.row#product__tabs",
+        "flex-layout.row#home__section--top-offers--title",
+        "search-result-layout.customQuery#home__search"
     ],
     "props": {
       "blockClass": "product-page__layout--col"
@@ -105,6 +107,7 @@
           "product-price",
           "flex-layout.row#product_dropdown_add-to-cart",
           "rich-text#product-title1-store",
+          "link#product__options",
           "flex-layout.row#product__pdp-icon1",
           "flex-layout.row#product__pdp-icon2",
           "rich-text#product-title2-store",
@@ -113,7 +116,8 @@
         ],
         "props":{
           "blockClass":"container__add-to-cart-price",
-          "colSizing":"auto"
+          "colSizing":"auto",
+          "preserveLayoutOnMobile": true
         }
       },
       "rich-text#product-title1-store":{
@@ -121,6 +125,13 @@
           "props":{
               "text":"**Opciones de entrega**",
               "blockClass":"product-title-store"   
+          }
+      },
+      "link#product__options":{
+        "title": "options",
+        "props":{
+          "label": "Más información sobre métodos de envío",
+          "blockClass":"product__pdp-text-options"   
           }
       },
       "flex-layout.row#product__pdp-icon1":{
@@ -167,7 +178,7 @@
             "rich-text#product__collect2"
         ],
         "props": {
-            "blockClass": "header__image-text-rastreo"
+            "blockClass": "product__image-text-rastreo"
         }
       },
       "image#product__pdp-icon2":{

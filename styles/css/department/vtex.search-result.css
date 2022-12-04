@@ -1,0 +1,45 @@
+.filterMessage {
+    font-weight: 700;
+    font-size: 27px;
+  }
+  .galleryLayoutOptionButton--grid__result--gallerySwitcher {
+    background-color: #f0f0f0;
+     height: 2rem;
+     padding: 0.5rem;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .galleryLayoutOptionButton--listProduct__result--gallerySwitcher {
+    height: 2rem;
+    padding: 0.5rem;
+    background-color: #f0f0f0;
+    border-radius: 0 5px 5px 0;
+    -webkit-border-radius: 0 5px 5px 0;
+    -moz-border-radius: 0 5px 5px 0;
+    -ms-border-radius: 0 5px 5px 0;
+    -o-border-radius: 0 5px 5px 0;
+  }
+  
+  .galleryLayoutOptionButton--selected {
+    background-color: #004691;
+    color: white
+  }
+  .galleryLayoutOptionButton--selected :global(.vtex-rich-text-0-x-paragraph--gridlisttitle){
+    color: white;
+  }
+  .galleryItem--result-gallery--grid{
+    cursor: pointer;
+    display: block;
+    width: calc(25% - 16px);
+    margin: 8px;
+    border: 1px solid #bfbfbf !important;
+    margin-bottom: 29px;
+  }
+  .galleryItem--result-gallery--list{
+    cursor: pointer;
+    display: block;
+    width: calc(25% - 16px);
+    margin: 8px;
+    border: 1px solid #bfbfbf !important;
+    margin-bottom: 29px;
+  }

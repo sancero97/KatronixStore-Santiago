@@ -1,9 +1,7 @@
 {
     "responsive-layout.desktop#product__page--desktop": {
     "children": [
-      "flex-layout.row#product__page--desktop",
-      "flex-layout.row#home__section--top-offers--title",
-      "search-result-layout.customQuery#home__search"
+      "flex-layout.row#product__page--desktop"
     ]
   }
 }

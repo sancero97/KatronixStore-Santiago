@@ -44,6 +44,7 @@
 }
 .price_sellingPrice{
     color: #e63027;
+    font-size: 25px;
 }
 @media screen and (min-width:320px) and (max-width:640px) {
     .imageElement--home__image-top-offers{

@@ -5,8 +5,6 @@
     background-color: #004691;
     border-top: solid 3px  #e63027;
     height: 42px;
-    margin: 0%;
-    padding: 0%;
 }
 .headerRowContentContainer--hearder__mobile{
     padding: 5px 16px;
@@ -24,7 +22,7 @@
     box-shadow: 0 3px 4px rgb(0 0 0 / 33%);
 }
 .headerRowContainer--hearder__middle-mobile{
-    margin-bottom: -27px;
+    margin-bottom: -28px;
     display: flex;
     justify-content: center;
 }

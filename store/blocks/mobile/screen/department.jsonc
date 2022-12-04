@@ -1,9 +1,0 @@
-{
-    "search-result-layout.mobile#mobile__department":{
-        "children":[
-            "flex-layout.row#department__breadcrumb",
-            "responsive-layout.tablet#tablet__department",
-            "responsive-layout.phone#phone__department"
-        ]
-      }
-}

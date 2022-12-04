@@ -2,9 +2,8 @@
     margin-top: -21px;
 }
 .brandName {
-    color: #000;
-    font-size: .8125rem;
-    margin-left: 2px;
+    font-size: 17px;
+    margin-left: -1px;
 }
 .priceContainer {
     margin-top: -24px;
@@ -17,4 +16,5 @@
     height: 326px;
     object-fit: contain;
     max-height: unset;
+    margin-top: -21px;
 }

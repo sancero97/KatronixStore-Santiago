@@ -42,6 +42,10 @@
 .imageElement--home_section_payment-methods--image{
     margin-left: 81px;
 }
+.price_sellingPrice{
+    color: #e63027;
+    font-size: 25px;
+}
 @media screen and (min-width:320px) and (max-width:640px) {
     .imageElement--home__image-top-offers{
         width: 280px;

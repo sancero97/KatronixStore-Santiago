@@ -1,3 +1,73 @@
-.paragraph--deparment__one--title{
-    color: brown;
-}
+.flexCol--results__text {
+    padding: 0 5rem;
+  }
+  
+  .flexColChild--result__filter--productCount {
+    display: flex;
+  }
+  .flexColChild--results__text {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .flexRowContent--results__products
+    :global(.vtex-product-price-1-x-sellingPrice) {
+    text-align: left;
+    font-size: 27px;
+    color: #c41616;
+    font-weight: 700;
+    padding: 1rem 0;
+  }
+  
+  .flexRowContent--results__products
+    :global(.vtex-product-identifier-0-x-product-identifier) {
+    text-align: left;
+  }
+  
+  .flexRowContent--results__products
+    :global(.vtex-product-summary-2-x-description) {
+    list-style-type: disc;
+    list-style-position: inside;
+    white-space: pre;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+    color: #6b8188;
+    display: list-item;
+  }
+  
+  .flexCol--result__filter--gallerySwitcher {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .flexColChild--result__filter--gallerySwitcher :global(.vtex-search-result-3-x-galleryLayoutSwitcher) {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Grid list desktop */
+  
+  .flexColChild--gridlist-descript {
+    display: flex;
+    height: auto !important;
+  }
+  
+  .flexCol--gridlist-price {
+    display: flex;
+    align-items: flex-start;
+  }
+  .flexColChild--gridlist-price {
+    width: 100%;
+    padding: 0.5rem 0 0 0;
+    text-align: left;
+  }
+  
+  .flexCol--gridlist-price :global(.vtex-button) {
+    background-color: red;
+    margin-top: -42px !important;
+  }
+ 

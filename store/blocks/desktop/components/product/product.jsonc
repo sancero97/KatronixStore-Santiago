@@ -1,4 +1,24 @@
 {
+  "flex-layout.row#product__page--desktop": {
+    "title": "row-product__page--desktop",
+    "children": ["flex-layout.col#product__page--desktop"],
+    "props": {
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#product__page--desktop": {
+    "title": "col-product__page--desktop",
+    "children": [
+        "flex-layout.row#product__breadcrumb",
+        "flex-layout.row#product__info",
+        "flex-layout.row#product__tabs",
+        "flex-layout.row#home__section--top-offers--title",
+        "search-result-layout.customQuery#home__search"
+    ],
+    "props": {
+      "blockClass": "product-page__layout--col"
+    }
+  },
     "flex-layout.row#product__breadcrumb":{
       "title": "Miga de pan de producto",
       "children":[
@@ -26,13 +46,42 @@
         "children":[
          "product-images#product__info--image",
          "product-description",
-         "image#img1-pdp"
+         "image#pdp__img1",
+         "rich-text#product__text-info",
+         "image#product__img-info"
         ],
         "props":{
-          "width": "70%",
+          "width": "65%",
           "blockClass":"container_product_info--image"
         }
       },
+      "rich-text#product__text-info":{
+        "title": "product__text-info",
+        "props":{
+            "text":"**Más información del producto**",
+            "blockClass":"product__text--info-title"
+        }
+      },
+      "image#product__img-info":{
+        "title": "offer--image",
+        "props": {
+          "src": "https://media.aws.alkosto.com/ymarketingcolcomercio/Alkosto/tv/contenido/tcl/6921732879686_50P725/01.jpg",
+          "blockClass": "product__img-info",
+          "link": {
+            "url": "/"
+          }
+        }
+    },
+      "image#pdp__img1":{
+        "title": "offer--image",
+        "props": {
+          "src": "https://media.aws.alkosto.com/ymarketingcolcomercio/Alkosto/tv/contenido/samsung/QN85B/TV_NEOQLED_QN85BA_head.jpg",
+          "blockClass": "pdp__img",
+          "link": {
+            "url": "/"
+          }
+        }
+    },
       "product-images#product__info--image":{
         "title": "Imágenes",
         "props":{
@@ -43,15 +92,199 @@
       "flex-layout.col#product__info--data":{
         "title": "Data de Producto",
         "children":[
-          "share",
           "vtex.store-components:product-name",
+          "share",
           "product-rating-inline",
-          "product-price"
+          "flex-layout.col#add-to-cart-price"
         ],
         "props":{
-          "width": "30%",
+          "width": "35%",
           "blockClass":"container_product_info--data"
         }
+      },
+      "flex-layout.col#add-to-cart-price":{
+        "children":[
+          "product-price",
+          "flex-layout.row#product_dropdown_add-to-cart",
+          "rich-text#product-title1-store",
+          "link#product__options",
+          "flex-layout.row#product__pdp-icon1",
+          "flex-layout.row#product__pdp-icon2",
+          "rich-text#product-title2-store",
+          "flex-layout.row#product__pdp-icon",
+          "flex-layout.row#product_img-pdpt"
+        ],
+        "props":{
+          "blockClass":"container__add-to-cart-price",
+          "colSizing":"auto",
+          "preserveLayoutOnMobile": true
+        }
+      },
+      "rich-text#product-title1-store":{
+        "title": "title store",
+          "props":{
+              "text":"**Opciones de entrega**",
+              "blockClass":"product-title-store"   
+          }
+      },
+      "link#product__options":{
+        "title": "options",
+        "props":{
+          "label": "Más información sobre métodos de envío",
+          "blockClass":"product__pdp-text-options"   
+          }
+      },
+      "flex-layout.row#product__pdp-icon1":{
+        "title": "rastreo",
+        "children": [
+            "image#product__pdp-icon1",
+            "rich-text#product__shipment1",
+            "rich-text#product__shipment2"
+        ],
+        "props": {
+            "blockClass": "product__pdp-text-options"
+        }
+      },
+      "image#product__pdp-icon1":{
+        "title": "image pdp",
+        "props": {
+            "src": "assets/icon/pdpicon2.jpeg",
+            "width": 20,
+            "blockClass": "product__pdp-icon1",
+            "link": {
+              "url": "/"
+            }
+          }
+      },
+      "rich-text#product__shipment1":{
+        "title": "product__shipment1",
+          "props":{
+          "text": "Envío a tu dirección",
+          "blockClass":"product__pdp-text-tienda"   
+          }
+      },
+      "rich-text#product__shipment2":{
+        "title": "product__shipment1",
+          "props":{
+          "text": "Gratis",
+          "blockClass":"product__pdp-text-free"   
+          }
+      },
+      "flex-layout.row#product__pdp-icon2":{
+        "title": "rastreo",
+        "children": [
+            "image#product__pdp-icon2",
+            "rich-text#product__collect1",
+            "rich-text#product__collect2"
+        ],
+        "props": {
+            "blockClass": "product__image-text-rastreo"
+        }
+      },
+      "image#product__pdp-icon2":{
+        "title": "image pdp",
+        "props": {
+            "src": "assets/icon/pdpicon.jpeg",
+            "width": 20,
+            "blockClass": "product__pdp-icon2",
+            "link": {
+              "url": "/"
+            }
+          }
+      },
+      "rich-text#product__collect1":{
+        "title": "product__shipment1",
+          "props":{
+          "text": "Recoge en tienda",
+          "blockClass":"product__pdp-text-options"   
+          }
+      },
+      "rich-text#product__collect2":{
+        "title": "product__shipment1",
+          "props":{
+          "text": "Gratis",
+          "blockClass":"product__pdp-text-free"   
+          }
+      },
+      "rich-text#product-title2-store":{
+        "title": "title store",
+          "props":{
+              "text":"**Disponibilidad en tienda**",
+              "blockClass":"product-title-store"   
+          }
+      },
+      "flex-layout.row#product__pdp-icon":{
+        "title": "rastreo",
+        "children": [
+            "image#product__pdp-icon",
+            "link#tienda"
+        ],
+        "props": {
+            "blockClass": "product__image-text-rastreo"
+        }
+      },
+      "image#product__pdp-icon":{
+        "title": "image pdp",
+        "props": {
+            "src": "assets/icon/pdpicon.jpeg",
+            "width": 20,
+            "blockClass": "product__pdp-icon3",
+            "link": {
+              "url": "/"
+            }
+          }
+      },
+      "link#tienda":{
+        "title": "tienda",
+        "props":{
+          "label": "Seleccionar tienda",
+          "blockClass":"product__pdp-text-tienda"   
+          }
+      },
+      "flex-layout.row#product_img-pdpt":{
+        "children":[
+          "image#img-pdp"
+        ],
+        "props":{
+          "blockClass":"container-img-pdp",
+          "colSizing":"auto"
+        }
+      },
+      "image#img-pdp":{
+        "title": "img-pdp",
+        "props": {
+          "src": "assets/img/imgpdp.jpeg",
+          "blockClass": "img-pdp",
+          "link": {
+            "url": "/"
+            }
+        }
+      },
+      "flex-layout.row#product_dropdown_add-to-cart":{
+        "children":[
+          "flex-layout.col#selector__pdp",
+          "add-to-cart-button"
+        ],
+        "props":{
+          "blockClass":"product_dropdown_add-to-cart",
+          "colSizing":"auto"
+        }
+      },
+      "flex-layout.col#selector__pdp":{
+        "children":[
+          "product-quantity#selector__pdp"
+        ],
+        "props":{
+          "blockClass":"product_selector__pdp",
+          "colSizing":"auto"
+        }
+      },
+      "product-quantity#selector__pdp":{ 
+            "props":{
+              "selectorType": "dropdown",
+              "showLabel": false,
+              "blockClass": "product__quantity"
+            }
       },
       "image#img1-pdp":{
         "title": "banner-department",

@@ -1,0 +1,28 @@
+.paragraph--results__text-title,
+.paragraph--results__title-hidden {
+    font-weight: 700;
+    font-size: 1.75rem;
+    text-transform: none;
+    letter-spacing: 0;
+}
+
+.paragraph--results__text-hidden,
+.paragraph--results__text-content {
+    font-size: 14px;
+}
+.paragraph--quick-view__trigger {
+    text-decoration: underline;
+    font-size: 14px;
+}
+.wrapper--gridlisttitle {
+    color: black;
+    padding-left: 0.5rem;
+}
+.strong--department__title-epcs{
+    color: #004691;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    margin-bottom: 8px;
+    padding-left: 16px;
+}

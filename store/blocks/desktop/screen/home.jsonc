@@ -2,6 +2,7 @@
     "responsive-layout.desktop#home__info--desktop":{
         "title": "Componente telefono",
         "children":[
+          "whatsapp-button",
           "flex-layout.row#home__section--one",
           "flex-layout.row#home__section--top-offers--title",
           "search-result-layout.customQuery#home__search",
@@ -24,5 +25,5 @@
           "flex-layout.row#home__section--payment-methods--title",
           "flex-layout.row#home__section--payment-methods"
         ]
-      }  
-}
+      }
+    }

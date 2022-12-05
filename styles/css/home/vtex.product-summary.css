@@ -2,8 +2,7 @@
     margin-top: -21px;
 }
 .brandName {
-    font-size: 17px;
-    margin-left: -1px;
+    font-size: 13px;
 }
 .priceContainer {
     margin-top: -24px;
@@ -17,4 +16,8 @@
     object-fit: contain;
     max-height: unset;
     margin-top: -21px;
+}
+.element--products__list--shelf{
+    margin-left: 10px;
+    margin-right: 10px;
 }

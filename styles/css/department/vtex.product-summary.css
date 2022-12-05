@@ -39,3 +39,11 @@
     margin-top: 6px;
     margin-right: 36px;
 }
+@media screen and (min-width:320px) and (max-width:640px) {
+    .productBrand--summary-name-plp{
+      font-size: 12px !important;
+    }
+    .imageNormal{
+        margin-top: 0px !important;
+    }
+}

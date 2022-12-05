@@ -1,0 +1,7 @@
+{
+    "responsive-layout.phone#phone__department":{
+        "children":[
+            "flex-layout.row#category__results"
+        ]
+      }
+}

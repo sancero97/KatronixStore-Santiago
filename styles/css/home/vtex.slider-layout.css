@@ -10,3 +10,9 @@
 .sliderLayoutContainer--home__slider--sections-phone{
     overflow: auto;
 }
+.bullet__item--link{
+    text-decoration: none;
+    text-align: center;
+    color:  #e54318;
+    font-weight: 400;
+ }

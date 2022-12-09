@@ -99,14 +99,12 @@
           "blockClass":"modal__row"
       }
     }
-      /*"login": {
-        "props": {
-          "emailAndPasswordTitle": "LOG-IN",
-          "accessCodeTitle": "Acess Code LOG-IN",
-          "emailPlaceholder": "e-mail",
-          "passwordPlaceholder": "password",
-          "showPasswordVerificationIntoTooltip": true,
-          "showIconProfile": true
-        }
-    }*/
+    /*"flex-layout.row#header__middle--login-content": {
+      "children": [
+        "login-content"
+    ],
+    "props":{
+        "blockClass":"modal__row"
+    }
+  }*/
 }

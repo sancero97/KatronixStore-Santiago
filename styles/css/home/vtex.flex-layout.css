@@ -22,8 +22,8 @@
     margin-right: 8px;
     margin-left: -18PX;
 }
-.flexRow--container__home--section--one-tablet{
-    margin-right: 128px;
-
+.flexRow--home__section--one-slider-departments{
+    width: 100%;
+    padding-right: 1rem;
 }
 

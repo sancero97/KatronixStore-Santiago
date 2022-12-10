@@ -2,19 +2,21 @@
     "responsive-layout.desktop#home__info--desktop":{
         "title": "Componente telefono",
         "children":[
+          "whatsapp-button",
           "flex-layout.row#home__section--one",
-          "search-result-layout.customQuery#home__search",
           "flex-layout.row#home__section--top-offers--title",
-          "flex-layout.row#home__top-offers",
+          "search-result-layout.customQuery#home__search",
+          //"flex-layout.row#home__top-offers",
           "flex-layout.row#home__section--cell-phone--title",
-          "flex-layout.row#home__cell-phone",
+          "flex-layout.row#bullet",
+          //"flex-layout.row#home__cell-phone",
           "flex-layout.row#home__section--computer--title",
           "flex-layout.row#home__computer",
           "flex-layout.row#home__section--tv--title",
           "flex-layout.row#home__tv",
           "flex-layout.row#home__section--home-appliances--title",
           "flex-layout.row#home__home-appliances",
-          "flex-layout.row#home__home-appliances2",
+          //"flex-layout.row#home__home-appliances2",
           "flex-layout.row#home__section--video-game--title",
           "flex-layout.row#home__video-game",
           "flex-layout.row#home__section--smartwatch--title",
@@ -24,5 +26,5 @@
           "flex-layout.row#home__section--payment-methods--title",
           "flex-layout.row#home__section--payment-methods"
         ]
-      }  
-}
+      }
+    }

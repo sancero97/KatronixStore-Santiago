@@ -2,11 +2,13 @@
     "responsive-layout.tablet#home__info--tablet":{
         "title":"responsive tablet",
         "children":[
+            "whatsapp-button",
             "slider-layout#home__slider--children",
             "flex-layout.row#home__section--one-phone--title",
             "flex-layout.row#home__section--one-tablet",
             "flex-layout.row#home__section--top-offers--title",
-            "flex-layout.row#home__top-offers",
+            "search-result-layout.customQuery#home__search",
+            //"flex-layout.row#home__top-offers",
             "flex-layout.row#home__section--cell-phone--title",
             "flex-layout.row#home__cell-phone",
             "flex-layout.row#home__section--computer--title",

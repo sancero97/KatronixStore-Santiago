@@ -9,5 +9,59 @@
       "children":[
         "breadcrumb"
       ]
+    },
+    "flex-layout.row#product__page--mobile": {
+      "title": "row-product__page--mobile",
+      "children": [
+        "flex-layout.col#product__page--mobile"
+      ],
+      "props": {
+        "fullWidth": true,
+        "preserveLayoutOnMobile": true
+      }
+    },
+    "flex-layout.col#product__page--mobile": {
+      "title": "col-product__page--mobile",
+      "children": [
+        "breadcrumb",
+        "product-images#product__info--image",
+        "vtex.store-components:product-name",
+        "share",
+        "product-rating-inline",
+        "product-price",
+        "flex-layout.row#product__add-to-cart",
+        "rich-text#product-title1-store",
+        "link#product__options",
+        "flex-layout.row#product__pdp-icon1",
+        "flex-layout.row#product__pdp-icon2",
+        "flex-layout.row#product__breadcrumb--mobile",
+        "product-description",
+        "product-reviews",
+        "product-description",
+        "rich-text#product__text-info",
+        "image#product__img-info-mobile",
+        "product-specifications",
+        "flex-layout.row#home__section--top-offers--title",
+         "search-result-layout.customQuery#home__search"
+      ]
+    },
+    "image#product__img-info-mobile":{
+      "title": "info-mobile",
+      "props": {
+        "src": "https://media.aws.alkosto.com/ymarketingcolcomercio/Alkosto/tv/contenido/kalley/7705946476515_TV%2042/hey-google.png",
+        "blockClass": "pdp__img-mobile",
+        "link": {
+          "url": "/"
+        }
+      }
+    },
+    "flex-layout.row#product__add-to-cart":{
+      "children":[
+        "add-to-cart-button"
+      ],
+      "props":{
+        "blockClass":"product_dropdown_add-to-cart",
+        "colSizing":"auto"
+      }
     }
   }

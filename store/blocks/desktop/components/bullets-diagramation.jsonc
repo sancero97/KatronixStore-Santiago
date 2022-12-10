@@ -1,0 +1,83 @@
+{
+    "flex-layout.row#bullet":{
+    "children": [
+      "list-context.bullet-group"
+    ]
+  },
+    "list-context.bullet-group":{
+      "title": "Mi contexto de lista de Bullets",
+      "children":["slider-layout#bullet-group"],
+      "props":{
+        "bullets":[
+      {
+        "image": "assets/img/cel-galaxya03.jpg",
+        "titleBullet":"Samsung",
+        "Link": {
+            "url":"/"
+        }
+      },
+      {
+         "image": "assets/img/cel-galaxya03s.jpg",
+         "titleBullet":"Iphone",
+         "Link": {
+            "url":"/"
+        }
+      },
+      {
+        "image": "assets/img/cel-motog60.jpg",
+        "width": 150,
+        "titleBullet":"Alcatel",
+        "Link": {
+          "url":"/"
+        }
+      },
+      {
+        "image": "assets/img/cel-moto-g60.jpg",
+        "titleBullet":"Motorola",
+        "Link": {
+            "url":"/"
+          }
+      },
+      {
+        "image": "assets/img/cel-redmi10.jpg",
+        "titleBullet":"Nokia",
+        "Link": {
+            "url":"/"
+        }
+      },
+      {
+        "image": "assets/img/cel-redmi-10.jpg",
+        "titleBullet":"Oppo",
+        "Link": {
+          "url":"/"
+        }
+      },
+      {
+        "image": "assets/img/cel-motog60.jpg",
+        "titleBullet":"Poco",
+        "Link": {
+          "url":"/"
+        }
+      },
+      {
+        "image": "assets/img/cel-galaxya03s.jpg",
+        "titleBullet":"Vivo",
+        "Link": {
+          "url":"/"
+        }
+      }
+    ]
+  }
+},
+"slider-layout#bullet-group":{
+  "title": "slider-bullet-group",
+  "props": {
+    "itemsPerPage": {
+      "desktop": 5,
+      "tablet": 5,
+      "phone": 5
+    },
+  "infinite": true
+        }
+    }
+}

@@ -12,6 +12,7 @@
         ]
       }, 
       "rich-text#policies":{
+        "title": "disclosure-policies-text",
         "props":{
           "text": "Términos y Condiciones Ofertas de Medios de pago",
           "blockClass": "disclosure-policies-text"
@@ -32,6 +33,7 @@
         }
       },
       "flex-layout.row#policies__content2":{
+        "title": "policies__content2",
         "children":[
           "flex-layout.col#policies__content2--image",
           "flex-layout.col#policies__content2--text"
@@ -42,6 +44,7 @@
         }
       },
       "flex-layout.col#policies__content2--image":{
+        "title": "policies__content2--image",
         "children":[
           "image#footer__container--policies"
         ],
@@ -50,6 +53,7 @@
         }
       },
       "flex-layout.col#policies__content2--text":{
+        "title": "policies__content2--text",
         "children":[
           "rich-text#policies__content2"
         ],

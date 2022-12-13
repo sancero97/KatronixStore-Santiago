@@ -29,6 +29,9 @@
             "blockClass":"header__search"
         }
     },
+    "autocomplete-result-list.v2": {
+      "blocks": ["product-summary"]
+    },
     "flex-layout.row#login__section--header":{
         "title": "row-login-section-header",
         "children":[

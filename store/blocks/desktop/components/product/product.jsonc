@@ -95,11 +95,37 @@
           "vtex.store-components:product-name",
           "share",
           "product-rating-inline",
-          "flex-layout.col#add-to-cart-price"
+          "flex-layout.col#add-to-cart-price",
+          "modal-trigger#add-to-cart-info"
+
         ],
         "props":{
           "width": "35%",
           "blockClass":"container_product_info--data"
+        }
+      },
+      "modal-trigger#add-to-cart-info":{
+        "children":[
+          "modal-layout#add-to-cart-info"
+        ],
+        "props":{
+          "customPixelEventName": "addToCart"
+        }
+      },
+      "modal-layout#add-to-cart-info":{
+        "children":[
+          "modal-header#add-to-cart-info",
+          "add-to-cart-info"
+        ],
+        "props":{
+          "blockClass": "modal__layout--add-to-cart-info"
+        }
+      },
+      "modal-header#add-to-cart-info":{
+        "props":{
+          "showCloseButton": true,
+          "iconCloseSize": 24,
+          "blockClass": "modal__header--add-to-cart-info"
         }
       },
       "flex-layout.col#add-to-cart-price":{
@@ -262,28 +288,27 @@
       },
       "flex-layout.row#product_dropdown_add-to-cart":{
         "children":[
-          "flex-layout.col#selector__pdp",
-          "add-to-cart-button"
+          "product-quantity#product__dropdown-quantity",
+          "add-to-cart-button#product__dropdown-button"
         ],
         "props":{
           "blockClass":"product_dropdown_add-to-cart",
           "colSizing":"auto"
         }
       },
-      "flex-layout.col#selector__pdp":{
-        "children":[
-          "product-quantity#selector__pdp"
-        ],
+      
+     "add-to-cart-button#product__dropdown-button":{
         "props":{
           "blockClass":"product_selector__pdp",
           "colSizing":"auto"
         }
       },
-      "product-quantity#selector__pdp":{ 
+      "product-quantity#product__dropdown-quantity":{ 
             "props":{
               "selectorType": "dropdown",
               "showLabel": false,
-              "blockClass": "product__quantity"
+              "blockClass": "product__quantity",
+              "background-color":"blue"
             }
       },
       "image#img1-pdp":{

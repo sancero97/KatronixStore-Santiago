@@ -1,3 +1,41 @@
+.caretIcon--home__slider{
+    color:  #e54318;
+    filter: drop-shadow(rgba(128, 128, 128, 0.39) 2px 2px 2px);
+    background: white;
+    box-shadow: 10px 5px 4px transparent;
+    border-radius: 50%;
+    width: 15px;
+    padding: 10px;
+    height: 15px;
+}
+.caretIcon--home__slider-one--phone{
+    color:  #e54318;
+    filter: drop-shadow(rgba(128, 128, 128, 0.39) 2px 2px 2px);
+    background: white;
+    box-shadow: 10px 5px 4px transparent;
+    border-radius: 50%;
+    width: 15px;
+    padding: 8px;
+    height: 15px;
+    margin-bottom: 40px;
+    margin-bottom: -163px;
+}
+.paginationDotsContainer--home__slider{
+    transform: translateY(30px);
+    margin-bottom: 40px;   
+}
+.paginationDotsContainer--home__slider-one--phone{
+    margin-bottom: -98px;
+}
+.paginationDot--home__slider--isActive{
+    background-color: #e54318;
+}
+.paginationDot--home__slider-one--phone--isActive{
+    background-color: #e54318;
+}
+.paginationDotsContainer--home__slider-section--phone{
+    display: none;
+}
 .paginationDot--home__slider{
     margin-top: -42px;
 }

@@ -13,6 +13,7 @@
         }
       },
       "flex-layout.row#footer__container--information-title1":{
+
         "title": "Section 3 information",
         "children":[
 
@@ -24,6 +25,7 @@
         }
       },
       "flex-layout.col#footer__container--information-col-one":{
+        "title": "container--information-col-one",
          "children":[
           "flex-layout.row#footer__container--information-title1",
           "rich-text#footer__container--information-col-one-link1",
@@ -40,54 +42,63 @@
         }
       },
       "rich-text#footer__container--information-col-one-title":{
+        "title": "information-title",
         "props":{
           "text":"Nosotros",
           "blockClass":"information-title"
         }
       },
       "rich-text#footer__container--information-col-one-link1":{
+        "title": "information-footer1",
         "props":{
           "text":"Conócenos",
           "blockClass":"information-footer"
         }
       },
       "rich-text#footer__container--information-col-one-link2":{
+        "title": "information-footer2",
         "props":{
           "text":"Tiendas Ktronix",
           "blockClass":"information-footer"
         }
       },
       "rich-text#footer__container--information-col-one-link3":{
+        "title": "information-footer3",
         "props":{
           "text":"Servicio al Cliente",
           "blockClass":"information-footer"
         }
       },
       "rich-text#footer__container--information-col-one-link4":{
+        "title": "information-footer4",
         "props":{
           "text":"Tarjeta Alkosto",
           "blockClass":"information-footer"
         }
       },
       "rich-text#footer__container--information-col-one-link5":{
+        "title": "information-footer5",
         "props":{
           "text":"Trabaja en Ktronix",
           "blockClass":"information-footer"
         }
       },
       "rich-text#footer__container--information-col-one-link6":{
+        "title": "information-footer6",
         "props":{
           "text":"Nuestras rifas",
           "blockClass":"information-footer"
         }
       },
       "rich-text#footer__container--information-col-one-link7":{
+        "title": "information-footer7",
         "props":{
           "text":"Certificados Tributarios",
           "blockClass":"information-footer"
         }
       },
       "flex-layout.col#footer__container--information-col-two":{
+        "title": "container--information-col-two",
         "children":[
          "rich-text#footer__container--information-col-two-title",
          "rich-text#footer__container--information-col-two-link1",
@@ -102,42 +113,49 @@
        }
      },
      "rich-text#footer__container--information-col-two-title":{
+      "title": "information-title",
        "props":{
          "text":"Compras en Internet",
          "blockClass":"information-title"
        }
      },
      "rich-text#footer__container--information-col-two-link1":{
+      "title": "information-title1",
        "props":{
          "text":"¿Cómo comprar en línea",
          "blockClass":"information-footer"
        }
      },
      "rich-text#footer__container--information-col-two-link2":{
+      "title": "information-title2",
        "props":{
          "text":"Compra seguro",
          "blockClass":"information-footer"
        }
      },
      "rich-text#footer__container--information-col-two-link3":{
+      "title": "information-title3",
        "props":{
          "text":"Opciones de envío",
          "blockClass":"information-footer"
        }
      },
      "rich-text#footer__container--information-col-two-link4":{
+      "title": "information-title4",
        "props":{
          "text":"Formas de pago",
          "blockClass":"information-footer"
        }
      },
      "rich-text#footer__container--information-col-two-link5":{
+      "title": "information-title5",
        "props":{
          "text":"SOAT y otros seguros",
          "blockClass":"information-footer"
        }
      }, 
      "flex-layout.col#footer__container--information-col-three":{
+      "title": "container--information-col-three",
       "children":[
        "rich-text#footer__container--information-col-three-title",
        "rich-text#footer__container--information-col-three-link1",
@@ -149,24 +167,28 @@
         }
     },
     "rich-text#footer__container--information-col-three-title":{
+      "title": "information-title",
      "props":{
        "text":"Nuestros servicios",
        "blockClass":"information-title"
      }
     },
     "rich-text#footer__container--information-col-three-link1":{
+      "title": "information-title1",
      "props":{
        "text":"Extiende tu garantía",
        "blockClass":"information-footer"
      }
     },
     "rich-text#footer__container--information-col-three-link2":{
+      "title": "information-title2",
      "props":{
        "text":"¿Cómo solicitar garantía?",
        "blockClass":"information-footer"
      }
     },
     "flex-layout.col#footer__container--information-col-four":{
+      "title": "container--information-col-four",
       "children":[
        "rich-text#footer__container--information-col-four-title",
        "rich-text#footer__container--information-col-four-link1",
@@ -187,30 +209,35 @@
         }
     },
     "rich-text#footer__container--information-col-four-title":{
+      "title": "information-title",
      "props":{
        "text":"Nuestras políticas",
        "blockClass":"information-title"
      }
     },
     "rich-text#footer__container--information-col-four-link1":{
+      "title": "information-title1",
      "props":{
        "text":"Términos y condiciones ktronix.com",
        "blockClass":"information-footer"
      }
     },
     "rich-text#footer__container--information-col-four-link2":{
+      "title": "information-title2",
      "props":{
        "text":"Acuerdo de compraventa en línea",
        "blockClass":"information-footer"
      }
     },
     "rich-text#footer__container--information-col-four-link3":{
+      "title": "information-title3",
      "props":{
        "text":"SIC",
        "blockClass":"information-footer"
      }
     },
     "rich-text#footer__container--information-col-four-link4":{
+      "title": "information-title4",
      "props":{
        "text":"Cuidamos tu privacidad",
        "blockClass":"information-footer"
@@ -223,36 +250,42 @@
      }
     },
     "rich-text#footer__container--information-col-four-link6":{
+      "title": "information-title6",
      "props":{
        "text":"Código de ética",
        "blockClass":"information-footer"
      }
     },
     "rich-text#footer__container--information-col-four-link7":{
+      "title": "information-title7",
      "props":{
        "text":"Política uso de Cookies",
        "blockClass":"information-footer"
      }
     },
     "rich-text#footer__container--information-col-four-link8":{
+      "title": "information-title8",
       "props":{
         "text":"Cambios y devoluciones",
         "blockClass":"information-footer"
       }
      },
      "rich-text#footer__container--information-col-four-link9":{
+      "title": "information-title9",
       "props":{
         "text":"Normas SST para terceros",
         "blockClass":"information-footer"
       }
      },
      "rich-text#footer__container--information-col-four-link10":{
+      "title": "information-title10",
       "props":{
         "text":"TDT para todos",
         "blockClass":"information-footer"
       }
      },
      "rich-text#footer__container--information-col-four-link11":{
+      "title": "information-title11",
       "props":{
         "text":"Línea ética",
         "blockClass":"information-footer"
@@ -269,6 +302,7 @@
     }
     },
      "flex-layout.row#footer__container--socialmedia-text-icons":{
+      "title": "socialmedia-text-icons",
       "children":[
         "rich-text#footer__container--socialmedia",
         "social-networks"
@@ -278,6 +312,7 @@
       }
     }, 
     "rich-text#footer__container--socialmedia":{
+      "title": "footer__container--text-socialmedia",
       "props":{
         "text": "Síguenos en:",
         "textColor": "c-on-emphasis",

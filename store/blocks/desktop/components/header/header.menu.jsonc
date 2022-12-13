@@ -5,6 +5,7 @@
         "vtex.menu@2.x:menu#header__menu"
     ],
     "props":{
+        "sticky":true,
         "blockClass": "header__desktop--menu"
     }
     },
@@ -38,7 +39,7 @@
             "type": "custom",
             "blockClass":"department-name",  
             "itemProps": {
-            "href": "/",
+            "href": "https://santiagoroman--itgloberspartnercl.myvtex.com/electrodomesticos",
             "noFollow": true,
             "tagTitle": "Celulares",
             "text": "Celulares"
@@ -118,7 +119,7 @@
             "type": "custom",
             "blockClass":"title__categories",
             "itemProps": {
-            "href": "/",
+            "href": "https://santiagoroman--itgloberspartnercl.myvtex.com/electrodomesticos",
             "noFollow": true,
             "tagTitle": "Celulares",
             "text": "Celulares"
@@ -133,7 +134,7 @@
         },
         "rich-text#category--one-description1":{
         "props":{
-            "text":"!Phone | Samsumg | Xiaomi |\n Motorola | vivo | Nokia | Oppo |\n Realme | Zte | TCL | Alcatel |\nKalley | Huawei | Honor | Tecno",
+            "text":"[!Phone](https://santiagoroman--itgloberspartnercl.myvtex.com/sol/p), | [Samsumg](https://santiagoroman--itgloberspartnercl.myvtex.com/zapatos-vans-url/p) | [Xiaomi](https://santiagoroman--itgloberspartnercl.myvtex.com/puerta-triplex-okume/p) |\n [Motorola](https://santiagoroman--itgloberspartnercl.myvtex.com/ladrillo-estructural-prensado-salmon-245x12x6cm/p) | [vivo](https://santiagoroman--itgloberspartnercl.myvtex.com/cemento-argos-gris-50kg/p) | [Nokia](https://santiagoroman--itgloberspartnercl.myvtex.com/barra-entorchada-6m-x-12mm-cuadrada/p) | [Oppo](https://santiagoroman--itgloberspartnercl.myvtex.com/varilla-corrugada-g60-w-4-1-2-pulg-x-6m/p) |\n [Realme](https://santiagoroman--itgloberspartnercl.myvtex.com/sol/p) | [Zte](https://santiagoroman--itgloberspartnercl.myvtex.com/sol/p) | [TCL](https://santiagoroman--itgloberspartnercl.myvtex.com/sol/p) | [Alcatel](https://santiagoroman--itgloberspartnercl.myvtex.com/sol/p) |\n[Kalley](https://santiagoroman--itgloberspartnercl.myvtex.com/sol/p)| [Huawei](https://santiagoroman--itgloberspartnercl.myvtex.com/sol/p) | [Honor](https://santiagoroman--itgloberspartnercl.myvtex.com/sol/p) | [Tecno](https://santiagoroman--itgloberspartnercl.myvtex.com/sol/p)",
             "blockClass":"text__cellphones--description"
         }
         },
@@ -145,7 +146,7 @@
         },
         "rich-text#category--one-description2":{
         "props":{
-            "text":"32 GB | 64 GB | 128 GB | 256 GB",
+            "text":"[32 GB](https://santiagoroman--itgloberspartnercl.myvtex.com/sol/p) | [64 GB](https://santiagoroman--itgloberspartnercl.myvtex.com/sol/p) | [128 GB](https://santiagoroman--itgloberspartnercl.myvtex.com/sol/p) | [256 GB](https://santiagoroman--itgloberspartnercl.myvtex.com/sol/p)",
             "blockClass":"text__cellphones--description"
         }
         },
@@ -157,7 +158,7 @@
         },
         "rich-text#category--one-description3":{
         "props":{
-            "text":"De 4.1' a 5' | De 5.1' a 6' | De 6.1' a 8'",
+            "text":"[De 4.1' a 5'](https://santiagoroman--itgloberspartnercl.myvtex.com/sol/p) | [De 5.1' a 6'](https://santiagoroman--itgloberspartnercl.myvtex.com/sol/p) | [De 6.1' a 8'](https://santiagoroman--itgloberspartnercl.myvtex.com/sol/p)",
             "blockClass":"text__cellphones--description"
         }
         },
@@ -169,7 +170,7 @@
         },
         "rich-text#category--one-description4":{
         "props":{
-            "text":"Sencilla | Dual | Triple | Cuádruple",
+            "text":"[Sencilla](https://santiagoroman--itgloberspartnercl.myvtex.com/sol/p) | [Dual](https://santiagoroman--itgloberspartnercl.myvtex.com/sol/p) | [Triple](https://santiagoroman--itgloberspartnercl.myvtex.com/sol/p) | [Cuádruple](https://santiagoroman--itgloberspartnercl.myvtex.com/sol/p)",
             "blockClass":"text__cellphones--description"
         }
         },
@@ -181,7 +182,7 @@
         },
         "rich-text#category--one-description5":{
         "props":{
-            "text":"Sencilla | Dual",
+            "text":"[Sencilla](https://santiagoroman--itgloberspartnercl.myvtex.com/sol/p) | [Dual](https://santiagoroman--itgloberspartnercl.myvtex.com/sol/p)",
             "blockClass":"text__cellphones--description"
         }
         },
@@ -219,7 +220,7 @@
             "type": "custom",
             "blockClass":"title__categories",
             "itemProps": {
-            "href": "/catalogo",
+            "href": "https://santiagoroman--itgloberspartnercl.myvtex.com/electrodomesticos",
             "noFollow": true,
             "tagTitle": "Accesorios",
             "text": "Accesorios"
@@ -228,7 +229,7 @@
         },  
         "rich-text#category--two-description1":{
         "props":{
-            "text":"Carcasas y estuches\nAudífonos y manos libres\nMemorias Micro SD\nBaterías Externas Power Bank\nCables, Cargadores, Adaptadores\nBases y Soportes\nSelfie Stick",
+            "text":"[Carcasas y estuches](https://santiagoroman--itgloberspartnercl.myvtex.com/sol/p)\n[Audífonos y manos libres](https://santiagoroman--itgloberspartnercl.myvtex.com/sol/p)\n[Memorias Micro SD](https://santiagoroman--itgloberspartnercl.myvtex.com/sol/p)\n[Baterías Externas Power Bank](https://santiagoroman--itgloberspartnercl.myvtex.com/sol/p)\n[Cables](https://santiagoroman--itgloberspartnercl.myvtex.com/sol/p), [Cargadores](https://santiagoroman--itgloberspartnercl.myvtex.com/sol/p), [Adaptadores](https://santiagoroman--itgloberspartnercl.myvtex.com/sol/p)\n[Bases y Soportes](https://santiagoroman--itgloberspartnercl.myvtex.com/sol/p)\n[Selfie Stick](https://santiagoroman--itgloberspartnercl.myvtex.com/sol/p)",
             "blockClass":"text__cellphones--two-description1"
         }
         },
@@ -240,7 +241,7 @@
         },
         "rich-text#category--two-description2":{
         "props":{
-            "text":"Carcasas y estuche | \nCables, Cargadores, Adaptadores",
+            "text":"[Carcasas y estuche](https://santiagoroman--itgloberspartnercl.myvtex.com/sol/p) | \n[Cables](https://santiagoroman--itgloberspartnercl.myvtex.com/sol/p), [Cargadores](https://santiagoroman--itgloberspartnercl.myvtex.com/sol/p), [Adaptadores](https://santiagoroman--itgloberspartnercl.myvtex.com/sol/p)",
             "blockClass":"text__cellphones--two-description2"
         }
         },
@@ -280,7 +281,7 @@
             "type": "custom",
             "blockClass":"title__categories",
             "itemProps": {
-            "href": "/",
+            "href": "https://santiagoroman--itgloberspartnercl.myvtex.com/electrodomesticos",
             "noFollow": true,
             "tagTitle": "Smartwatch",
             "text": "Smartwatch"
@@ -289,7 +290,7 @@
         },
         "rich-text#category--three-description1":{
         "props":{
-            "text":"Relojes\nBandas de Actividad",
+            "text":"[Relojes](https://santiagoroman--itgloberspartnercl.myvtex.com/sol/p)\n[Bandas de Actividad](https://santiagoroman--itgloberspartnercl.myvtex.com/sol/p)",
             "blockClass":"text__cellphones--three-description1"
         }
         },  
@@ -301,7 +302,7 @@
         },  
         "rich-text#category--three-description2":{
         "props":{
-            "text":"Apple Watch | Huawei | Samsung |\nFitbit | Garmin | Xiaomi | Kalley |\nMultitech",
+            "text":"[Apple Watch](https://santiagoroman--itgloberspartnercl.myvtex.com/sol/p) | [Huawei](https://santiagoroman--itgloberspartnercl.myvtex.com/sol/p) | [Samsung](https://santiagoroman--itgloberspartnercl.myvtex.com/sol/p) |\n[Fitbit](https://santiagoroman--itgloberspartnercl.myvtex.com/sol/p) | [Garmin](https://santiagoroman--itgloberspartnercl.myvtex.com/sol/p) | [Xiaomi](https://santiagoroman--itgloberspartnercl.myvtex.com/sol/p)| [Kalley](https://santiagoroman--itgloberspartnercl.myvtex.com/sol/p) |\n[Multitech](https://santiagoroman--itgloberspartnercl.myvtex.com/sol/p)",
             "blockClass":"text__cellphones--three-description2"
         }
         },
@@ -313,7 +314,7 @@
         }, 
         "rich-text#category--three-description3":{
         "props":{
-            "text":"Cargadores | Correas",
+            "text":"[Cargadores](https://santiagoroman--itgloberspartnercl.myvtex.com/sol/p) | [Correas](https://santiagoroman--itgloberspartnercl.myvtex.com/sol/p)",
             "blockClass":"text__cellphones--three-description3"
         }
         },   
@@ -351,7 +352,7 @@
             "type": "custom",
             "blockClass":"title__categories",
             "itemProps": {
-            "href": "/",
+            "href": "https://santiagoroman--itgloberspartnercl.myvtex.com/electrodomesticos",
             "noFollow": true,
             "tagTitle": "Tabletas",
             "text": "Tabletas"
@@ -360,7 +361,7 @@
         },
         "rich-text#category--four-description1":{
         "props":{
-            "text":"iPad\nAndroid\nAccesorios",
+            "text":"[iPad](https://santiagoroman--itgloberspartnercl.myvtex.com/sol/p)\n[Android](https://santiagoroman--itgloberspartnercl.myvtex.com/sol/p)\n[Accesorios](https://santiagoroman--itgloberspartnercl.myvtex.com/sol/p)",
             "blockClass":"text__cellphones--four-description1"
         }
         },  
@@ -372,7 +373,7 @@
         },  
         "rich-text#category--four-description2":{
         "props":{
-            "text":"Apple | Samsung | Lenovo | Huawei |\nAlcatel | Multitech",
+            "text":"[Apple](https://santiagoroman--itgloberspartnercl.myvtex.com/sol/p) | [Samsung](https://santiagoroman--itgloberspartnercl.myvtex.com/sol/p) | [Lenovo](https://santiagoroman--itgloberspartnercl.myvtex.com/sol/p) | [Huawei](https://santiagoroman--itgloberspartnercl.myvtex.com/sol/p)|\n[Alcatel](https://santiagoroman--itgloberspartnercl.myvtex.com/sol/p) | [Multitech](https://santiagoroman--itgloberspartnercl.myvtex.com/sol/p)",
             "blockClass":"text__cellphones--four-description2"
         }
         },
@@ -408,7 +409,7 @@
             "type": "custom",
             "blockClass":"title__categories",
             "itemProps": {
-            "href": "/quienes-somos",
+            "href": "https://santiagoroman--itgloberspartnercl.myvtex.com/electrodomesticos",
             "noFollow": true,
             "tagTitle": "Conoce mas",
             "text": "Conoce más"
@@ -417,7 +418,7 @@
         },
         "rich-text#category--five-description1":{
         "props":{
-            "text":"Seguro gratis\nGuía de compra\nCelulares Baratos\nCelulares Nuevos",
+            "text":"[Seguro gratis](https://santiagoroman--itgloberspartnercl.myvtex.com/sol/p)\n[Guía de compra](https://santiagoroman--itgloberspartnercl.myvtex.com/sol/p)\n[Celulares Baratos](https://santiagoroman--itgloberspartnercl.myvtex.com/sol/p)\n[Celulares Nuevos](https://santiagoroman--itgloberspartnercl.myvtex.com/sol/p)",
             "blockClass":"text__cellphones--five-description1"
         }
         },  
@@ -427,7 +428,7 @@
             "type": "custom",
             "blockClass":"department-name",
             "itemProps": {
-            "href": "/",
+            "href": "https://santiagoroman--itgloberspartnercl.myvtex.com/electrodomesticos",
             "noFollow": true,
             "tagTitle": "Computadores",
             "text": "Computadores"
@@ -450,7 +451,7 @@
         "type": "custom",
         "blockClass":"department-name",  
         "itemProps": {
-            "href": "/",
+            "href": "https://santiagoroman--itgloberspartnercl.myvtex.com/electrodomesticos",
             "noFollow": true,
             "tagTitle": "Electrodomésticos",
             "text": "Electrodomésticos"
@@ -473,7 +474,7 @@
         "type": "custom",
         "blockClass":"department-name",  
         "itemProps": {
-        "href": "/",
+        "href": "https://santiagoroman--itgloberspartnercl.myvtex.com/electrodomesticos",
         "noFollow": true,
         "tagTitle": "TV",
         "text": "TV"
@@ -496,7 +497,7 @@
         "type": "custom",
         "blockClass":"department-name",  
         "itemProps": {
-        "href": "/",
+        "href": "https://santiagoroman--itgloberspartnercl.myvtex.com/electrodomesticos",
         "noFollow": true,
         "tagTitle": "Accesorios",
         "text": "Accesorios"
@@ -519,7 +520,7 @@
         "type": "custom",
         "blockClass":"department-name",  
         "itemProps": {
-        "href": "/",
+        "href": "https://santiagoroman--itgloberspartnercl.myvtex.com/electrodomesticos",
         "noFollow": true,
         "tagTitle": "Video Juegos",
         "text": "Video Juegos"
@@ -542,7 +543,7 @@
         "type": "custom",
         "blockClass":"department-name",  
         "itemProps": {
-        "href": "/",
+        "href": "https://santiagoroman--itgloberspartnercl.myvtex.com/electrodomesticos",
         "noFollow": true,
         "tagTitle": "Audio",
         "text": "Audio"
@@ -565,7 +566,7 @@
         "type": "custom",
         "blockClass":"department-name",  
         "itemProps": {
-        "href": "/",
+        "href": "https://santiagoroman--itgloberspartnercl.myvtex.com/electrodomesticos",
         "noFollow": true,
         "tagTitle": "Cámaras",
         "text": "Cámaras"
@@ -588,7 +589,7 @@
         "type": "custom",
         "blockClass":"department-name",  
         "itemProps": {
-        "href": "/",
+        "href": "https://santiagoroman--itgloberspartnercl.myvtex.com/electrodomesticos",
         "noFollow": true,
         "tagTitle": "Casa Inteligente",
         "text": "Casa Inteligente"
@@ -611,7 +612,7 @@
         "type": "custom",
         "blockClass":"department-name",  
         "itemProps": {
-        "href": "/",
+        "href": "https://santiagoroman--itgloberspartnercl.myvtex.com/electrodomesticos",
         "noFollow": true,
         "tagTitle": "Hogar",
         "text": "Hogar"
@@ -634,7 +635,7 @@
         "type": "custom",
         "blockClass":"department-name",  
         "itemProps": {
-        "href": "/",
+        "href": "https://santiagoroman--itgloberspartnercl.myvtex.com/electrodomesticos",
         "noFollow": true,
         "tagTitle": "Deportes",
         "text": "Deportes"
@@ -657,7 +658,7 @@
         "type": "custom",
         "blockClass":"department-name",  
         "itemProps": {
-            "href": "/",
+            "href": "https://santiagoroman--itgloberspartnercl.myvtex.com/electrodomesticos",
             "noFollow": true,
             "tagTitle": "Llantas y Motos",
             "text": "Llantas y Motos"
@@ -680,7 +681,7 @@
         "type": "custom",
         "blockClass":"department-name",  
         "itemProps": {
-        "href": "/",
+        "href": "https://santiagoroman--itgloberspartnercl.myvtex.com/electrodomesticos",
         "noFollow": true,
         "tagTitle": "Juguetes",
         "text": "Juguetes"
@@ -703,7 +704,7 @@
         "type": "custom",
         "blockClass":"department-name",  
         "itemProps": {
-        "href": "/",
+        "href": "https://santiagoroman--itgloberspartnercl.myvtex.com/electrodomesticos",
         "noFollow": true,
         "tagTitle": "Pines",
         "text": "Pines"
@@ -726,7 +727,7 @@
         "type": "custom",
         "blockClass":"department-name",  
         "itemProps": {
-        "href": "/",
+        "href": "https://santiagoroman--itgloberspartnercl.myvtex.com/electrodomesticos",
         "noFollow": true,
         "tagTitle": "Otros",
         "text": "Otros"
@@ -744,4 +745,3 @@
         }
     }
 }
-

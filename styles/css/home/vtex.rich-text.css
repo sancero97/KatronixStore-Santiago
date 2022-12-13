@@ -56,6 +56,18 @@
     text-decoration: underline;
     color: red;
 }
+.link--text__cellphones--description,
+.link--text__cellphones--two-description1,
+.link--text__cellphones--two-description2,
+.link--text__cellphones--three-description1,
+.link--text__cellphones--three-description2,
+.link--text__cellphones--three-description3,
+.link--text__cellphones--four-description1,
+.link--text__cellphones--four-description2,
+.link--text__cellphones--five-description1{
+    text-decoration: none;
+    color: black;
+}
 @media screen and (min-width:640px){
     .paragraph--home_section-one-departmentName{
         margin-right: 37px;

@@ -97,7 +97,7 @@
       "muted-5": "#f2f4f5"
     },
     "hover-background": {
-      "action-primary":"#e63027",
+      "action-primary":"#b14b25",
       "action-secondary": "#e63027",
       "emphasis": "#dd1659",
       "success": "#8bc34a",
@@ -116,7 +116,7 @@
       "action-primary": "#e63027",
       "action-secondary": "#dbe9fd",
       "emphasis": "#dd1659",
-      "success": "#8bc34a",
+      "success": "#b14b25",
       "success--faded": "#eafce3",
       "danger": "#ff4c4c",
       "danger--faded": "#ffe6e6",
@@ -189,7 +189,7 @@
       "muted-5": "#f2f4f5"
     },
     "hover-border": {
-      "action-primary": "#e63027",
+      "action-primary": "#b14b25",
       "action-secondary": "#dbe9fd",
       "emphasis": "#dd1659",
       "success": "#8bc34a",

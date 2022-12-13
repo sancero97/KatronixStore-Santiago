@@ -11,6 +11,7 @@
         }
     },
     "flex-layout.col#footer__container--contact-col-one":{
+        "title": "container--contact-col-one",
         "children":[
         "image#footer__container--contact-col-one",
         "rich-text#footer__container--contact-col-one",
@@ -23,6 +24,7 @@
             
     },
     "rich-text#footer__container--contact-col-one":{
+        "title": "rich-text_footer_container--contact-title",
         "props":{
         "text": "Sobre Nosotros",
         "textPosition": "CENTER",
@@ -44,6 +46,7 @@
         }
     },
     "flex-layout.col#footer__container--contact-col-two":{
+        "title": "container--contact-col-two",
         "children":[
         "image#footer__container--contact-col-two",
         "rich-text#footer__container--contact-col-two",
@@ -69,6 +72,7 @@
         }
     },
     "flex-layout.col#footer__container--contact-col-three":{
+        "title": "container--contact-col-three",
         "children":[
         "image#footer__container--contact-col-three",
         "rich-text#footer__container--contact-col-three",
@@ -144,77 +148,90 @@
         }
     },
     "image#footer__container--payment-methods-img1":{
+        "title": "payment-methods-img1",
         "props": {
             "src": "assets/img/footer-visa.png",
             "blockClass": "footer__container--payment-methods-card"
         }
     },
     "image#footer__container--payment-methods-img2":{
+        "title": "payment-methods-img2",
         "props": {
             "src": "assets/img/footer-diners-club.png",
             "blockClass": "footer__container--payment-methods-card"
         }
     }, "image#footer__container--payment-methods-img3":{
+        "title": "payment-methods-img3",
         "props": {
             "src": "assets/img/footer-mastercard-icon.png",
             "blockClass": "footer__container--payment-methods-card"
         }
     },
     "image#footer__container--payment-methods-img4":{
+        "title": "payment-methods-img4",
         "props": {
             "src": "assets/img/footer-amex-card.png",
             "blockClass": "footer__container--payment-methods-card"
         }
     },
     "image#footer__container--payment-methods-img5":{
+        "title": "payment-methods-img5",
         "props": {
             "src": "assets/img/footer-bancolombia.png",
             "blockClass": "footer__container--payment-methods-card"
         }
     },
     "image#footer__container--payment-methods-img6":{
+        "title": "payment-methods-img6",
         "props": {
             "src": "assets/img/footer-pse.png",
             "blockClass": "footer__container--payment-methods-card"
         }
     },
     "image#footer__container--payment-methods-img7":{
+        "title": "payment-methods-img7",
         "props": {
             "src": "assets/img/footer-tdc-alkosto.png",
             "blockClass": "footer__container--payment-methods-card"
         }
     },
     "image#footer__container--payment-methods-img8":{
+        "title": "payment-methods-img8",
         "props": {
             "src": "assets/img/footer-efecty.png",
             "blockClass": "footer__container--payment-methods-card"
         }
     },
     "image#footer__container--payment-methods-img9":{
+        "title": "payment-methods-img9",
         "props": {
             "src": "assets/img/footer-codensa.png",
             "blockClass": "footer__container--payment-methods-card"
         }
     },
     "image#footer__container--payment-methods-img10":{
+        "title": "payment-methods-img10",
         "props": {
             "src": "assets/img/footer-credito20min.png",
             "blockClass": "footer__container--payment-methods-card"
         }
     },
     "image#footer__container--payment-methods-img11":{
+        "title": "payment-methods-img11",
         "props": {
             "src": "assets/img/footer-davivienda.png",
             "blockClass": "footer__container--payment-methods-card"
         }
     },
     "image#footer__container--payment-methods-img12":{
+        "title": "payment-methods-img12",
         "props": {
             "src": "assets/img/footer-bancolombia-boton.png",
             "blockClass": "footer__container--payment-methods-card"
         }
     },
     "image#footer__container--payment-methods-img13":{
+        "title": "payment-methods-img13",
         "props": {
             "src": "assets/img/footer-banco-bogota.png",
             "blockClass": "footer__container--payment-methods-card"

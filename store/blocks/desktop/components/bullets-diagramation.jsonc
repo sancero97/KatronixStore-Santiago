@@ -1,10 +1,10 @@
 {
-    "flex-layout.row#bullet":{
+     "flex-layout.row#bullet":{
     "children": [
       "list-context.bullet-group"
     ]
   },
-    "list-context.bullet-group":{
+   "list-context.bullet-group":{
       "title": "Mi contexto de lista de Bullets",
       "children":["slider-layout#bullet-group"],
       "props":{

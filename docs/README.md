@@ -1,9 +1,13 @@
 # Store-Theme KatronixStore-Santiago
  KatronixStore-Santiago es una tienda de tecnología basada en la tienda oficial de Katronix.
 <img width="397" alt="image" src="https://user-images.githubusercontent.com/55113386/208122735-6daecb3d-ca10-4dc0-8747-6e7382021e18.png">
+
 <img width="385" alt="image" src="https://user-images.githubusercontent.com/55113386/208122790-eb6fb6bc-8feb-4b09-aeaa-92c2d9a6f368.png">
+
 <img width="386" alt="image" src="https://user-images.githubusercontent.com/55113386/208122893-12d68736-ecfd-4bf8-a8a0-11663636dab1.png">
+
 <img width="378" alt="image" src="https://user-images.githubusercontent.com/55113386/208122939-cfb1bf38-7e0f-4457-b953-0230e87a8c03.png">
+
 <img width="409" alt="image" src="https://user-images.githubusercontent.com/55113386/208123011-5742185d-9baf-44b4-941f-ce10f57c43ee.png">
 
 ## Configuración
